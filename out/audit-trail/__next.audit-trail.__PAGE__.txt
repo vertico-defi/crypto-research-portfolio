@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/crypto-research-portfolio/_next/static/chunks/3rdqn8rx95pw7.js","/crypto-research-portfolio/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[[["$","h1",null,{"children":"Audit trail"}],["$","p",null,{"children":"Research milestones include source access blockers, lifecycle repairs, causal-label fixes, net-cost accounting, and integrity failures. Source commits and immutable snapshots provide the record."}]],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"6u6JNjF22DhzbiTYdxQBa"}
+4:null

@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/crypto-research-portfolio/_next/static/chunks/3rdqn8rx95pw7.js","/crypto-research-portfolio/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[[["$","h1",null,{"children":"About Vertico Research"}],["$","p",null,{"className":"lede","children":"Machine learning, quantitative research, data engineering, Linux automation, and Web3/full-stack engineering with an emphasis on reproducible systems and honest evidence."}]],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"6u6JNjF22DhzbiTYdxQBa"}
+4:null

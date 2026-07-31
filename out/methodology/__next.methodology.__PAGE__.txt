@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/crypto-research-portfolio/_next/static/chunks/3rdqn8rx95pw7.js","/crypto-research-portfolio/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[[["$","h1",null,{"children":"Methodology"}],["$","p",null,{"className":"lede","children":"Frozen protocols, point-in-time data contracts, explicit cost treatment, and failed-gate reporting guide every snapshot."}],["$","ul",null,{"children":[["$","li",null,{"children":"Predictions are not returns."}],["$","li",null,{"children":"Infrastructure reliability is not profitability."}],["$","li",null,{"children":"Incomplete funding coverage is not zero funding."}],["$","li",null,{"children":"Diagnostics are never presented as capital-eligible results."}]]}]],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"6u6JNjF22DhzbiTYdxQBa"}
+4:null

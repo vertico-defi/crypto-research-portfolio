@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/crypto-research-portfolio/_next/static/chunks/3rdqn8rx95pw7.js","/crypto-research-portfolio/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[[["$","h1",null,{"children":"GitHub publication"}],["$","p",null,{"children":"Publication remains contingent on full-history safety review."}],["$","pre",null,{"children":"{\n  \"generated_at\": \"2026-07-31T07:54:50.768Z\",\n  \"authenticated_account\": \"vertico-defi\",\n  \"repositories\": [\n    {\n      \"name\": \"direction-v3\",\n      \"publication\": \"PREPARED_NOT_PUBLISHED\"\n    },\n    {\n      \"name\": \"perp-carry\",\n      \"publication\": \"PREPARED_NOT_PUBLISHED\"\n    },\n    {\n      \"name\": \"ctrend\",\n      \"publication\": \"PREPARED_NOT_PUBLISHED\"\n    }\n  ]\n}"}]],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"6u6JNjF22DhzbiTYdxQBa"}
+4:null
