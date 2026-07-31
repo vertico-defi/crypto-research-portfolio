@@ -1,0 +1,1433 @@
+{
+  "generated_at": "2026-07-31T07:22:14.683Z",
+  "classification": "fail closed",
+  "projects": [
+    {
+      "project": "Direction V3",
+      "files": [
+        {
+          "file": ".editorconfig",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": ".gitattributes",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": ".github/workflows/ci.yml",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": ".gitignore",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": ".python-version",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "AGENTS.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "D1_DATA_ACQUISITION_REPORT_d1-blocked-20260723T083327Z.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "DATA_CONTRACT.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "DATA_PROTOCOL_DECISION_historical-v2-remediation-20260723T090000Z.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "DATA_RIGHTS_AND_SOURCES.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "DATA_RIGHTS_AND_SOURCES_V2.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "FORWARD_SHADOW_EVALUATION_PROTOCOL.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "FORWARD_SHADOW_EVALUATOR_DESIGN.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "GAP_DIAGNOSIS_REPORT_historical-v2-remediation-20260723T090000Z.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V2_DATA_CONTRACT.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V2_FINAL_REPORT_historical-v2-no-train-20260723T085200Z.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V2_PATH_C_PROTOCOL.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V2_POSTMORTEM.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V2_REMEDIATION_AND_TRAINING_REPORT_historical-v2-train-20260723T175430Z.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V2_SELECTION.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V3_DATA_CONTRACT.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V3_DEVELOPMENT_REPORT_historical-v3-final-20260725T091000Z.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V3_EXECUTION_WORKLOG.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V3_EXPERIMENT_SPEC_v1.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V3_FORWARD_READINESS.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V3_LEAKAGE_AND_NEGATIVE_CONTROL.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V3_PROSPECTIVE_INCIDENT_historical-v3-forward-20260725T171500Z.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V3_PROSPECTIVE_TIMING_PROTOCOL_v1.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V3_REPAIRED_ACCEPTANCE_historical-v3-repair-verify-20260725T151000Z.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V3_REPAIRED_RESULT.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "HISTORICAL_V3_REPAIR_PROTOCOL_v1.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "LICENSE",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "Makefile",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "PILOT_V2_DATA_REPORT_historical-v2-pilot-20260723T084900Z.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "README.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "REST_GAP_REPAIR_REPORT_historical-v2-remediation-20260723T090000Z.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "SECURITY.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "V1_V2_FEATURE_CHANGE_MATRIX.csv",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "V2_V3_CHANGE_MATRIX.csv",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "V3_DATASET_CORRECTION_COMPARISON_historical-v3-20260725T084833Z.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "V3_DATASET_SUPERSESSION_historical-v3-20260725T084833Z.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "VERSION_3_RESEARCH_PLAN.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "artifacts/.gitkeep",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "artifacts/README.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "configs/protocol_v1.toml",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "data/README.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "data/fixtures/observations.csv",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "data_contract.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/CODEX_SECOND_COMPUTER_START.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/RELEASE_CHECKLIST.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/SECOND_COMPUTER_HANDOFF.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/d1_data_acquisition_plan.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/data_dictionary.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/data_rights.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/economic_assumptions.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/experiment_governance.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/feature_specification.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/holdout_policy.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/label_specification.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/model_card_template.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/research_protocol.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/resource_policy.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/validation_protocol.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/.gitkeep",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "historical_v2_confidence_metrics.csv",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "historical_v2_data_contract.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "historical_v2_metric_deltas.csv",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "historical_v2_monthly_metrics.csv",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "historical_v2_nonoverlapping_metrics.csv",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "historical_v2_postmortem_metrics.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "historical_v2_regime_metrics.csv",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "historical_v3_data_contract.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "historical_v3_development_aggregate.csv",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "historical_v3_development_metrics.csv",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "historical_v3_feature_importance.csv",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "historical_v3_prospective_incident_historical-v3-forward-20260725T171500Z.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "historical_v3_repaired_acceptance_historical-v3-repair-verify-20260725T151000Z.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "historical_v3_repaired_aggregate.csv",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "historical_v3_repaired_metrics.csv",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "pyproject.toml",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/d0.5-readiness.html",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/d0.5-readiness.txt",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/fixtures/fixture-predictions.html",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/fixtures/fixture-predictions.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/handoff/portability-report.html",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/handoff/portability-report.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/handoff/portability-report.txt",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "requirements.lock",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "schemas/experiment_manifest.schema.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/bootstrap_linux.sh",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "scripts/build_v3_dataset.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/freeze_v3_dataset.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/freeze_v3_model.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/generate_portability_report.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/historical_v2_postmortem.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/run_v3_development.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/run_v3_repaired.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/v3_repair_diagnostics.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/calibration/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/calibration/probabilities.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/cli/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/cli/main.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/config.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/data/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/data/fixture.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/data/io.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/doctor.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/evaluation/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/evaluation/metrics.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/evaluation/splits.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/evaluation/walk_forward.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/features/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/features/bars.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/features/builder.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/governance/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/governance/experiments.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/governance/holdout.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/governance/protocol.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/historical_v2/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/historical_v2/cli.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/historical_v2/data.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/historical_v2/governance.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/historical_v2/inference.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/historical_v2/modeling.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/historical_v2/remediation.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/historical_v3/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/historical_v3/data.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/historical_v3/prospective.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/inference/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/inference/predictor.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/labels/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/labels/builder.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/models/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/models/artifacts.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/models/base.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/models/baselines.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/models/cpu.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/models/lightgbm_models.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/models/xgboost_challenger.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/paths.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/reports/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/reports/render.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/schemas/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/schemas/observation.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/schemas/prediction.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/direction_lab/workflow.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "systemd/crypto-direction-lab-v3-forward.service",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "systemd/crypto-direction-lab-v3-forward.timer",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "tests/conftest.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_derived_bars.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_evaluation.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_features.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_governance.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_historical_v2_remediation.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_historical_v3_data.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_historical_v3_prospective.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_inference.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_labels.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_models.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_observations.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_paths_and_doctor.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_splits.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_stress.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "version_3_candidate_a.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "version_3_candidate_b.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "version_3_candidate_c.json",
+          "classification": "PUBLIC_GITHUB"
+        }
+      ]
+    },
+    {
+      "project": "Perp Carry",
+      "files": [
+        {
+          "file": ".env.example",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": ".gitignore",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "README.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "config.example.toml",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "deploy/systemd/README.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "deploy/systemd/perp-carry-lab-audit-clock@.service",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "deploy/systemd/perp-carry-lab-audit-clock@.timer",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "deploy/systemd/perp-carry-lab-audit-finalize@.service",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "deploy/systemd/perp-carry-lab-audit-metrics-daily@.service",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "deploy/systemd/perp-carry-lab-audit-metrics-daily@.timer",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "deploy/systemd/perp-carry-lab-audit-metrics-weekly@.service",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "deploy/systemd/perp-carry-lab-audit-metrics-weekly@.timer",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "deploy/systemd/perp-carry-lab-audit-postflight@.service",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "deploy/systemd/perp-carry-lab-audit@.service",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "deploy/systemd/perp-carry-lab-metrics-daily.service",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "deploy/systemd/perp-carry-lab-metrics-daily.timer",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "deploy/systemd/perp-carry-lab-metrics-weekly.service",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "deploy/systemd/perp-carry-lab-metrics-weekly.timer",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "deploy/systemd/perp-carry-lab.service",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "docs/collector_audit.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/data_dictionary.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/data_rights.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/economic_assumptions.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/operations_metrics.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/product_spec.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "docs/research_protocol.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "metrics_config.example.toml",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "pyproject.toml",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/.gitkeep",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/operations/baseline-verification.txt",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "scripts/run_runtime_preflight.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/__main__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/adapters/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/adapters/base.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/adapters/binance.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/adapters/bybit.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/cli.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/clock.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/health.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/http_client.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/logging_config.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/metrics/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/metrics/audit.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/metrics/cli.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/metrics/collect.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/metrics/config.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/metrics/email.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/metrics/final_audit.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/metrics/lifecycle.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/metrics/locks.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/metrics/models.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/metrics/render.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/metrics/service.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/metrics/storage.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/metrics/windows.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/models.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/pipeline.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/quality.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/reports.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/simulator.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/storage/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/storage/catalog.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/storage/parquet.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/storage/raw.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/symbols.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/time_utils.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/conftest.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_audit_lifecycle.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_binance_adapter.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_bybit_adapter.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_clock.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_collector_audit.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_final_audit.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_funding_normalization.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_http_retry.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_metrics_collection.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_metrics_email.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_metrics_models_windows_storage.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_metrics_service_and_locks.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_models.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_pipeline_restart.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_quality.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_reports.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_simulator.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_storage.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_symbols_and_time.py",
+          "classification": "PUBLIC_GITHUB"
+        }
+      ]
+    },
+    {
+      "project": "CTREND liquidity v1",
+      "files": [
+        {
+          "file": ".gitignore",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "ACADEMIC_REPLICATION_STATUS.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "BINANCE_USDM_SOURCE_ACCESS_AUDIT.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "CTREND_BINANCE_USDM_LIQUIDITY_V1_PROTOCOL.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "CTREND_BINANCE_USDM_LIQUIDITY_V1_TARGET_AND_GROSS_RETURN_SPEC.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "CTREND_LIQUIDITY_NET_EVALUATION_SPEC.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "DATA_RIGHTS_REGISTER.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "EXECUTABLE_BINANCE_FEASIBILITY_AUDIT.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "EXECUTABLE_BINANCE_USDM_CONSERVATIVE_V1_PROTOCOL.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "NEURAL_PREREGISTRATION.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "README.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "RISK_OVERLAY_PREREGISTRATION.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "config/binance_usdm_conservative_v1.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "config/ctrend-binance-usdm-liquidity-v1.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "config/ctrend_binance_usdm_liquidity_v1_baseline.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "config/ctrend_binance_usdm_liquidity_v1_features.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "pyproject.toml",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/author_output_audit.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "reports/binance_metadata_audit.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_instrument_evidence.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_instrument_master_audit.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_announcement_progress.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_archive_catalog.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_archive_catalog.parquet",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_baseline_model_manifest.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_basket_manifest.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_daily_bars_summary.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_episode_summary.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_episodes.parquet",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_feature_manifest.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_feature_reconciliation.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_feature_reconciliation.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_feature_schema.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_feature_target_reconciliation.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_gross_performance_summary.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_gross_return_manifest.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_model_eligibility.parquet",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_model_eligibility_summary.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_target_build_summary.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_target_manifest.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_target_schema.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_weekly_universe_feature_complete.parquet",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_weekly_universe_feature_complete_summary.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_weekly_universe_pre_feature.parquet",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/binance_usdm_liquidity_weekly_universe_pre_feature_summary.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/binance_usdm_point_in_time_instrument_master.parquet",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/ctrend_28_indicator_definition_audit.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/ctrend_28_indicator_manifest.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/ctrend_binance_usdm_target_definition.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/ctrend_liquidity_break_even_formula_audit.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/ctrend_liquidity_feature_validation.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/ctrend_liquidity_funding_coverage_ledger.parquet",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/ctrend_liquidity_funding_gap_audit.parquet",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "reports/ctrend_liquidity_funding_gap_audit_summary.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/ctrend_liquidity_funding_gap_closure.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/ctrend_liquidity_funding_gap_report.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/ctrend_liquidity_funding_semantics.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/ctrend_liquidity_funding_source_manifest.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/ctrend_liquidity_gross_baseline_validation.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/ctrend_liquidity_net_evaluation.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/ctrend_liquidity_net_evaluation_manifest.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/ctrend_liquidity_net_evaluation_summary.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/ctrend_liquidity_net_reconciliation.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "reports/ctrend_liquidity_validation_audits.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/audit_author_output.py",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "scripts/audit_binance_metadata.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/audit_liquidity_funding_gaps.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/audit_liquidity_indicator_definitions.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/build_liquidity_archive_catalog.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/build_liquidity_episodes.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/build_liquidity_features.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/build_liquidity_targets.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/build_liquidity_weekly_universe.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/close_binance_usdm_access_blocker.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/download_liquidity_archive.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/download_required_funding.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/fetch_official_sources.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/materialize_liquidity_daily_bars.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/reconstruct_binance_usdm_master.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/resume_binance_announcements.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/run_liquidity_baseline.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "scripts/run_liquidity_net_evaluation.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "sources/official_source_manifest.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/ctrend_lab/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/ctrend_lab/binance_usdm.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/ctrend_lab/liquidity_archive.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/ctrend_lab/liquidity_baseline.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/ctrend_lab/liquidity_feature_builder.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/ctrend_lab/liquidity_features.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/ctrend_lab/liquidity_targets.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/ctrend_lab/metrics.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_binance_usdm.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_liquidity_archive.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_liquidity_feature_builder.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_liquidity_net_evaluation.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_liquidity_targets.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_metrics.py",
+          "classification": "PUBLIC_GITHUB"
+        }
+      ]
+    }
+  ]
+}

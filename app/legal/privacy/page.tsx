@@ -1,0 +1,1 @@
+export default function Page(){return <><h1>Privacy</h1><p>No analytics, wallet custody, or browser-side exchange feeds are used. A live store requires a completed provider-specific privacy notice.</p></>}

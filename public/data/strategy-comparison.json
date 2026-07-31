@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-07-31T07:22:14.682Z",
+  "accepted_only_default": true,
+  "strategies": [
+    {
+      "strategy_id": "direction-v3",
+      "accepted_pnl_exists": false,
+      "diagnostic_only_pnl_exists": false,
+      "comparison": "Not comparable",
+      "warning": "Frozen prospective prediction research; no accepted trading P&L."
+    },
+    {
+      "strategy_id": "perp-carry",
+      "accepted_pnl_exists": false,
+      "diagnostic_only_pnl_exists": false,
+      "comparison": "Not comparable",
+      "warning": "Bounded collection audit remains active; infrastructure evidence is not profitability evidence."
+    },
+    {
+      "strategy_id": "ctrend",
+      "accepted_pnl_exists": false,
+      "diagnostic_only_pnl_exists": true,
+      "comparison": "Not comparable",
+      "warning": "Retired practical economic no-go; incomplete official funding coverage blocks a valid full net series."
+    }
+  ],
+  "rules": [
+    "predictions are not returns",
+    "infrastructure audits are not returns",
+    "incomplete net series are not accepted performance",
+    "missing performance is never zero"
+  ]
+}

@@ -1,0 +1,1 @@
+export default function Page(){return <><h1>Audit trail</h1><p>Research milestones include source access blockers, lifecycle repairs, causal-label fixes, net-cost accounting, and integrity failures. Source commits and immutable snapshots provide the record.</p></>}

@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-07-31T07:22:14.682Z",
+  "fail_closed": true,
+  "github_route": "SANITIZED_PUBLIC_SHOWCASE_REPOSITORY",
+  "projects": [
+    {
+      "project": "Direction V3",
+      "source_commit": "a4b0770e73951b4a148284d2d42097bfdbec312c",
+      "public_status": "PREPARED_NOT_PUBLISHED",
+      "exclude": [
+        "raw data",
+        "runtime logs",
+        "credentials",
+        "third-party packages"
+      ]
+    },
+    {
+      "project": "Perp Carry",
+      "source_commit": "f9ce0b044de5f3142b4dcf3b2becaa5a694c30c2",
+      "public_status": "PREPARED_NOT_PUBLISHED",
+      "exclude": [
+        "raw data",
+        "runtime logs",
+        "credentials",
+        "third-party packages"
+      ]
+    },
+    {
+      "project": "CTREND liquidity v1",
+      "source_commit": "a11853b299022082949bc10d411db26605c3dc8d",
+      "public_status": "PREPARED_NOT_PUBLISHED",
+      "exclude": [
+        "raw data",
+        "runtime logs",
+        "credentials",
+        "third-party packages"
+      ]
+    }
+  ]
+}

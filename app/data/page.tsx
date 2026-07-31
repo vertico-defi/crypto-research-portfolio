@@ -1,0 +1,2 @@
+import Link from "next/link"; import { products } from "../../lib/snapshot";
+export default function Page(){return <><h1>Research data catalog</h1><p className="lede">Product records are public metadata. Prices are drafts; checkout is unavailable.</p>{products().map(p=><article className="card" key={p.product_id}><h2>{p.title}</h2><p className="status">{p.status} · {p.rights}</p><p>{p.risk_disclaimer}</p><Link href={`/data/${p.product_id}`}>Product details</Link></article>)}</>}

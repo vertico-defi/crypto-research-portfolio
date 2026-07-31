@@ -1,0 +1,1 @@
+import data from "../../public/data/github-repositories.json"; export default function Page(){return <><h1>GitHub publication</h1><p>Publication remains contingent on full-history safety review.</p><pre>{JSON.stringify(data,null,2)}</pre></>}

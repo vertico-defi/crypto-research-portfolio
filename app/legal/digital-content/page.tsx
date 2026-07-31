@@ -1,0 +1,1 @@
+export default function Page(){return <><h1>Digital content</h1><p>Immediate delivery requires recorded express consent and acknowledgement of withdrawal-right consequences. This capability is disabled.</p></>}

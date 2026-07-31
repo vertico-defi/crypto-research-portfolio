@@ -1,0 +1,30 @@
+import { execFileSync } from "node:child_process";
+import { createHash } from "node:crypto";
+import { existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
+import path from "node:path";
+const here=process.cwd(), out=path.join(here,"public/data"), audits=path.join(here,"audits"); mkdirSync(out,{recursive:true});mkdirSync(audits,{recursive:true});
+const projects=[
+ ["direction-v3","Direction V3","/home/vertico/crypto-direction-lab","SHADOW","Frozen prospective prediction research; no accepted trading P&L.","no P&L exists","HISTORICAL_V3_FORWARD_READINESS.md"],
+ ["perp-carry","Perp Carry","/home/vertico/perp-carry-lab","INFRASTRUCTURE_AUDIT","Bounded collection audit remains active; infrastructure evidence is not profitability evidence.","no P&L exists","LIFECYCLE_FIX_REPORT.md"],
+ ["ctrend","CTREND liquidity v1","/home/vertico/ctrend-lab","INTEGRITY_FAILURE","Retired practical economic no-go; incomplete official funding coverage blocks a valid full net series.","diagnostic-only P&L exists","reports/ctrend_liquidity_funding_gap_closure.md"]
+];
+const run=(cwd,args)=>execFileSync("git",["-C",cwd,...args],{encoding:"utf8"}).trim(); const hash=f=>existsSync(f)?createHash("sha256").update(readFileSync(f)).digest("hex"):null;
+const inventory=projects.map(([id,title,repo,verdict,warning,pnl,report])=>({id,title,repository:repo,branch:run(repo,["branch","--show-current"]),head:run(repo,["rev-parse","HEAD"]),working_tree:run(repo,["status","--porcelain"])||"clean",stage:verdict,formal_verdict:verdict,practical_disposition:warning,capital_permission:0,latest_report:report,report_sha256:hash(path.join(repo,report)),pnl}));
+const strategies=inventory.map(x=>({id:x.id,title:x.title,verdict:x.formal_verdict,disposition:x.practical_disposition,capitalPermitted:0,pnl:x.pnl==="diagnostic-only P&L exists"?"diagnostic":"none",warning:x.practical_disposition,sourceCommit:x.head,report:x.latest_report,source_hash:x.report_sha256,data_freshness:"static local evidence snapshot",integrity_warnings:[x.practical_disposition]}));
+const products=[
+ {product_id:"direction-v3-research-pack",title:"Direction V3 research pack",status:"DRAFT",price_usdc:null,rights:"PUBLIC_SAMPLE_ONLY",risk_disclaimer:"Not investment advice; frozen prediction research is not trading P&L."},
+ {product_id:"ctrend-causal-research-pack",title:"CTREND causal research pack",status:"DRAFT",price_usdc:null,rights:"PUBLIC_SAMPLE_ONLY",risk_disclaimer:"Includes negative and integrity-failure documentation; no raw third-party data."},
+ {product_id:"perp-carry-audit-pack",title:"Perp Carry audit pack",status:"PENDING_AUDIT_COMPLETION",price_usdc:null,rights:"PUBLIC_SAMPLE_ONLY",risk_disclaimer:"Unavailable until the independent infrastructure audit is completed."},
+ {product_id:"crypto-strategy-control-snapshot",title:"Crypto strategy control snapshot",status:"DRAFT",price_usdc:null,rights:"STORE_ELIGIBLE_DERIVED",risk_disclaimer:"Static research status metadata only."}
+];
+const classify=f=>/\.(env|pem|key)$/i.test(f)?"SECRET_OR_PII":/^(data\/raw|sources\/raw|reports\/runtime|review\/)/.test(f)?"PRIVATE_ONLY":/(paper|author|coinmarketcap)/i.test(f)?"THIRD_PARTY_RESTRICTED":/\.(py|ts|tsx|md|json|yml|yaml)$/i.test(f)?"PUBLIC_GITHUB":"PUBLIC_SAMPLE_ONLY";
+const rights=projects.map(([,title,repo])=>({project:title,files:run(repo,["ls-files"]).split("\n").filter(Boolean).map(file=>({file,classification:classify(file)}))}));
+const publication={generated_at:new Date().toISOString(),fail_closed:true,github_route:"SANITIZED_PUBLIC_SHOWCASE_REPOSITORY",projects:inventory.map(x=>({project:x.title,source_commit:x.head,public_status:"PREPARED_NOT_PUBLISHED",exclude:["raw data","runtime logs","credentials","third-party packages"]}))};
+const buyHold={generated_at:new Date().toISOString(),as_of:null,status:"NOT_COMPUTED_NO_COMMON_ACCEPTED_STRATEGY_PNL",assets:["BTC","ETH","SOL"],series:[],warning:"Benchmarks are intentionally withheld rather than compared against unlike or invalid strategy outputs."};
+const comparison={generated_at:new Date().toISOString(),accepted_only_default:true,strategies:strategies.map(s=>({strategy_id:s.id,accepted_pnl_exists:false,diagnostic_only_pnl_exists:s.pnl==="diagnostic",comparison:"Not comparable",warning:s.warning})),rules:["predictions are not returns","infrastructure audits are not returns","incomplete net series are not accepted performance","missing performance is never zero"]};
+const github={generated_at:new Date().toISOString(),authenticated_account:"vertico-defi",repositories:projects.map(([id])=>({name:id,publication:"PREPARED_NOT_PUBLISHED"}))};
+const write=(where,value)=>writeFileSync(where,JSON.stringify(value,null,2)+"\n");
+write(path.join(out,"strategy-snapshot.json"),{generated_at:new Date().toISOString(),as_of:new Date().toISOString(),strategies});write(path.join(out,"strategy-comparison.json"),comparison);write(path.join(out,"buy-and-hold.json"),buyHold);write(path.join(out,"product-catalog-public.json"),{generated_at:new Date().toISOString(),products});write(path.join(out,"github-repositories.json"),github);
+write(path.join(audits,"source_inventory.json"),{generated_at:new Date().toISOString(),projects:inventory});write(path.join(audits,"data_rights_audit.json"),{generated_at:new Date().toISOString(),classification:"fail closed",projects:rights});write(path.join(audits,"publication_manifest.json"),publication);write(path.join(audits,"store_eligibility_manifest.json"),{generated_at:new Date().toISOString(),products});
+write(path.join(audits,"source_inventory.md"),"# Source inventory\n\n"+inventory.map(x=>`- ${x.title}: ${x.head}; ${x.stage}; capital ${x.capital_permission}; ${x.working_tree}`).join("\n")+"\n");write(path.join(audits,"data_rights_audit.md"),"# Data rights audit\n\nAll unclear artifacts fail closed and are not sale eligible. Raw source archives, runtime logs, restricted third-party material, and secrets are excluded.\n");
+console.log(JSON.stringify({strategies:strategies.length,products:products.length,source_inventory_sha256:hash(path.join(audits,"source_inventory.json"))}));

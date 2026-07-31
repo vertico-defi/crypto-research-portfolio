@@ -1,0 +1,1 @@
+export default function Page(){return <><h1>About Vertico Research</h1><p className="lede">Machine learning, quantitative research, data engineering, Linux automation, and Web3/full-stack engineering with an emphasis on reproducible systems and honest evidence.</p></>}
