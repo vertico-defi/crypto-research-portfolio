@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-31T07:54:50.769Z",
+  "generated_at": "2026-07-31T07:59:53.229Z",
   "projects": [
     {
       "id": "direction-v3",
       "title": "Direction V3",
-      "repository": "/home/vertico/crypto-direction-lab",
+      "repository_id": "direction-v3",
       "branch": "historical-v3-240m",
       "head": "a4b0770e73951b4a148284d2d42097bfdbec312c",
       "working_tree": "clean",
@@ -19,7 +19,7 @@
     {
       "id": "perp-carry",
       "title": "Perp Carry",
-      "repository": "/home/vertico/perp-carry-lab",
+      "repository_id": "perp-carry",
       "branch": "main",
       "head": "f9ce0b044de5f3142b4dcf3b2becaa5a694c30c2",
       "working_tree": "?? AUDIT_CLOSURE_REPORT_audit-20260718T091800Z.md\n?? LIFECYCLE_FIX_REPORT.md\n?? REHEARSAL_AUDIT_REPORT_rehearsal-final-20260722T125300Z.md\n?? review/",
@@ -34,7 +34,7 @@
     {
       "id": "ctrend",
       "title": "CTREND liquidity v1",
-      "repository": "/home/vertico/ctrend-lab",
+      "repository_id": "ctrend",
       "branch": "main",
       "head": "a11853b299022082949bc10d411db26605c3dc8d",
       "working_tree": "clean",

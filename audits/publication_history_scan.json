@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-07-31T07:59:54.954Z",
+  "scope": "all reachable git history and current tracked tree",
+  "limitations": [
+    "Pattern scans are a safety control, not a proof that no secret or restricted data exists.",
+    "No matching line contents, paths, or secret candidates are written to this report.",
+    "A new sanitized repository must be reviewed independently before publication."
+  ],
+  "projects": [
+    {
+      "project": "direction-v3",
+      "scanned_refs": "--all",
+      "current_tree_match_counts": [
+        0,
+        0,
+        28
+      ],
+      "history_commit_match_counts": [
+        0,
+        0,
+        2
+      ],
+      "object_reference_count": 462,
+      "scan_status": "REQUIRES_MANUAL_REMEDIATION",
+      "publication_decision": "SANITIZED_SHOWCASE_REQUIRED",
+      "reason": "Regex scans cannot establish data rights, remove raw data, or prove history safety. Never publish the laboratory repository directly."
+    },
+    {
+      "project": "perp-carry",
+      "scanned_refs": "--all",
+      "current_tree_match_counts": [
+        0,
+        0,
+        8
+      ],
+      "history_commit_match_counts": [
+        0,
+        0,
+        1
+      ],
+      "object_reference_count": 228,
+      "scan_status": "REQUIRES_MANUAL_REMEDIATION",
+      "publication_decision": "SANITIZED_SHOWCASE_REQUIRED",
+      "reason": "Regex scans cannot establish data rights, remove raw data, or prove history safety. Never publish the laboratory repository directly."
+    },
+    {
+      "project": "ctrend",
+      "scanned_refs": "--all",
+      "current_tree_match_counts": [
+        0,
+        0,
+        1
+      ],
+      "history_commit_match_counts": [
+        0,
+        0,
+        1
+      ],
+      "object_reference_count": 219,
+      "scan_status": "REQUIRES_MANUAL_REMEDIATION",
+      "publication_decision": "SANITIZED_SHOWCASE_REQUIRED",
+      "reason": "Regex scans cannot establish data rights, remove raw data, or prove history safety. Never publish the laboratory repository directly."
+    },
+    {
+      "project": "strategy-control",
+      "scanned_refs": "--all",
+      "current_tree_match_counts": [
+        0,
+        0,
+        0
+      ],
+      "history_commit_match_counts": [
+        0,
+        0,
+        0
+      ],
+      "object_reference_count": 59,
+      "scan_status": "NO_PATTERN_MATCHES",
+      "publication_decision": "SANITIZED_SHOWCASE_REQUIRED",
+      "reason": "Regex scans cannot establish data rights, remove raw data, or prove history safety. Never publish the laboratory repository directly."
+    }
+  ]
+}

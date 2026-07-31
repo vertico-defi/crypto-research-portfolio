@@ -1,2 +1,0 @@
-:HL["/crypto-research-portfolio/_next/static/chunks/2tvqrlgsvrwt2.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"data","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"direction-v3-research-pack","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"6u6JNjF22DhzbiTYdxQBa"}

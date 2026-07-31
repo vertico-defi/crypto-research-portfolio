@@ -49,8 +49,19 @@ npm run typecheck
 npm run build
 ```
 
+The snapshot and benchmark commands are read-only consumers of sibling
+laboratories. By default they expect `../crypto-direction-lab`,
+`../perp-carry-lab`, and `../ctrend-lab`; set `CRYPTO_RESEARCH_WORKSPACE` to
+their parent directory and `CTREND_PYTHON` to the Python environment that can
+read the accepted Parquet bars when using another layout. `npm run
+audit:publication` scans every reachable source-history ref and records only
+aggregate findings; it never publishes a source laboratory.
+
 Static Pages mode is `PUBLIC_STATIC_DEPLOY=true STORE_LIVE=false npm run build`.
-It must pass dependency and static-export gates before deployment.
+It must pass dependency and static-export gates before deployment. As of the
+latest audit, high-severity transitive Next.js findings block deployment; see
+[audits/dependency_audit.md](audits/dependency_audit.md). The Pages workflow is
+therefore intentionally gated before artifact upload.
 
 ## Security and commerce status
 
