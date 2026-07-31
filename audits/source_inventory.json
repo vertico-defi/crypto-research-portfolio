@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T08:01:50.243Z",
+  "generated_at": "2026-07-31T08:04:32.356Z",
   "projects": [
     {
       "id": "direction-v3",
@@ -22,7 +22,7 @@
       "repository_id": "perp-carry",
       "branch": "main",
       "head": "f9ce0b044de5f3142b4dcf3b2becaa5a694c30c2",
-      "working_tree": "?? AUDIT_CLOSURE_REPORT_audit-20260718T091800Z.md\n?? LIFECYCLE_FIX_REPORT.md\n?? REHEARSAL_AUDIT_REPORT_rehearsal-final-20260722T125300Z.md\n?? review/",
+      "working_tree": "non-clean; local artifacts excluded",
       "stage": "INFRASTRUCTURE_AUDIT",
       "formal_verdict": "INFRASTRUCTURE_AUDIT",
       "practical_disposition": "Bounded collection audit remains active; infrastructure evidence is not profitability evidence.",
