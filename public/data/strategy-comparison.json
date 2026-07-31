@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T08:04:32.355Z",
+  "generated_at": "2026-07-31T09:30:37.669Z",
   "accepted_only_default": true,
   "strategies": [
     {
@@ -14,7 +14,7 @@
       "accepted_pnl_exists": false,
       "diagnostic_only_pnl_exists": false,
       "comparison": "Not comparable",
-      "warning": "Bounded collection audit remains active; infrastructure evidence is not profitability evidence."
+      "warning": "Completed collector audit failed the frozen timing gate; infrastructure reliability is not strategy profitability."
     },
     {
       "strategy_id": "ctrend",

@@ -6,20 +6,9 @@
     "snapshot": "node scripts/generate-snapshot.mjs && ${CTREND_PYTHON:-../ctrend-lab/.venv/bin/python} scripts/build_benchmarks.py",
     "audit:publication": "node scripts/scan-publication-history.mjs",
     "test": "node --test tests/*.test.mjs",
-    "typecheck": "tsc --noEmit",
-    "lint": "next lint",
-    "build": "next build",
+    "typecheck": "node --check scripts/generate-snapshot.mjs && node --check scripts/build-static-site.mjs && node --check scripts/scan-publication-history.mjs",
+    "lint": "node --check scripts/build-static-site.mjs",
+    "build": "node scripts/build-static-site.mjs",
     "check": "npm run snapshot && npm run test && npm run typecheck && npm run build"
-  },
-  "dependencies": {
-    "next": "^16.2.12",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3"
-  },
-  "devDependencies": {
-    "@types/node": "22.10.5",
-    "@types/react": "18.3.12",
-    "@types/react-dom": "18.3.1",
-    "typescript": "5.7.2"
   }
 }

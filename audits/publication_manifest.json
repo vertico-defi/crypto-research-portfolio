@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T08:04:32.355Z",
+  "generated_at": "2026-07-31T09:30:37.669Z",
   "fail_closed": true,
   "github_route": "SANITIZED_PUBLIC_SHOWCASE_REPOSITORY",
   "projects": [
@@ -16,7 +16,7 @@
     },
     {
       "project": "Perp Carry",
-      "source_commit": "f9ce0b044de5f3142b4dcf3b2becaa5a694c30c2",
+      "source_commit": "65ac5a401a920b78eb6d78c46984b6da3b8287f3",
       "public_status": "PREPARED_NOT_PUBLISHED",
       "exclude": [
         "raw data",

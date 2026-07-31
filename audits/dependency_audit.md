@@ -14,5 +14,11 @@ production dependency findings** and exits non-zero.
 applied**. The current latest registry version observed was Next 16.2.12, so
 there was no non-breaking package-manager remediation at audit time.
 
-Production deployment is blocked. The Pages workflow runs the same high-severity
-gate before building or uploading any artifact.
+## Resolution
+
+On 2026-07-31 the read-only portfolio was migrated from Next.js to a Node
+built-in static compiler. The exported site has no server runtime, API routes,
+or Next/PostCSS/Sharp dependency chain. After lockfile regeneration,
+`npm audit --omit=dev --audit-level=high` reports zero vulnerabilities. The
+prior entries remain above as historical evidence; they no longer block the
+static Pages artifact.

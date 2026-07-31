@@ -10,7 +10,7 @@ performance.
 ## Evidence taxonomy
 
 - **Direction V3:** frozen prospective probabilistic forecasting research; no accepted trading P&L.
-- **Perp Carry:** synchronized cross-venue data and lifecycle audit; infrastructure evidence is not profitability evidence.
+- **Perp Carry:** complete 24-hour collector audit with 100% snapshot completeness, but a frozen clock gate failed; infrastructure reliability is not profitability evidence.
 - **CTREND liquidity v1:** formal `INTEGRITY_FAILURE`; the complete-coverage net diagnostic is negative and capital permission is zero.
 
 The comparison UI defaults to `Not comparable` rather than inventing returns.
@@ -22,16 +22,15 @@ Diagnostic-only series require explicit warnings and are never capital eligible.
 Read-only local source evidence
           │
           ▼
-npm run snapshot ──► versioned public/data JSON ──► Next.js server/static pages
-                                                      │
-                                                      ▼
-                                               GitHub Pages static export
+npm run snapshot ──► versioned public/data JSON ──► Node built-in static compiler
+                                                     │
+                                                     ▼
+                                              GitHub Pages static export
 ```
 
 Routes: `/`, `/strategies/*`, `/compare`, `/data`, `/methodology`,
-`/audit-trail`, `/github`, `/about`, and `/legal/*`. API route placeholders
-exist only for a future, separately authorized commerce phase and remain
-disabled with `STORE_LIVE=false`.
+`/audit-trail`, `/github`, `/about`, and `/legal/*`. The public artifact has
+no API routes, server runtime, checkout, or payment integration.
 
 ## Data and publication rights
 
@@ -57,11 +56,10 @@ read the accepted Parquet bars when using another layout. `npm run
 audit:publication` scans every reachable source-history ref and records only
 aggregate findings; it never publishes a source laboratory.
 
-Static Pages mode is `PUBLIC_STATIC_DEPLOY=true STORE_LIVE=false npm run build`.
-It must pass dependency and static-export gates before deployment. As of the
-latest audit, high-severity transitive Next.js findings block deployment; see
-[audits/dependency_audit.md](audits/dependency_audit.md). The Pages workflow is
-therefore intentionally gated before artifact upload.
+`STORE_LIVE=false npm run build` creates `out/` using only Node built-ins. This
+static-only migration removed the affected Next.js/PostCSS/Sharp dependency
+tree; `npm audit --omit=dev --audit-level=high` now reports zero findings. The
+Pages workflow deploys only this generated artifact.
 
 ### Screenshot procedure
 

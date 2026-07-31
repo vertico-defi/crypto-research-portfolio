@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T08:04:32.356Z",
+  "generated_at": "2026-07-31T09:30:37.670Z",
   "classification": "fail closed",
   "projects": [
     {
@@ -691,6 +691,10 @@
           "classification": "PUBLIC_SAMPLE_ONLY"
         },
         {
+          "file": "PERP_CARRY_AUDIT_FINAL_REPORT_audit-20260730T082700Z.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "README.md",
           "classification": "PUBLIC_GITHUB"
         },
@@ -789,6 +793,14 @@
         {
           "file": "metrics_config.example.toml",
           "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "perp_carry_audit_final_manifest_audit-20260730T082700Z.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "perp_carry_audit_final_summary_audit-20260730T082700Z.json",
+          "classification": "PUBLIC_GITHUB"
         },
         {
           "file": "pyproject.toml",

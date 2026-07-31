@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T08:04:32.355Z",
-  "as_of": "2026-07-31T08:04:32.355Z",
+  "generated_at": "2026-07-31T09:30:37.670Z",
+  "as_of": "2026-07-31T09:30:37.670Z",
   "strategies": [
     {
       "id": "direction-v3",
@@ -16,23 +16,41 @@
       "data_freshness": "static local evidence snapshot",
       "integrity_warnings": [
         "Frozen prospective prediction research; no accepted trading P&L."
-      ]
+      ],
+      "audit": null
     },
     {
       "id": "perp-carry",
       "title": "Perp Carry",
-      "verdict": "INFRASTRUCTURE_AUDIT",
-      "disposition": "Bounded collection audit remains active; infrastructure evidence is not profitability evidence.",
+      "verdict": "INFRASTRUCTURE_AUDIT_INTEGRITY_FAILURE",
+      "disposition": "Completed collector audit failed the frozen timing gate; infrastructure reliability is not strategy profitability.",
       "capitalPermitted": 0,
       "pnl": "none",
-      "warning": "Bounded collection audit remains active; infrastructure evidence is not profitability evidence.",
-      "sourceCommit": "f9ce0b044de5f3142b4dcf3b2becaa5a694c30c2",
-      "report": "LIFECYCLE_FIX_REPORT.md",
-      "source_hash": "0fe23f929da03b45839a84a9eb76b4c1b55349ed548437bb1cc36f08a006eaea",
+      "warning": "Completed collector audit failed the frozen timing gate; infrastructure reliability is not strategy profitability.",
+      "sourceCommit": "65ac5a401a920b78eb6d78c46984b6da3b8287f3",
+      "report": "PERP_CARRY_AUDIT_FINAL_REPORT_audit-20260730T082700Z.md",
+      "source_hash": "ab12d4699e15bb25fc128b51a9c73d4cffe73c910b216bba1b9b30a8408a5e60",
       "data_freshness": "static local evidence snapshot",
       "integrity_warnings": [
-        "Bounded collection audit remains active; infrastructure evidence is not profitability evidence."
-      ]
+        "Completed collector audit failed the frozen timing gate; infrastructure reliability is not strategy profitability."
+      ],
+      "audit": {
+        "audit_id": "audit-20260730T082700Z",
+        "window_start_utc": "2026-07-30T08:27:00Z",
+        "window_end_utc": "2026-07-31T08:27:00Z",
+        "writer_stopped_at_utc": "2026-07-31T08:27:00.055653Z",
+        "expected_market_snapshots": 5760,
+        "stored_valid_market_snapshots": 5760,
+        "successful_collection_events": 5760,
+        "failed_collection_events": 0,
+        "duplicate_records": 0,
+        "missing_records": 0,
+        "stale_records": 0,
+        "timing_verdict": "FAIL",
+        "lifecycle_verdict": "PASS",
+        "next_gate": "Design and preregister Perp Carry V2 historical profitability experiment after a fresh compliant infrastructure audit.",
+        "profitability_status": "NOT_TESTED"
+      }
     },
     {
       "id": "ctrend",
@@ -48,7 +66,8 @@
       "data_freshness": "static local evidence snapshot",
       "integrity_warnings": [
         "Retired practical economic no-go; incomplete official funding coverage blocks a valid full net series."
-      ]
+      ],
+      "audit": null
     }
   ]
 }

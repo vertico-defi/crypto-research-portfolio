@@ -7,6 +7,9 @@ permissions:
   contents: read
   pages: write
   id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
 jobs:
   deploy:
     environment:
@@ -16,11 +19,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: {node-version: 20, cache: npm}
+        with: {node-version: 22, cache: npm}
       - run: npm ci
       - run: npm audit --omit=dev --audit-level=high
-      - run: npm run snapshot
-      - run: PUBLIC_STATIC_DEPLOY=true STORE_LIVE=false npm run build
+      - run: STORE_LIVE=false npm run build
+      - run: test ! -e out/api
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with: {path: out}
