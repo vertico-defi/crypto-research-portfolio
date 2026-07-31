@@ -1,7 +1,8 @@
 {
-  "generated_at": "2026-07-31T07:59:53.574094Z",
+  "generated_at": "2026-07-31T08:01:50.603835Z",
   "status": "COMPUTED_DERIVED_REFERENCE_ONLY",
-  "methodology": "Daily close buy-and-hold, normalized to USD 10,000 at each asset's first available UTC observation on or after 2026-01-01. No strategy comparison is implied.",
+  "as_of_utc": "2026-06-30T00:00:00Z",
+  "methodology": "Daily close buy-and-hold, normalized to USD 10,000 at each asset's first available UTC observation on or after 2026-01-01, through the latest complete common UTC day. Equal weight is rebalanced only at inception. No strategy comparison is implied.",
   "source": {
     "dataset": "CTREND liquidity_v1 derived daily bars",
     "sha256": "d8f386063b0393f99b6c44b26275afbe5a235bb0ce65004e0b63b8c7c867ce58"
@@ -14,731 +15,921 @@
       "window_end_utc": "2026-06-30T00:00:00Z",
       "initial_value_usd": 10000.0,
       "final_value_usd": 6599.707207,
-      "total_return_pct": -34.002928,
+      "cumulative_return_pct": -34.002928,
+      "annualized_volatility_pct": 49.025094,
+      "maximum_drawdown_pct": -39.524641,
       "observations": 181,
+      "missing_dates": [],
+      "source_coordinate": {
+        "dataset": "liquidity_v1.daily_bars",
+        "symbol": "BTCUSDT",
+        "field": "close",
+        "frequency": "1D"
+      },
       "series": [
         {
           "timestamp_utc": "2026-01-01T00:00:00Z",
+          "close_usdt": 88800.0,
           "normalized_value_usd": 10000.0
         },
         {
           "timestamp_utc": "2026-01-02T00:00:00Z",
+          "close_usdt": 89951.4,
           "normalized_value_usd": 10129.662162
         },
         {
           "timestamp_utc": "2026-01-03T00:00:00Z",
+          "close_usdt": 90595.8,
           "normalized_value_usd": 10202.22973
         },
         {
           "timestamp_utc": "2026-01-04T00:00:00Z",
+          "close_usdt": 91497.1,
           "normalized_value_usd": 10303.727477
         },
         {
           "timestamp_utc": "2026-01-05T00:00:00Z",
+          "close_usdt": 93822.4,
           "normalized_value_usd": 10565.585586
         },
         {
           "timestamp_utc": "2026-01-06T00:00:00Z",
+          "close_usdt": 93708.0,
           "normalized_value_usd": 10552.702703
         },
         {
           "timestamp_utc": "2026-01-07T00:00:00Z",
+          "close_usdt": 91328.0,
           "normalized_value_usd": 10284.684685
         },
         {
           "timestamp_utc": "2026-01-08T00:00:00Z",
+          "close_usdt": 91059.8,
           "normalized_value_usd": 10254.481982
         },
         {
           "timestamp_utc": "2026-01-09T00:00:00Z",
+          "close_usdt": 90603.6,
           "normalized_value_usd": 10203.108108
         },
         {
           "timestamp_utc": "2026-01-10T00:00:00Z",
+          "close_usdt": 90469.6,
           "normalized_value_usd": 10188.018018
         },
         {
           "timestamp_utc": "2026-01-11T00:00:00Z",
+          "close_usdt": 90964.4,
           "normalized_value_usd": 10243.738739
         },
         {
           "timestamp_utc": "2026-01-12T00:00:00Z",
+          "close_usdt": 91252.6,
           "normalized_value_usd": 10276.193694
         },
         {
           "timestamp_utc": "2026-01-13T00:00:00Z",
+          "close_usdt": 95375.2,
           "normalized_value_usd": 10740.45045
         },
         {
           "timestamp_utc": "2026-01-14T00:00:00Z",
+          "close_usdt": 96907.9,
           "normalized_value_usd": 10913.051802
         },
         {
           "timestamp_utc": "2026-01-15T00:00:00Z",
+          "close_usdt": 95567.3,
           "normalized_value_usd": 10762.083333
         },
         {
           "timestamp_utc": "2026-01-16T00:00:00Z",
+          "close_usdt": 95503.7,
           "normalized_value_usd": 10754.921171
         },
         {
           "timestamp_utc": "2026-01-17T00:00:00Z",
+          "close_usdt": 95107.9,
           "normalized_value_usd": 10710.349099
         },
         {
           "timestamp_utc": "2026-01-18T00:00:00Z",
+          "close_usdt": 93614.0,
           "normalized_value_usd": 10542.117117
         },
         {
           "timestamp_utc": "2026-01-19T00:00:00Z",
+          "close_usdt": 92589.6,
           "normalized_value_usd": 10426.756757
         },
         {
           "timestamp_utc": "2026-01-20T00:00:00Z",
+          "close_usdt": 88390.6,
           "normalized_value_usd": 9953.896396
         },
         {
           "timestamp_utc": "2026-01-21T00:00:00Z",
+          "close_usdt": 89411.4,
           "normalized_value_usd": 10068.851351
         },
         {
           "timestamp_utc": "2026-01-22T00:00:00Z",
+          "close_usdt": 89518.5,
           "normalized_value_usd": 10080.912162
         },
         {
           "timestamp_utc": "2026-01-23T00:00:00Z",
+          "close_usdt": 89558.7,
           "normalized_value_usd": 10085.439189
         },
         {
           "timestamp_utc": "2026-01-24T00:00:00Z",
+          "close_usdt": 89180.7,
           "normalized_value_usd": 10042.871622
         },
         {
           "timestamp_utc": "2026-01-25T00:00:00Z",
+          "close_usdt": 86628.9,
           "normalized_value_usd": 9755.506757
         },
         {
           "timestamp_utc": "2026-01-26T00:00:00Z",
+          "close_usdt": 88300.6,
           "normalized_value_usd": 9943.761261
         },
         {
           "timestamp_utc": "2026-01-27T00:00:00Z",
+          "close_usdt": 89197.8,
           "normalized_value_usd": 10044.797297
         },
         {
           "timestamp_utc": "2026-01-28T00:00:00Z",
+          "close_usdt": 89261.7,
           "normalized_value_usd": 10051.993243
         },
         {
           "timestamp_utc": "2026-01-29T00:00:00Z",
+          "close_usdt": 84604.7,
           "normalized_value_usd": 9527.556306
         },
         {
           "timestamp_utc": "2026-01-30T00:00:00Z",
+          "close_usdt": 84211.4,
           "normalized_value_usd": 9483.265766
         },
         {
           "timestamp_utc": "2026-01-31T00:00:00Z",
+          "close_usdt": 78706.8,
           "normalized_value_usd": 8863.378378
         },
         {
           "timestamp_utc": "2026-02-01T00:00:00Z",
+          "close_usdt": 76931.5,
           "normalized_value_usd": 8663.457207
         },
         {
           "timestamp_utc": "2026-02-02T00:00:00Z",
+          "close_usdt": 78692.5,
           "normalized_value_usd": 8861.768018
         },
         {
           "timestamp_utc": "2026-02-03T00:00:00Z",
+          "close_usdt": 75732.4,
           "normalized_value_usd": 8528.423423
         },
         {
           "timestamp_utc": "2026-02-04T00:00:00Z",
+          "close_usdt": 73137.4,
           "normalized_value_usd": 8236.193694
         },
         {
           "timestamp_utc": "2026-02-05T00:00:00Z",
+          "close_usdt": 62868.1,
           "normalized_value_usd": 7079.740991
         },
         {
           "timestamp_utc": "2026-02-06T00:00:00Z",
+          "close_usdt": 70544.5,
           "normalized_value_usd": 7944.20045
         },
         {
           "timestamp_utc": "2026-02-07T00:00:00Z",
+          "close_usdt": 69254.2,
           "normalized_value_usd": 7798.896396
         },
         {
           "timestamp_utc": "2026-02-08T00:00:00Z",
+          "close_usdt": 70288.1,
           "normalized_value_usd": 7915.326577
         },
         {
           "timestamp_utc": "2026-02-09T00:00:00Z",
+          "close_usdt": 70110.5,
           "normalized_value_usd": 7895.326577
         },
         {
           "timestamp_utc": "2026-02-10T00:00:00Z",
+          "close_usdt": 68805.3,
           "normalized_value_usd": 7748.344595
         },
         {
           "timestamp_utc": "2026-02-11T00:00:00Z",
+          "close_usdt": 67054.4,
           "normalized_value_usd": 7551.171171
         },
         {
           "timestamp_utc": "2026-02-12T00:00:00Z",
+          "close_usdt": 66243.1,
           "normalized_value_usd": 7459.808559
         },
         {
           "timestamp_utc": "2026-02-13T00:00:00Z",
+          "close_usdt": 68821.5,
           "normalized_value_usd": 7750.168919
         },
         {
           "timestamp_utc": "2026-02-14T00:00:00Z",
+          "close_usdt": 69795.4,
           "normalized_value_usd": 7859.842342
         },
         {
           "timestamp_utc": "2026-02-15T00:00:00Z",
+          "close_usdt": 68796.9,
           "normalized_value_usd": 7747.398649
         },
         {
           "timestamp_utc": "2026-02-16T00:00:00Z",
+          "close_usdt": 68862.5,
           "normalized_value_usd": 7754.786036
         },
         {
           "timestamp_utc": "2026-02-17T00:00:00Z",
+          "close_usdt": 67475.9,
           "normalized_value_usd": 7598.637387
         },
         {
           "timestamp_utc": "2026-02-18T00:00:00Z",
+          "close_usdt": 66422.8,
           "normalized_value_usd": 7480.045045
         },
         {
           "timestamp_utc": "2026-02-19T00:00:00Z",
+          "close_usdt": 66974.0,
           "normalized_value_usd": 7542.117117
         },
         {
           "timestamp_utc": "2026-02-20T00:00:00Z",
+          "close_usdt": 67979.3,
           "normalized_value_usd": 7655.326577
         },
         {
           "timestamp_utc": "2026-02-21T00:00:00Z",
+          "close_usdt": 67933.1,
           "normalized_value_usd": 7650.123874
         },
         {
           "timestamp_utc": "2026-02-22T00:00:00Z",
+          "close_usdt": 67613.5,
           "normalized_value_usd": 7614.132883
         },
         {
           "timestamp_utc": "2026-02-23T00:00:00Z",
+          "close_usdt": 64625.8,
           "normalized_value_usd": 7277.68018
         },
         {
           "timestamp_utc": "2026-02-24T00:00:00Z",
+          "close_usdt": 64031.3,
           "normalized_value_usd": 7210.731982
         },
         {
           "timestamp_utc": "2026-02-25T00:00:00Z",
+          "close_usdt": 67952.5,
           "normalized_value_usd": 7652.308559
         },
         {
           "timestamp_utc": "2026-02-26T00:00:00Z",
+          "close_usdt": 67448.2,
           "normalized_value_usd": 7595.518018
         },
         {
           "timestamp_utc": "2026-02-27T00:00:00Z",
+          "close_usdt": 65836.0,
           "normalized_value_usd": 7413.963964
         },
         {
           "timestamp_utc": "2026-02-28T00:00:00Z",
+          "close_usdt": 66937.1,
           "normalized_value_usd": 7537.961712
         },
         {
           "timestamp_utc": "2026-03-01T00:00:00Z",
+          "close_usdt": 65750.0,
           "normalized_value_usd": 7404.279279
         },
         {
           "timestamp_utc": "2026-03-02T00:00:00Z",
+          "close_usdt": 68801.8,
           "normalized_value_usd": 7747.95045
         },
         {
           "timestamp_utc": "2026-03-03T00:00:00Z",
+          "close_usdt": 68295.3,
           "normalized_value_usd": 7690.912162
         },
         {
           "timestamp_utc": "2026-03-04T00:00:00Z",
+          "close_usdt": 72641.4,
           "normalized_value_usd": 8180.337838
         },
         {
           "timestamp_utc": "2026-03-05T00:00:00Z",
+          "close_usdt": 70854.8,
           "normalized_value_usd": 7979.144144
         },
         {
           "timestamp_utc": "2026-03-06T00:00:00Z",
+          "close_usdt": 68083.0,
           "normalized_value_usd": 7667.004505
         },
         {
           "timestamp_utc": "2026-03-07T00:00:00Z",
+          "close_usdt": 67232.1,
           "normalized_value_usd": 7571.182432
         },
         {
           "timestamp_utc": "2026-03-08T00:00:00Z",
+          "close_usdt": 65934.3,
           "normalized_value_usd": 7425.033784
         },
         {
           "timestamp_utc": "2026-03-09T00:00:00Z",
+          "close_usdt": 68394.1,
           "normalized_value_usd": 7702.038288
         },
         {
           "timestamp_utc": "2026-03-10T00:00:00Z",
+          "close_usdt": 69901.9,
           "normalized_value_usd": 7871.835586
         },
         {
           "timestamp_utc": "2026-03-11T00:00:00Z",
+          "close_usdt": 70150.0,
           "normalized_value_usd": 7899.774775
         },
         {
           "timestamp_utc": "2026-03-12T00:00:00Z",
+          "close_usdt": 70480.1,
           "normalized_value_usd": 7936.948198
         },
         {
           "timestamp_utc": "2026-03-13T00:00:00Z",
+          "close_usdt": 70895.5,
           "normalized_value_usd": 7983.727477
         },
         {
           "timestamp_utc": "2026-03-14T00:00:00Z",
+          "close_usdt": 71174.4,
           "normalized_value_usd": 8015.135135
         },
         {
           "timestamp_utc": "2026-03-15T00:00:00Z",
+          "close_usdt": 72778.9,
           "normalized_value_usd": 8195.822072
         },
         {
           "timestamp_utc": "2026-03-16T00:00:00Z",
+          "close_usdt": 74846.4,
           "normalized_value_usd": 8428.648649
         },
         {
           "timestamp_utc": "2026-03-17T00:00:00Z",
+          "close_usdt": 73872.4,
           "normalized_value_usd": 8318.963964
         },
         {
           "timestamp_utc": "2026-03-18T00:00:00Z",
+          "close_usdt": 71202.9,
           "normalized_value_usd": 8018.344595
         },
         {
           "timestamp_utc": "2026-03-19T00:00:00Z",
+          "close_usdt": 69887.4,
           "normalized_value_usd": 7870.202703
         },
         {
           "timestamp_utc": "2026-03-20T00:00:00Z",
+          "close_usdt": 70472.7,
           "normalized_value_usd": 7936.114865
         },
         {
           "timestamp_utc": "2026-03-21T00:00:00Z",
+          "close_usdt": 68881.5,
           "normalized_value_usd": 7756.925676
         },
         {
           "timestamp_utc": "2026-03-22T00:00:00Z",
+          "close_usdt": 67830.6,
           "normalized_value_usd": 7638.581081
         },
         {
           "timestamp_utc": "2026-03-23T00:00:00Z",
+          "close_usdt": 70865.9,
           "normalized_value_usd": 7980.394144
         },
         {
           "timestamp_utc": "2026-03-24T00:00:00Z",
+          "close_usdt": 70523.9,
           "normalized_value_usd": 7941.880631
         },
         {
           "timestamp_utc": "2026-03-25T00:00:00Z",
+          "close_usdt": 71297.5,
           "normalized_value_usd": 8028.997748
         },
         {
           "timestamp_utc": "2026-03-26T00:00:00Z",
+          "close_usdt": 68788.0,
           "normalized_value_usd": 7746.396396
         },
         {
           "timestamp_utc": "2026-03-27T00:00:00Z",
+          "close_usdt": 66364.2,
           "normalized_value_usd": 7473.445946
         },
         {
           "timestamp_utc": "2026-03-28T00:00:00Z",
+          "close_usdt": 66334.8,
           "normalized_value_usd": 7470.135135
         },
         {
           "timestamp_utc": "2026-03-29T00:00:00Z",
+          "close_usdt": 65977.9,
           "normalized_value_usd": 7429.943694
         },
         {
           "timestamp_utc": "2026-03-30T00:00:00Z",
+          "close_usdt": 66764.4,
           "normalized_value_usd": 7518.513514
         },
         {
           "timestamp_utc": "2026-03-31T00:00:00Z",
+          "close_usdt": 68241.5,
           "normalized_value_usd": 7684.853604
         },
         {
           "timestamp_utc": "2026-04-01T00:00:00Z",
+          "close_usdt": 68086.5,
           "normalized_value_usd": 7667.398649
         },
         {
           "timestamp_utc": "2026-04-02T00:00:00Z",
+          "close_usdt": 66868.5,
           "normalized_value_usd": 7530.236486
         },
         {
           "timestamp_utc": "2026-04-03T00:00:00Z",
+          "close_usdt": 66930.0,
           "normalized_value_usd": 7537.162162
         },
         {
           "timestamp_utc": "2026-04-04T00:00:00Z",
+          "close_usdt": 67271.0,
           "normalized_value_usd": 7575.563063
         },
         {
           "timestamp_utc": "2026-04-05T00:00:00Z",
+          "close_usdt": 68997.9,
           "normalized_value_usd": 7770.033784
         },
         {
           "timestamp_utc": "2026-04-06T00:00:00Z",
+          "close_usdt": 68817.9,
           "normalized_value_usd": 7749.763514
         },
         {
           "timestamp_utc": "2026-04-07T00:00:00Z",
+          "close_usdt": 71890.2,
           "normalized_value_usd": 8095.743243
         },
         {
           "timestamp_utc": "2026-04-08T00:00:00Z",
+          "close_usdt": 71038.1,
           "normalized_value_usd": 7999.786036
         },
         {
           "timestamp_utc": "2026-04-09T00:00:00Z",
+          "close_usdt": 71750.4,
           "normalized_value_usd": 8080.0
         },
         {
           "timestamp_utc": "2026-04-10T00:00:00Z",
+          "close_usdt": 72917.4,
           "normalized_value_usd": 8211.418919
         },
         {
           "timestamp_utc": "2026-04-11T00:00:00Z",
+          "close_usdt": 73013.4,
           "normalized_value_usd": 8222.22973
         },
         {
           "timestamp_utc": "2026-04-12T00:00:00Z",
+          "close_usdt": 70711.1,
           "normalized_value_usd": 7962.961712
         },
         {
           "timestamp_utc": "2026-04-13T00:00:00Z",
+          "close_usdt": 74385.0,
           "normalized_value_usd": 8376.689189
         },
         {
           "timestamp_utc": "2026-04-14T00:00:00Z",
+          "close_usdt": 74106.9,
           "normalized_value_usd": 8345.371622
         },
         {
           "timestamp_utc": "2026-04-15T00:00:00Z",
+          "close_usdt": 74776.2,
           "normalized_value_usd": 8420.743243
         },
         {
           "timestamp_utc": "2026-04-16T00:00:00Z",
+          "close_usdt": 75106.8,
           "normalized_value_usd": 8457.972973
         },
         {
           "timestamp_utc": "2026-04-17T00:00:00Z",
+          "close_usdt": 77030.6,
           "normalized_value_usd": 8674.617117
         },
         {
           "timestamp_utc": "2026-04-18T00:00:00Z",
+          "close_usdt": 75653.8,
           "normalized_value_usd": 8519.572072
         },
         {
           "timestamp_utc": "2026-04-19T00:00:00Z",
+          "close_usdt": 73758.4,
           "normalized_value_usd": 8306.126126
         },
         {
           "timestamp_utc": "2026-04-20T00:00:00Z",
+          "close_usdt": 75790.1,
           "normalized_value_usd": 8534.921171
         },
         {
           "timestamp_utc": "2026-04-21T00:00:00Z",
+          "close_usdt": 76288.2,
           "normalized_value_usd": 8591.013514
         },
         {
           "timestamp_utc": "2026-04-22T00:00:00Z",
+          "close_usdt": 78139.8,
           "normalized_value_usd": 8799.527027
         },
         {
           "timestamp_utc": "2026-04-23T00:00:00Z",
+          "close_usdt": 78216.8,
           "normalized_value_usd": 8808.198198
         },
         {
           "timestamp_utc": "2026-04-24T00:00:00Z",
+          "close_usdt": 77395.4,
           "normalized_value_usd": 8715.698198
         },
         {
           "timestamp_utc": "2026-04-25T00:00:00Z",
+          "close_usdt": 77585.0,
           "normalized_value_usd": 8737.04955
         },
         {
           "timestamp_utc": "2026-04-26T00:00:00Z",
+          "close_usdt": 78613.5,
           "normalized_value_usd": 8852.871622
         },
         {
           "timestamp_utc": "2026-04-27T00:00:00Z",
+          "close_usdt": 77331.2,
           "normalized_value_usd": 8708.468468
         },
         {
           "timestamp_utc": "2026-04-28T00:00:00Z",
+          "close_usdt": 76298.1,
           "normalized_value_usd": 8592.128378
         },
         {
           "timestamp_utc": "2026-04-29T00:00:00Z",
+          "close_usdt": 75749.9,
           "normalized_value_usd": 8530.394144
         },
         {
           "timestamp_utc": "2026-04-30T00:00:00Z",
+          "close_usdt": 76305.4,
           "normalized_value_usd": 8592.95045
         },
         {
           "timestamp_utc": "2026-05-01T00:00:00Z",
+          "close_usdt": 78192.0,
           "normalized_value_usd": 8805.405405
         },
         {
           "timestamp_utc": "2026-05-02T00:00:00Z",
+          "close_usdt": 78652.9,
           "normalized_value_usd": 8857.308559
         },
         {
           "timestamp_utc": "2026-05-03T00:00:00Z",
+          "close_usdt": 78529.0,
           "normalized_value_usd": 8843.355856
         },
         {
           "timestamp_utc": "2026-05-04T00:00:00Z",
+          "close_usdt": 79826.1,
           "normalized_value_usd": 8989.425676
         },
         {
           "timestamp_utc": "2026-05-05T00:00:00Z",
+          "close_usdt": 80861.9,
           "normalized_value_usd": 9106.06982
         },
         {
           "timestamp_utc": "2026-05-06T00:00:00Z",
+          "close_usdt": 81390.1,
           "normalized_value_usd": 9165.551802
         },
         {
           "timestamp_utc": "2026-05-07T00:00:00Z",
+          "close_usdt": 79969.4,
           "normalized_value_usd": 9005.563063
         },
         {
           "timestamp_utc": "2026-05-08T00:00:00Z",
+          "close_usdt": 80155.2,
           "normalized_value_usd": 9026.486486
         },
         {
           "timestamp_utc": "2026-05-09T00:00:00Z",
+          "close_usdt": 80634.0,
           "normalized_value_usd": 9080.405405
         },
         {
           "timestamp_utc": "2026-05-10T00:00:00Z",
+          "close_usdt": 82177.7,
           "normalized_value_usd": 9254.245495
         },
         {
           "timestamp_utc": "2026-05-11T00:00:00Z",
+          "close_usdt": 81699.1,
           "normalized_value_usd": 9200.349099
         },
         {
           "timestamp_utc": "2026-05-12T00:00:00Z",
+          "close_usdt": 80461.0,
           "normalized_value_usd": 9060.923423
         },
         {
           "timestamp_utc": "2026-05-13T00:00:00Z",
+          "close_usdt": 79288.3,
           "normalized_value_usd": 8928.862613
         },
         {
           "timestamp_utc": "2026-05-14T00:00:00Z",
+          "close_usdt": 81048.9,
           "normalized_value_usd": 9127.128378
         },
         {
           "timestamp_utc": "2026-05-15T00:00:00Z",
+          "close_usdt": 79074.0,
           "normalized_value_usd": 8904.72973
         },
         {
           "timestamp_utc": "2026-05-16T00:00:00Z",
+          "close_usdt": 78104.2,
           "normalized_value_usd": 8795.518018
         },
         {
           "timestamp_utc": "2026-05-17T00:00:00Z",
+          "close_usdt": 77430.4,
           "normalized_value_usd": 8719.63964
         },
         {
           "timestamp_utc": "2026-05-18T00:00:00Z",
+          "close_usdt": 76963.2,
           "normalized_value_usd": 8667.027027
         },
         {
           "timestamp_utc": "2026-05-19T00:00:00Z",
+          "close_usdt": 76799.9,
           "normalized_value_usd": 8648.637387
         },
         {
           "timestamp_utc": "2026-05-20T00:00:00Z",
+          "close_usdt": 77510.3,
           "normalized_value_usd": 8728.637387
         },
         {
           "timestamp_utc": "2026-05-21T00:00:00Z",
+          "close_usdt": 77586.2,
           "normalized_value_usd": 8737.184685
         },
         {
           "timestamp_utc": "2026-05-22T00:00:00Z",
+          "close_usdt": 75513.1,
           "normalized_value_usd": 8503.727477
         },
         {
           "timestamp_utc": "2026-05-23T00:00:00Z",
+          "close_usdt": 76715.2,
           "normalized_value_usd": 8639.099099
         },
         {
           "timestamp_utc": "2026-05-24T00:00:00Z",
+          "close_usdt": 77030.3,
           "normalized_value_usd": 8674.583333
         },
         {
           "timestamp_utc": "2026-05-25T00:00:00Z",
+          "close_usdt": 77281.5,
           "normalized_value_usd": 8702.871622
         },
         {
           "timestamp_utc": "2026-05-26T00:00:00Z",
+          "close_usdt": 75905.5,
           "normalized_value_usd": 8547.916667
         },
         {
           "timestamp_utc": "2026-05-27T00:00:00Z",
+          "close_usdt": 74418.1,
           "normalized_value_usd": 8380.416667
         },
         {
           "timestamp_utc": "2026-05-28T00:00:00Z",
+          "close_usdt": 73591.4,
           "normalized_value_usd": 8287.31982
         },
         {
           "timestamp_utc": "2026-05-29T00:00:00Z",
+          "close_usdt": 73428.2,
           "normalized_value_usd": 8268.941441
         },
         {
           "timestamp_utc": "2026-05-30T00:00:00Z",
+          "close_usdt": 73856.8,
           "normalized_value_usd": 8317.207207
         },
         {
           "timestamp_utc": "2026-05-31T00:00:00Z",
+          "close_usdt": 73653.2,
           "normalized_value_usd": 8294.279279
         },
         {
           "timestamp_utc": "2026-06-01T00:00:00Z",
+          "close_usdt": 71391.5,
           "normalized_value_usd": 8039.583333
         },
         {
           "timestamp_utc": "2026-06-02T00:00:00Z",
+          "close_usdt": 66730.0,
           "normalized_value_usd": 7514.63964
         },
         {
           "timestamp_utc": "2026-06-03T00:00:00Z",
+          "close_usdt": 64117.7,
           "normalized_value_usd": 7220.461712
         },
         {
           "timestamp_utc": "2026-06-04T00:00:00Z",
+          "close_usdt": 63853.4,
           "normalized_value_usd": 7190.698198
         },
         {
           "timestamp_utc": "2026-06-05T00:00:00Z",
+          "close_usdt": 61022.0,
           "normalized_value_usd": 6871.846847
         },
         {
           "timestamp_utc": "2026-06-06T00:00:00Z",
+          "close_usdt": 60849.7,
           "normalized_value_usd": 6852.443694
         },
         {
           "timestamp_utc": "2026-06-07T00:00:00Z",
+          "close_usdt": 63298.5,
           "normalized_value_usd": 7128.209459
         },
         {
           "timestamp_utc": "2026-06-08T00:00:00Z",
+          "close_usdt": 63057.9,
           "normalized_value_usd": 7101.114865
         },
         {
           "timestamp_utc": "2026-06-09T00:00:00Z",
+          "close_usdt": 61695.0,
           "normalized_value_usd": 6947.635135
         },
         {
           "timestamp_utc": "2026-06-10T00:00:00Z",
+          "close_usdt": 61483.7,
           "normalized_value_usd": 6923.84009
         },
         {
           "timestamp_utc": "2026-06-11T00:00:00Z",
+          "close_usdt": 63597.9,
           "normalized_value_usd": 7161.925676
         },
         {
           "timestamp_utc": "2026-06-12T00:00:00Z",
+          "close_usdt": 63547.0,
           "normalized_value_usd": 7156.193694
         },
         {
           "timestamp_utc": "2026-06-13T00:00:00Z",
+          "close_usdt": 64418.2,
           "normalized_value_usd": 7254.301802
         },
         {
           "timestamp_utc": "2026-06-14T00:00:00Z",
+          "close_usdt": 65702.1,
           "normalized_value_usd": 7398.885135
         },
         {
           "timestamp_utc": "2026-06-15T00:00:00Z",
+          "close_usdt": 66285.9,
           "normalized_value_usd": 7464.628378
         },
         {
           "timestamp_utc": "2026-06-16T00:00:00Z",
+          "close_usdt": 65644.8,
           "normalized_value_usd": 7392.432432
         },
         {
           "timestamp_utc": "2026-06-17T00:00:00Z",
+          "close_usdt": 64472.9,
           "normalized_value_usd": 7260.461712
         },
         {
           "timestamp_utc": "2026-06-18T00:00:00Z",
+          "close_usdt": 62924.1,
           "normalized_value_usd": 7086.047297
         },
         {
           "timestamp_utc": "2026-06-19T00:00:00Z",
+          "close_usdt": 63512.6,
           "normalized_value_usd": 7152.31982
         },
         {
           "timestamp_utc": "2026-06-20T00:00:00Z",
+          "close_usdt": 64270.0,
           "normalized_value_usd": 7237.612613
         },
         {
           "timestamp_utc": "2026-06-21T00:00:00Z",
+          "close_usdt": 63287.1,
           "normalized_value_usd": 7126.925676
         },
         {
           "timestamp_utc": "2026-06-22T00:00:00Z",
+          "close_usdt": 63990.2,
           "normalized_value_usd": 7206.103604
         },
         {
           "timestamp_utc": "2026-06-23T00:00:00Z",
+          "close_usdt": 62696.7,
           "normalized_value_usd": 7060.439189
         },
         {
           "timestamp_utc": "2026-06-24T00:00:00Z",
+          "close_usdt": 61051.2,
           "normalized_value_usd": 6875.135135
         },
         {
           "timestamp_utc": "2026-06-25T00:00:00Z",
+          "close_usdt": 59771.9,
           "normalized_value_usd": 6731.06982
         },
         {
           "timestamp_utc": "2026-06-26T00:00:00Z",
+          "close_usdt": 60072.0,
           "normalized_value_usd": 6764.864865
         },
         {
           "timestamp_utc": "2026-06-27T00:00:00Z",
+          "close_usdt": 60000.3,
           "normalized_value_usd": 6756.790541
         },
         {
           "timestamp_utc": "2026-06-28T00:00:00Z",
+          "close_usdt": 59550.2,
           "normalized_value_usd": 6706.103604
         },
         {
           "timestamp_utc": "2026-06-29T00:00:00Z",
+          "close_usdt": 60224.7,
           "normalized_value_usd": 6782.060811
         },
         {
           "timestamp_utc": "2026-06-30T00:00:00Z",
+          "close_usdt": 58605.4,
           "normalized_value_usd": 6599.707207
         }
       ]
@@ -750,731 +941,921 @@
       "window_end_utc": "2026-06-30T00:00:00Z",
       "initial_value_usd": 10000.0,
       "final_value_usd": 5233.889205,
-      "total_return_pct": -47.661108,
+      "cumulative_return_pct": -47.661108,
+      "annualized_volatility_pct": 65.707318,
+      "maximum_drawdown_pct": -53.27039,
       "observations": 181,
+      "missing_dates": [],
+      "source_coordinate": {
+        "dataset": "liquidity_v1.daily_bars",
+        "symbol": "ETHUSDT",
+        "field": "close",
+        "frequency": "1D"
+      },
       "series": [
         {
           "timestamp_utc": "2026-01-01T00:00:00Z",
+          "close_usdt": 3002.49,
           "normalized_value_usd": 10000.0
         },
         {
           "timestamp_utc": "2026-01-02T00:00:00Z",
+          "close_usdt": 3123.89,
           "normalized_value_usd": 10404.331072
         },
         {
           "timestamp_utc": "2026-01-03T00:00:00Z",
+          "close_usdt": 3125.47,
           "normalized_value_usd": 10409.593371
         },
         {
           "timestamp_utc": "2026-01-04T00:00:00Z",
+          "close_usdt": 3143.32,
           "normalized_value_usd": 10469.044027
         },
         {
           "timestamp_utc": "2026-01-05T00:00:00Z",
+          "close_usdt": 3223.71,
           "normalized_value_usd": 10736.788466
         },
         {
           "timestamp_utc": "2026-01-06T00:00:00Z",
+          "close_usdt": 3295.46,
           "normalized_value_usd": 10975.756789
         },
         {
           "timestamp_utc": "2026-01-07T00:00:00Z",
+          "close_usdt": 3167.52,
           "normalized_value_usd": 10549.643796
         },
         {
           "timestamp_utc": "2026-01-08T00:00:00Z",
+          "close_usdt": 3105.45,
           "normalized_value_usd": 10342.91538
         },
         {
           "timestamp_utc": "2026-01-09T00:00:00Z",
+          "close_usdt": 3087.15,
           "normalized_value_usd": 10281.965968
         },
         {
           "timestamp_utc": "2026-01-10T00:00:00Z",
+          "close_usdt": 3085.47,
           "normalized_value_usd": 10276.370612
         },
         {
           "timestamp_utc": "2026-01-11T00:00:00Z",
+          "close_usdt": 3122.0,
           "normalized_value_usd": 10398.036297
         },
         {
           "timestamp_utc": "2026-01-12T00:00:00Z",
+          "close_usdt": 3093.84,
           "normalized_value_usd": 10304.247475
         },
         {
           "timestamp_utc": "2026-01-13T00:00:00Z",
+          "close_usdt": 3324.69,
           "normalized_value_usd": 11073.109319
         },
         {
           "timestamp_utc": "2026-01-14T00:00:00Z",
+          "close_usdt": 3353.27,
           "normalized_value_usd": 11168.29698
         },
         {
           "timestamp_utc": "2026-01-15T00:00:00Z",
+          "close_usdt": 3317.0,
           "normalized_value_usd": 11047.497244
         },
         {
           "timestamp_utc": "2026-01-16T00:00:00Z",
+          "close_usdt": 3294.77,
           "normalized_value_usd": 10973.458696
         },
         {
           "timestamp_utc": "2026-01-17T00:00:00Z",
+          "close_usdt": 3308.87,
           "normalized_value_usd": 11020.419718
         },
         {
           "timestamp_utc": "2026-01-18T00:00:00Z",
+          "close_usdt": 3282.77,
           "normalized_value_usd": 10933.491868
         },
         {
           "timestamp_utc": "2026-01-19T00:00:00Z",
+          "close_usdt": 3188.01,
           "normalized_value_usd": 10617.887154
         },
         {
           "timestamp_utc": "2026-01-20T00:00:00Z",
+          "close_usdt": 2938.24,
           "normalized_value_usd": 9786.010944
         },
         {
           "timestamp_utc": "2026-01-21T00:00:00Z",
+          "close_usdt": 2980.66,
           "normalized_value_usd": 9927.29368
         },
         {
           "timestamp_utc": "2026-01-22T00:00:00Z",
+          "close_usdt": 2951.21,
           "normalized_value_usd": 9829.208424
         },
         {
           "timestamp_utc": "2026-01-23T00:00:00Z",
+          "close_usdt": 2955.08,
           "normalized_value_usd": 9842.097726
         },
         {
           "timestamp_utc": "2026-01-24T00:00:00Z",
+          "close_usdt": 2952.09,
           "normalized_value_usd": 9832.139324
         },
         {
           "timestamp_utc": "2026-01-25T00:00:00Z",
+          "close_usdt": 2815.49,
           "normalized_value_usd": 9377.183604
         },
         {
           "timestamp_utc": "2026-01-26T00:00:00Z",
+          "close_usdt": 2928.9,
           "normalized_value_usd": 9754.90343
         },
         {
           "timestamp_utc": "2026-01-27T00:00:00Z",
+          "close_usdt": 3024.92,
           "normalized_value_usd": 10074.704662
         },
         {
           "timestamp_utc": "2026-01-28T00:00:00Z",
+          "close_usdt": 3009.36,
           "normalized_value_usd": 10022.881009
         },
         {
           "timestamp_utc": "2026-01-29T00:00:00Z",
+          "close_usdt": 2821.0,
           "normalized_value_usd": 9395.535039
         },
         {
           "timestamp_utc": "2026-01-30T00:00:00Z",
+          "close_usdt": 2705.66,
           "normalized_value_usd": 9011.387215
         },
         {
           "timestamp_utc": "2026-01-31T00:00:00Z",
+          "close_usdt": 2450.38,
           "normalized_value_usd": 8161.159571
         },
         {
           "timestamp_utc": "2026-02-01T00:00:00Z",
+          "close_usdt": 2269.04,
           "normalized_value_usd": 7557.194195
         },
         {
           "timestamp_utc": "2026-02-02T00:00:00Z",
+          "close_usdt": 2345.55,
           "normalized_value_usd": 7812.016027
         },
         {
           "timestamp_utc": "2026-02-03T00:00:00Z",
+          "close_usdt": 2232.23,
           "normalized_value_usd": 7434.595952
         },
         {
           "timestamp_utc": "2026-02-04T00:00:00Z",
+          "close_usdt": 2147.01,
           "normalized_value_usd": 7150.764865
         },
         {
           "timestamp_utc": "2026-02-05T00:00:00Z",
+          "close_usdt": 1824.95,
           "normalized_value_usd": 6078.121826
         },
         {
           "timestamp_utc": "2026-02-06T00:00:00Z",
+          "close_usdt": 2062.54,
           "normalized_value_usd": 6869.431705
         },
         {
           "timestamp_utc": "2026-02-07T00:00:00Z",
+          "close_usdt": 2085.93,
           "normalized_value_usd": 6947.333713
         },
         {
           "timestamp_utc": "2026-02-08T00:00:00Z",
+          "close_usdt": 2088.6,
           "normalized_value_usd": 6956.226332
         },
         {
           "timestamp_utc": "2026-02-09T00:00:00Z",
+          "close_usdt": 2103.96,
           "normalized_value_usd": 7007.383871
         },
         {
           "timestamp_utc": "2026-02-10T00:00:00Z",
+          "close_usdt": 2021.51,
           "normalized_value_usd": 6732.778461
         },
         {
           "timestamp_utc": "2026-02-11T00:00:00Z",
+          "close_usdt": 1940.07,
           "normalized_value_usd": 6461.536924
         },
         {
           "timestamp_utc": "2026-02-12T00:00:00Z",
+          "close_usdt": 1947.15,
           "normalized_value_usd": 6485.117353
         },
         {
           "timestamp_utc": "2026-02-13T00:00:00Z",
+          "close_usdt": 2047.6,
           "normalized_value_usd": 6819.673005
         },
         {
           "timestamp_utc": "2026-02-14T00:00:00Z",
+          "close_usdt": 2085.43,
           "normalized_value_usd": 6945.668429
         },
         {
           "timestamp_utc": "2026-02-15T00:00:00Z",
+          "close_usdt": 1965.47,
           "normalized_value_usd": 6546.133376
         },
         {
           "timestamp_utc": "2026-02-16T00:00:00Z",
+          "close_usdt": 1997.35,
           "normalized_value_usd": 6652.311914
         },
         {
           "timestamp_utc": "2026-02-17T00:00:00Z",
+          "close_usdt": 1990.68,
           "normalized_value_usd": 6630.097019
         },
         {
           "timestamp_utc": "2026-02-18T00:00:00Z",
+          "close_usdt": 1954.77,
           "normalized_value_usd": 6510.496288
         },
         {
           "timestamp_utc": "2026-02-19T00:00:00Z",
+          "close_usdt": 1948.15,
           "normalized_value_usd": 6488.447922
         },
         {
           "timestamp_utc": "2026-02-20T00:00:00Z",
+          "close_usdt": 1967.85,
           "normalized_value_usd": 6554.06013
         },
         {
           "timestamp_utc": "2026-02-21T00:00:00Z",
+          "close_usdt": 1972.54,
           "normalized_value_usd": 6569.680499
         },
         {
           "timestamp_utc": "2026-02-22T00:00:00Z",
+          "close_usdt": 1957.01,
           "normalized_value_usd": 6517.956763
         },
         {
           "timestamp_utc": "2026-02-23T00:00:00Z",
+          "close_usdt": 1855.47,
           "normalized_value_usd": 6179.77079
         },
         {
           "timestamp_utc": "2026-02-24T00:00:00Z",
+          "close_usdt": 1851.09,
           "normalized_value_usd": 6165.182898
         },
         {
           "timestamp_utc": "2026-02-25T00:00:00Z",
+          "close_usdt": 2056.5,
           "normalized_value_usd": 6849.315068
         },
         {
           "timestamp_utc": "2026-02-26T00:00:00Z",
+          "close_usdt": 2026.71,
           "normalized_value_usd": 6750.097419
         },
         {
           "timestamp_utc": "2026-02-27T00:00:00Z",
+          "close_usdt": 1928.5,
           "normalized_value_usd": 6423.002241
         },
         {
           "timestamp_utc": "2026-02-28T00:00:00Z",
+          "close_usdt": 1963.48,
           "normalized_value_usd": 6539.505544
         },
         {
           "timestamp_utc": "2026-03-01T00:00:00Z",
+          "close_usdt": 1938.57,
           "normalized_value_usd": 6456.541071
         },
         {
           "timestamp_utc": "2026-03-02T00:00:00Z",
+          "close_usdt": 2026.69,
           "normalized_value_usd": 6750.030808
         },
         {
           "timestamp_utc": "2026-03-03T00:00:00Z",
+          "close_usdt": 1981.85,
           "normalized_value_usd": 6600.688096
         },
         {
           "timestamp_utc": "2026-03-04T00:00:00Z",
+          "close_usdt": 2125.98,
           "normalized_value_usd": 7080.723
         },
         {
           "timestamp_utc": "2026-03-05T00:00:00Z",
+          "close_usdt": 2072.18,
           "normalized_value_usd": 6901.53839
         },
         {
           "timestamp_utc": "2026-03-06T00:00:00Z",
+          "close_usdt": 1977.66,
           "normalized_value_usd": 6586.733012
         },
         {
           "timestamp_utc": "2026-03-07T00:00:00Z",
+          "close_usdt": 1968.39,
           "normalized_value_usd": 6555.858637
         },
         {
           "timestamp_utc": "2026-03-08T00:00:00Z",
+          "close_usdt": 1935.97,
           "normalized_value_usd": 6447.881592
         },
         {
           "timestamp_utc": "2026-03-09T00:00:00Z",
+          "close_usdt": 1992.28,
           "normalized_value_usd": 6635.42593
         },
         {
           "timestamp_utc": "2026-03-10T00:00:00Z",
+          "close_usdt": 2035.39,
           "normalized_value_usd": 6779.006758
         },
         {
           "timestamp_utc": "2026-03-11T00:00:00Z",
+          "close_usdt": 2050.99,
           "normalized_value_usd": 6830.963634
         },
         {
           "timestamp_utc": "2026-03-12T00:00:00Z",
+          "close_usdt": 2072.6,
           "normalized_value_usd": 6902.937229
         },
         {
           "timestamp_utc": "2026-03-13T00:00:00Z",
+          "close_usdt": 2091.01,
           "normalized_value_usd": 6964.253003
         },
         {
           "timestamp_utc": "2026-03-14T00:00:00Z",
+          "close_usdt": 2095.27,
           "normalized_value_usd": 6978.441227
         },
         {
           "timestamp_utc": "2026-03-15T00:00:00Z",
+          "close_usdt": 2177.73,
           "normalized_value_usd": 7253.079944
         },
         {
           "timestamp_utc": "2026-03-16T00:00:00Z",
+          "close_usdt": 2351.66,
           "normalized_value_usd": 7832.365803
         },
         {
           "timestamp_utc": "2026-03-17T00:00:00Z",
+          "close_usdt": 2316.45,
           "normalized_value_usd": 7715.09647
         },
         {
           "timestamp_utc": "2026-03-18T00:00:00Z",
+          "close_usdt": 2201.95,
           "normalized_value_usd": 7333.746324
         },
         {
           "timestamp_utc": "2026-03-19T00:00:00Z",
+          "close_usdt": 2136.56,
           "normalized_value_usd": 7115.96042
         },
         {
           "timestamp_utc": "2026-03-20T00:00:00Z",
+          "close_usdt": 2145.08,
           "normalized_value_usd": 7144.336867
         },
         {
           "timestamp_utc": "2026-03-21T00:00:00Z",
+          "close_usdt": 2083.37,
           "normalized_value_usd": 6938.807456
         },
         {
           "timestamp_utc": "2026-03-22T00:00:00Z",
+          "close_usdt": 2052.85,
           "normalized_value_usd": 6837.158492
         },
         {
           "timestamp_utc": "2026-03-23T00:00:00Z",
+          "close_usdt": 2151.01,
           "normalized_value_usd": 7164.087141
         },
         {
           "timestamp_utc": "2026-03-24T00:00:00Z",
+          "close_usdt": 2155.29,
           "normalized_value_usd": 7178.341976
         },
         {
           "timestamp_utc": "2026-03-25T00:00:00Z",
+          "close_usdt": 2168.0,
           "normalized_value_usd": 7220.673508
         },
         {
           "timestamp_utc": "2026-03-26T00:00:00Z",
+          "close_usdt": 2059.17,
           "normalized_value_usd": 6858.207688
         },
         {
           "timestamp_utc": "2026-03-27T00:00:00Z",
+          "close_usdt": 1991.58,
           "normalized_value_usd": 6633.094532
         },
         {
           "timestamp_utc": "2026-03-28T00:00:00Z",
+          "close_usdt": 1993.48,
           "normalized_value_usd": 6639.422613
         },
         {
           "timestamp_utc": "2026-03-29T00:00:00Z",
+          "close_usdt": 1983.44,
           "normalized_value_usd": 6605.9837
         },
         {
           "timestamp_utc": "2026-03-30T00:00:00Z",
+          "close_usdt": 2025.69,
           "normalized_value_usd": 6746.700239
         },
         {
           "timestamp_utc": "2026-03-31T00:00:00Z",
+          "close_usdt": 2104.49,
           "normalized_value_usd": 7009.149073
         },
         {
           "timestamp_utc": "2026-04-01T00:00:00Z",
+          "close_usdt": 2138.8,
           "normalized_value_usd": 7123.420894
         },
         {
           "timestamp_utc": "2026-04-02T00:00:00Z",
+          "close_usdt": 2055.96,
           "normalized_value_usd": 6847.516561
         },
         {
           "timestamp_utc": "2026-04-03T00:00:00Z",
+          "close_usdt": 2052.92,
           "normalized_value_usd": 6837.391632
         },
         {
           "timestamp_utc": "2026-04-04T00:00:00Z",
+          "close_usdt": 2064.43,
           "normalized_value_usd": 6875.72648
         },
         {
           "timestamp_utc": "2026-04-05T00:00:00Z",
+          "close_usdt": 2109.35,
           "normalized_value_usd": 7025.335638
         },
         {
           "timestamp_utc": "2026-04-06T00:00:00Z",
+          "close_usdt": 2106.14,
           "normalized_value_usd": 7014.644512
         },
         {
           "timestamp_utc": "2026-04-07T00:00:00Z",
+          "close_usdt": 2239.14,
           "normalized_value_usd": 7457.610184
         },
         {
           "timestamp_utc": "2026-04-08T00:00:00Z",
+          "close_usdt": 2188.87,
           "normalized_value_usd": 7290.182482
         },
         {
           "timestamp_utc": "2026-04-09T00:00:00Z",
+          "close_usdt": 2188.92,
           "normalized_value_usd": 7290.34901
         },
         {
           "timestamp_utc": "2026-04-10T00:00:00Z",
+          "close_usdt": 2243.9,
           "normalized_value_usd": 7473.463692
         },
         {
           "timestamp_utc": "2026-04-11T00:00:00Z",
+          "close_usdt": 2283.85,
           "normalized_value_usd": 7606.519922
         },
         {
           "timestamp_utc": "2026-04-12T00:00:00Z",
+          "close_usdt": 2190.62,
           "normalized_value_usd": 7296.010978
         },
         {
           "timestamp_utc": "2026-04-13T00:00:00Z",
+          "close_usdt": 2368.8,
           "normalized_value_usd": 7889.451755
         },
         {
           "timestamp_utc": "2026-04-14T00:00:00Z",
+          "close_usdt": 2321.17,
           "normalized_value_usd": 7730.816755
         },
         {
           "timestamp_utc": "2026-04-15T00:00:00Z",
+          "close_usdt": 2358.87,
           "normalized_value_usd": 7856.379205
         },
         {
           "timestamp_utc": "2026-04-16T00:00:00Z",
+          "close_usdt": 2346.92,
           "normalized_value_usd": 7816.578906
         },
         {
           "timestamp_utc": "2026-04-17T00:00:00Z",
+          "close_usdt": 2417.66,
           "normalized_value_usd": 8052.183354
         },
         {
           "timestamp_utc": "2026-04-18T00:00:00Z",
+          "close_usdt": 2348.99,
           "normalized_value_usd": 7823.473184
         },
         {
           "timestamp_utc": "2026-04-19T00:00:00Z",
+          "close_usdt": 2262.2,
           "normalized_value_usd": 7534.413104
         },
         {
           "timestamp_utc": "2026-04-20T00:00:00Z",
+          "close_usdt": 2312.59,
           "normalized_value_usd": 7702.240474
         },
         {
           "timestamp_utc": "2026-04-21T00:00:00Z",
+          "close_usdt": 2326.13,
           "normalized_value_usd": 7747.336377
         },
         {
           "timestamp_utc": "2026-04-22T00:00:00Z",
+          "close_usdt": 2373.04,
           "normalized_value_usd": 7903.573367
         },
         {
           "timestamp_utc": "2026-04-23T00:00:00Z",
+          "close_usdt": 2328.94,
           "normalized_value_usd": 7756.695276
         },
         {
           "timestamp_utc": "2026-04-24T00:00:00Z",
+          "close_usdt": 2313.88,
           "normalized_value_usd": 7706.536908
         },
         {
           "timestamp_utc": "2026-04-25T00:00:00Z",
+          "close_usdt": 2318.21,
           "normalized_value_usd": 7720.958271
         },
         {
           "timestamp_utc": "2026-04-26T00:00:00Z",
+          "close_usdt": 2368.32,
           "normalized_value_usd": 7887.853082
         },
         {
           "timestamp_utc": "2026-04-27T00:00:00Z",
+          "close_usdt": 2302.28,
           "normalized_value_usd": 7667.902308
         },
         {
           "timestamp_utc": "2026-04-28T00:00:00Z",
+          "close_usdt": 2288.37,
           "normalized_value_usd": 7621.574094
         },
         {
           "timestamp_utc": "2026-04-29T00:00:00Z",
+          "close_usdt": 2251.52,
           "normalized_value_usd": 7498.842627
         },
         {
           "timestamp_utc": "2026-04-30T00:00:00Z",
+          "close_usdt": 2256.49,
           "normalized_value_usd": 7515.395555
         },
         {
           "timestamp_utc": "2026-05-01T00:00:00Z",
+          "close_usdt": 2294.34,
           "normalized_value_usd": 7641.45759
         },
         {
           "timestamp_utc": "2026-05-02T00:00:00Z",
+          "close_usdt": 2315.9,
           "normalized_value_usd": 7713.264657
         },
         {
           "timestamp_utc": "2026-05-03T00:00:00Z",
+          "close_usdt": 2321.67,
           "normalized_value_usd": 7732.48204
         },
         {
           "timestamp_utc": "2026-05-04T00:00:00Z",
+          "close_usdt": 2346.11,
           "normalized_value_usd": 7813.881145
         },
         {
           "timestamp_utc": "2026-05-05T00:00:00Z",
+          "close_usdt": 2359.47,
           "normalized_value_usd": 7858.377547
         },
         {
           "timestamp_utc": "2026-05-06T00:00:00Z",
+          "close_usdt": 2349.7,
           "normalized_value_usd": 7825.837888
         },
         {
           "timestamp_utc": "2026-05-07T00:00:00Z",
+          "close_usdt": 2289.91,
           "normalized_value_usd": 7626.70317
         },
         {
           "timestamp_utc": "2026-05-08T00:00:00Z",
+          "close_usdt": 2306.17,
           "normalized_value_usd": 7680.858221
         },
         {
           "timestamp_utc": "2026-05-09T00:00:00Z",
+          "close_usdt": 2325.22,
           "normalized_value_usd": 7744.30556
         },
         {
           "timestamp_utc": "2026-05-10T00:00:00Z",
+          "close_usdt": 2370.21,
           "normalized_value_usd": 7894.147857
         },
         {
           "timestamp_utc": "2026-05-11T00:00:00Z",
+          "close_usdt": 2338.61,
           "normalized_value_usd": 7788.901878
         },
         {
           "timestamp_utc": "2026-05-12T00:00:00Z",
+          "close_usdt": 2273.62,
           "normalized_value_usd": 7572.448201
         },
         {
           "timestamp_utc": "2026-05-13T00:00:00Z",
+          "close_usdt": 2257.54,
           "normalized_value_usd": 7518.892652
         },
         {
           "timestamp_utc": "2026-05-14T00:00:00Z",
+          "close_usdt": 2282.06,
           "normalized_value_usd": 7600.558203
         },
         {
           "timestamp_utc": "2026-05-15T00:00:00Z",
+          "close_usdt": 2223.66,
           "normalized_value_usd": 7406.052976
         },
         {
           "timestamp_utc": "2026-05-16T00:00:00Z",
+          "close_usdt": 2179.66,
           "normalized_value_usd": 7259.507942
         },
         {
           "timestamp_utc": "2026-05-17T00:00:00Z",
+          "close_usdt": 2129.88,
           "normalized_value_usd": 7093.712219
         },
         {
           "timestamp_utc": "2026-05-18T00:00:00Z",
+          "close_usdt": 2128.99,
           "normalized_value_usd": 7090.748012
         },
         {
           "timestamp_utc": "2026-05-19T00:00:00Z",
+          "close_usdt": 2111.0,
           "normalized_value_usd": 7030.831077
         },
         {
           "timestamp_utc": "2026-05-20T00:00:00Z",
+          "close_usdt": 2128.6,
           "normalized_value_usd": 7089.449091
         },
         {
           "timestamp_utc": "2026-05-21T00:00:00Z",
+          "close_usdt": 2132.78,
           "normalized_value_usd": 7103.370869
         },
         {
           "timestamp_utc": "2026-05-22T00:00:00Z",
+          "close_usdt": 2064.98,
           "normalized_value_usd": 6877.558293
         },
         {
           "timestamp_utc": "2026-05-23T00:00:00Z",
+          "close_usdt": 2116.82,
           "normalized_value_usd": 7050.214988
         },
         {
           "timestamp_utc": "2026-05-24T00:00:00Z",
+          "close_usdt": 2098.99,
           "normalized_value_usd": 6990.830944
         },
         {
           "timestamp_utc": "2026-05-25T00:00:00Z",
+          "close_usdt": 2111.64,
           "normalized_value_usd": 7032.962641
         },
         {
           "timestamp_utc": "2026-05-26T00:00:00Z",
+          "close_usdt": 2072.99,
           "normalized_value_usd": 6904.236151
         },
         {
           "timestamp_utc": "2026-05-27T00:00:00Z",
+          "close_usdt": 2023.7,
           "normalized_value_usd": 6740.072407
         },
         {
           "timestamp_utc": "2026-05-28T00:00:00Z",
+          "close_usdt": 2008.92,
           "normalized_value_usd": 6690.846597
         },
         {
           "timestamp_utc": "2026-05-29T00:00:00Z",
+          "close_usdt": 2013.35,
           "normalized_value_usd": 6705.601018
         },
         {
           "timestamp_utc": "2026-05-30T00:00:00Z",
+          "close_usdt": 2021.58,
           "normalized_value_usd": 6733.0116
         },
         {
           "timestamp_utc": "2026-05-31T00:00:00Z",
+          "close_usdt": 2006.31,
           "normalized_value_usd": 6682.153812
         },
         {
           "timestamp_utc": "2026-06-01T00:00:00Z",
+          "close_usdt": 2006.0,
           "normalized_value_usd": 6681.121336
         },
         {
           "timestamp_utc": "2026-06-02T00:00:00Z",
+          "close_usdt": 1858.96,
           "normalized_value_usd": 6191.394476
         },
         {
           "timestamp_utc": "2026-06-03T00:00:00Z",
+          "close_usdt": 1812.46,
           "normalized_value_usd": 6036.523019
         },
         {
           "timestamp_utc": "2026-06-04T00:00:00Z",
+          "close_usdt": 1769.86,
           "normalized_value_usd": 5894.640781
         },
         {
           "timestamp_utc": "2026-06-05T00:00:00Z",
+          "close_usdt": 1582.35,
           "normalized_value_usd": 5270.125796
         },
         {
           "timestamp_utc": "2026-06-06T00:00:00Z",
+          "close_usdt": 1568.6,
           "normalized_value_usd": 5224.330472
         },
         {
           "timestamp_utc": "2026-06-07T00:00:00Z",
+          "close_usdt": 1689.66,
           "normalized_value_usd": 5627.529151
         },
         {
           "timestamp_utc": "2026-06-08T00:00:00Z",
+          "close_usdt": 1689.21,
           "normalized_value_usd": 5626.030395
         },
         {
           "timestamp_utc": "2026-06-09T00:00:00Z",
+          "close_usdt": 1638.64,
           "normalized_value_usd": 5457.603522
         },
         {
           "timestamp_utc": "2026-06-10T00:00:00Z",
+          "close_usdt": 1620.72,
           "normalized_value_usd": 5397.919727
         },
         {
           "timestamp_utc": "2026-06-11T00:00:00Z",
+          "close_usdt": 1672.57,
           "normalized_value_usd": 5570.609727
         },
         {
           "timestamp_utc": "2026-06-12T00:00:00Z",
+          "close_usdt": 1665.48,
           "normalized_value_usd": 5546.995993
         },
         {
           "timestamp_utc": "2026-06-13T00:00:00Z",
+          "close_usdt": 1680.41,
           "normalized_value_usd": 5596.721388
         },
         {
           "timestamp_utc": "2026-06-14T00:00:00Z",
+          "close_usdt": 1724.74,
           "normalized_value_usd": 5744.36551
         },
         {
           "timestamp_utc": "2026-06-15T00:00:00Z",
+          "close_usdt": 1795.16,
           "normalized_value_usd": 5978.904176
         },
         {
           "timestamp_utc": "2026-06-16T00:00:00Z",
+          "close_usdt": 1792.32,
           "normalized_value_usd": 5969.44536
         },
         {
           "timestamp_utc": "2026-06-17T00:00:00Z",
+          "close_usdt": 1749.56,
           "normalized_value_usd": 5827.030232
         },
         {
           "timestamp_utc": "2026-06-18T00:00:00Z",
+          "close_usdt": 1710.18,
           "normalized_value_usd": 5695.872426
         },
         {
           "timestamp_utc": "2026-06-19T00:00:00Z",
+          "close_usdt": 1710.31,
           "normalized_value_usd": 5696.3054
         },
         {
           "timestamp_utc": "2026-06-20T00:00:00Z",
+          "close_usdt": 1740.0,
           "normalized_value_usd": 5795.189992
         },
         {
           "timestamp_utc": "2026-06-21T00:00:00Z",
+          "close_usdt": 1706.31,
           "normalized_value_usd": 5682.983124
         },
         {
           "timestamp_utc": "2026-06-22T00:00:00Z",
+          "close_usdt": 1727.32,
           "normalized_value_usd": 5752.958378
         },
         {
           "timestamp_utc": "2026-06-23T00:00:00Z",
+          "close_usdt": 1666.4,
           "normalized_value_usd": 5550.060117
         },
         {
           "timestamp_utc": "2026-06-24T00:00:00Z",
+          "close_usdt": 1621.54,
           "normalized_value_usd": 5400.650793
         },
         {
           "timestamp_utc": "2026-06-25T00:00:00Z",
+          "close_usdt": 1566.97,
           "normalized_value_usd": 5218.901645
         },
         {
           "timestamp_utc": "2026-06-26T00:00:00Z",
+          "close_usdt": 1577.86,
           "normalized_value_usd": 5255.171541
         },
         {
           "timestamp_utc": "2026-06-27T00:00:00Z",
+          "close_usdt": 1573.1,
           "normalized_value_usd": 5239.318033
         },
         {
           "timestamp_utc": "2026-06-28T00:00:00Z",
+          "close_usdt": 1571.1,
           "normalized_value_usd": 5232.656895
         },
         {
           "timestamp_utc": "2026-06-29T00:00:00Z",
+          "close_usdt": 1612.12,
           "normalized_value_usd": 5369.276834
         },
         {
           "timestamp_utc": "2026-06-30T00:00:00Z",
+          "close_usdt": 1571.47,
           "normalized_value_usd": 5233.889205
         }
       ]
@@ -1486,8 +1867,951 @@
       "window_end_utc": "2026-06-30T00:00:00Z",
       "initial_value_usd": 10000.0,
       "final_value_usd": 5805.408815,
-      "total_return_pct": -41.945912,
+      "cumulative_return_pct": -41.945912,
+      "annualized_volatility_pct": 67.42955,
+      "maximum_drawdown_pct": -57.601801,
       "observations": 181,
+      "missing_dates": [],
+      "source_coordinate": {
+        "dataset": "liquidity_v1.daily_bars",
+        "symbol": "SOLUSDT",
+        "field": "close",
+        "frequency": "1D"
+      },
+      "series": [
+        {
+          "timestamp_utc": "2026-01-01T00:00:00Z",
+          "close_usdt": 126.83,
+          "normalized_value_usd": 10000.0
+        },
+        {
+          "timestamp_utc": "2026-01-02T00:00:00Z",
+          "close_usdt": 132.24,
+          "normalized_value_usd": 10426.555231
+        },
+        {
+          "timestamp_utc": "2026-01-03T00:00:00Z",
+          "close_usdt": 133.31,
+          "normalized_value_usd": 10510.920129
+        },
+        {
+          "timestamp_utc": "2026-01-04T00:00:00Z",
+          "close_usdt": 134.04,
+          "normalized_value_usd": 10568.47749
+        },
+        {
+          "timestamp_utc": "2026-01-05T00:00:00Z",
+          "close_usdt": 137.84,
+          "normalized_value_usd": 10868.091146
+        },
+        {
+          "timestamp_utc": "2026-01-06T00:00:00Z",
+          "close_usdt": 141.03,
+          "normalized_value_usd": 11119.608925
+        },
+        {
+          "timestamp_utc": "2026-01-07T00:00:00Z",
+          "close_usdt": 136.32,
+          "normalized_value_usd": 10748.245683
+        },
+        {
+          "timestamp_utc": "2026-01-08T00:00:00Z",
+          "close_usdt": 138.3,
+          "normalized_value_usd": 10904.360167
+        },
+        {
+          "timestamp_utc": "2026-01-09T00:00:00Z",
+          "close_usdt": 135.88,
+          "normalized_value_usd": 10713.553576
+        },
+        {
+          "timestamp_utc": "2026-01-10T00:00:00Z",
+          "close_usdt": 135.78,
+          "normalized_value_usd": 10705.669006
+        },
+        {
+          "timestamp_utc": "2026-01-11T00:00:00Z",
+          "close_usdt": 139.65,
+          "normalized_value_usd": 11010.801861
+        },
+        {
+          "timestamp_utc": "2026-01-12T00:00:00Z",
+          "close_usdt": 139.13,
+          "normalized_value_usd": 10969.802097
+        },
+        {
+          "timestamp_utc": "2026-01-13T00:00:00Z",
+          "close_usdt": 145.48,
+          "normalized_value_usd": 11470.472286
+        },
+        {
+          "timestamp_utc": "2026-01-14T00:00:00Z",
+          "close_usdt": 146.61,
+          "normalized_value_usd": 11559.567926
+        },
+        {
+          "timestamp_utc": "2026-01-15T00:00:00Z",
+          "close_usdt": 142.32,
+          "normalized_value_usd": 11221.319877
+        },
+        {
+          "timestamp_utc": "2026-01-16T00:00:00Z",
+          "close_usdt": 144.85,
+          "normalized_value_usd": 11420.799495
+        },
+        {
+          "timestamp_utc": "2026-01-17T00:00:00Z",
+          "close_usdt": 143.64,
+          "normalized_value_usd": 11325.3962
+        },
+        {
+          "timestamp_utc": "2026-01-18T00:00:00Z",
+          "close_usdt": 137.79,
+          "normalized_value_usd": 10864.148861
+        },
+        {
+          "timestamp_utc": "2026-01-19T00:00:00Z",
+          "close_usdt": 133.38,
+          "normalized_value_usd": 10516.439328
+        },
+        {
+          "timestamp_utc": "2026-01-20T00:00:00Z",
+          "close_usdt": 125.72,
+          "normalized_value_usd": 9912.481274
+        },
+        {
+          "timestamp_utc": "2026-01-21T00:00:00Z",
+          "close_usdt": 129.48,
+          "normalized_value_usd": 10208.941102
+        },
+        {
+          "timestamp_utc": "2026-01-22T00:00:00Z",
+          "close_usdt": 128.41,
+          "normalized_value_usd": 10124.576204
+        },
+        {
+          "timestamp_utc": "2026-01-23T00:00:00Z",
+          "close_usdt": 127.36,
+          "normalized_value_usd": 10041.78822
+        },
+        {
+          "timestamp_utc": "2026-01-24T00:00:00Z",
+          "close_usdt": 127.13,
+          "normalized_value_usd": 10023.65371
+        },
+        {
+          "timestamp_utc": "2026-01-25T00:00:00Z",
+          "close_usdt": 118.76,
+          "normalized_value_usd": 9363.715209
+        },
+        {
+          "timestamp_utc": "2026-01-26T00:00:00Z",
+          "close_usdt": 124.18,
+          "normalized_value_usd": 9791.058898
+        },
+        {
+          "timestamp_utc": "2026-01-27T00:00:00Z",
+          "close_usdt": 127.12,
+          "normalized_value_usd": 10022.865253
+        },
+        {
+          "timestamp_utc": "2026-01-28T00:00:00Z",
+          "close_usdt": 125.28,
+          "normalized_value_usd": 9877.789167
+        },
+        {
+          "timestamp_utc": "2026-01-29T00:00:00Z",
+          "close_usdt": 117.72,
+          "normalized_value_usd": 9281.715682
+        },
+        {
+          "timestamp_utc": "2026-01-30T00:00:00Z",
+          "close_usdt": 117.54,
+          "normalized_value_usd": 9267.523457
+        },
+        {
+          "timestamp_utc": "2026-01-31T00:00:00Z",
+          "close_usdt": 105.45,
+          "normalized_value_usd": 8314.278956
+        },
+        {
+          "timestamp_utc": "2026-02-01T00:00:00Z",
+          "close_usdt": 100.73,
+          "normalized_value_usd": 7942.127257
+        },
+        {
+          "timestamp_utc": "2026-02-02T00:00:00Z",
+          "close_usdt": 104.48,
+          "normalized_value_usd": 8237.798628
+        },
+        {
+          "timestamp_utc": "2026-02-03T00:00:00Z",
+          "close_usdt": 97.81,
+          "normalized_value_usd": 7711.897816
+        },
+        {
+          "timestamp_utc": "2026-02-04T00:00:00Z",
+          "close_usdt": 92.07,
+          "normalized_value_usd": 7259.323504
+        },
+        {
+          "timestamp_utc": "2026-02-05T00:00:00Z",
+          "close_usdt": 78.29,
+          "normalized_value_usd": 6172.829772
+        },
+        {
+          "timestamp_utc": "2026-02-06T00:00:00Z",
+          "close_usdt": 87.42,
+          "normalized_value_usd": 6892.691004
+        },
+        {
+          "timestamp_utc": "2026-02-07T00:00:00Z",
+          "close_usdt": 87.51,
+          "normalized_value_usd": 6899.787117
+        },
+        {
+          "timestamp_utc": "2026-02-08T00:00:00Z",
+          "close_usdt": 86.92,
+          "normalized_value_usd": 6853.268154
+        },
+        {
+          "timestamp_utc": "2026-02-09T00:00:00Z",
+          "close_usdt": 86.71,
+          "normalized_value_usd": 6836.710557
+        },
+        {
+          "timestamp_utc": "2026-02-10T00:00:00Z",
+          "close_usdt": 82.95,
+          "normalized_value_usd": 6540.250729
+        },
+        {
+          "timestamp_utc": "2026-02-11T00:00:00Z",
+          "close_usdt": 79.25,
+          "normalized_value_usd": 6248.521643
+        },
+        {
+          "timestamp_utc": "2026-02-12T00:00:00Z",
+          "close_usdt": 78.37,
+          "normalized_value_usd": 6179.137428
+        },
+        {
+          "timestamp_utc": "2026-02-13T00:00:00Z",
+          "close_usdt": 84.29,
+          "normalized_value_usd": 6645.903966
+        },
+        {
+          "timestamp_utc": "2026-02-14T00:00:00Z",
+          "close_usdt": 88.02,
+          "normalized_value_usd": 6939.998423
+        },
+        {
+          "timestamp_utc": "2026-02-15T00:00:00Z",
+          "close_usdt": 86.09,
+          "normalized_value_usd": 6787.826224
+        },
+        {
+          "timestamp_utc": "2026-02-16T00:00:00Z",
+          "close_usdt": 86.39,
+          "normalized_value_usd": 6811.479934
+        },
+        {
+          "timestamp_utc": "2026-02-17T00:00:00Z",
+          "close_usdt": 85.02,
+          "normalized_value_usd": 6703.461326
+        },
+        {
+          "timestamp_utc": "2026-02-18T00:00:00Z",
+          "close_usdt": 81.55,
+          "normalized_value_usd": 6429.866751
+        },
+        {
+          "timestamp_utc": "2026-02-19T00:00:00Z",
+          "close_usdt": 82.46,
+          "normalized_value_usd": 6501.616337
+        },
+        {
+          "timestamp_utc": "2026-02-20T00:00:00Z",
+          "close_usdt": 84.62,
+          "normalized_value_usd": 6671.923047
+        },
+        {
+          "timestamp_utc": "2026-02-21T00:00:00Z",
+          "close_usdt": 85.12,
+          "normalized_value_usd": 6711.345896
+        },
+        {
+          "timestamp_utc": "2026-02-22T00:00:00Z",
+          "close_usdt": 82.75,
+          "normalized_value_usd": 6524.48159
+        },
+        {
+          "timestamp_utc": "2026-02-23T00:00:00Z",
+          "close_usdt": 77.87,
+          "normalized_value_usd": 6139.714579
+        },
+        {
+          "timestamp_utc": "2026-02-24T00:00:00Z",
+          "close_usdt": 78.91,
+          "normalized_value_usd": 6221.714105
+        },
+        {
+          "timestamp_utc": "2026-02-25T00:00:00Z",
+          "close_usdt": 88.01,
+          "normalized_value_usd": 6939.209966
+        },
+        {
+          "timestamp_utc": "2026-02-26T00:00:00Z",
+          "close_usdt": 85.86,
+          "normalized_value_usd": 6769.691713
+        },
+        {
+          "timestamp_utc": "2026-02-27T00:00:00Z",
+          "close_usdt": 81.8,
+          "normalized_value_usd": 6449.578176
+        },
+        {
+          "timestamp_utc": "2026-02-28T00:00:00Z",
+          "close_usdt": 84.29,
+          "normalized_value_usd": 6645.903966
+        },
+        {
+          "timestamp_utc": "2026-03-01T00:00:00Z",
+          "close_usdt": 83.55,
+          "normalized_value_usd": 6587.558149
+        },
+        {
+          "timestamp_utc": "2026-03-02T00:00:00Z",
+          "close_usdt": 86.59,
+          "normalized_value_usd": 6827.249074
+        },
+        {
+          "timestamp_utc": "2026-03-03T00:00:00Z",
+          "close_usdt": 86.92,
+          "normalized_value_usd": 6853.268154
+        },
+        {
+          "timestamp_utc": "2026-03-04T00:00:00Z",
+          "close_usdt": 90.82,
+          "normalized_value_usd": 7160.76638
+        },
+        {
+          "timestamp_utc": "2026-03-05T00:00:00Z",
+          "close_usdt": 88.74,
+          "normalized_value_usd": 6996.767326
+        },
+        {
+          "timestamp_utc": "2026-03-06T00:00:00Z",
+          "close_usdt": 84.64,
+          "normalized_value_usd": 6673.499961
+        },
+        {
+          "timestamp_utc": "2026-03-07T00:00:00Z",
+          "close_usdt": 83.17,
+          "normalized_value_usd": 6557.596783
+        },
+        {
+          "timestamp_utc": "2026-03-08T00:00:00Z",
+          "close_usdt": 81.56,
+          "normalized_value_usd": 6430.655208
+        },
+        {
+          "timestamp_utc": "2026-03-09T00:00:00Z",
+          "close_usdt": 84.91,
+          "normalized_value_usd": 6694.788299
+        },
+        {
+          "timestamp_utc": "2026-03-10T00:00:00Z",
+          "close_usdt": 85.83,
+          "normalized_value_usd": 6767.326342
+        },
+        {
+          "timestamp_utc": "2026-03-11T00:00:00Z",
+          "close_usdt": 86.52,
+          "normalized_value_usd": 6821.729875
+        },
+        {
+          "timestamp_utc": "2026-03-12T00:00:00Z",
+          "close_usdt": 86.8,
+          "normalized_value_usd": 6843.80667
+        },
+        {
+          "timestamp_utc": "2026-03-13T00:00:00Z",
+          "close_usdt": 88.12,
+          "normalized_value_usd": 6947.882993
+        },
+        {
+          "timestamp_utc": "2026-03-14T00:00:00Z",
+          "close_usdt": 87.99,
+          "normalized_value_usd": 6937.633052
+        },
+        {
+          "timestamp_utc": "2026-03-15T00:00:00Z",
+          "close_usdt": 92.28,
+          "normalized_value_usd": 7275.881101
+        },
+        {
+          "timestamp_utc": "2026-03-16T00:00:00Z",
+          "close_usdt": 96.14,
+          "normalized_value_usd": 7580.225499
+        },
+        {
+          "timestamp_utc": "2026-03-17T00:00:00Z",
+          "close_usdt": 94.57,
+          "normalized_value_usd": 7456.437751
+        },
+        {
+          "timestamp_utc": "2026-03-18T00:00:00Z",
+          "close_usdt": 90.02,
+          "normalized_value_usd": 7097.689821
+        },
+        {
+          "timestamp_utc": "2026-03-19T00:00:00Z",
+          "close_usdt": 88.84,
+          "normalized_value_usd": 7004.651896
+        },
+        {
+          "timestamp_utc": "2026-03-20T00:00:00Z",
+          "close_usdt": 89.8,
+          "normalized_value_usd": 7080.343767
+        },
+        {
+          "timestamp_utc": "2026-03-21T00:00:00Z",
+          "close_usdt": 87.5,
+          "normalized_value_usd": 6898.99866
+        },
+        {
+          "timestamp_utc": "2026-03-22T00:00:00Z",
+          "close_usdt": 86.15,
+          "normalized_value_usd": 6792.556966
+        },
+        {
+          "timestamp_utc": "2026-03-23T00:00:00Z",
+          "close_usdt": 91.4,
+          "normalized_value_usd": 7206.496886
+        },
+        {
+          "timestamp_utc": "2026-03-24T00:00:00Z",
+          "close_usdt": 90.75,
+          "normalized_value_usd": 7155.247181
+        },
+        {
+          "timestamp_utc": "2026-03-25T00:00:00Z",
+          "close_usdt": 91.65,
+          "normalized_value_usd": 7226.20831
+        },
+        {
+          "timestamp_utc": "2026-03-26T00:00:00Z",
+          "close_usdt": 86.47,
+          "normalized_value_usd": 6817.78759
+        },
+        {
+          "timestamp_utc": "2026-03-27T00:00:00Z",
+          "close_usdt": 83.03,
+          "normalized_value_usd": 6546.558385
+        },
+        {
+          "timestamp_utc": "2026-03-28T00:00:00Z",
+          "close_usdt": 82.0,
+          "normalized_value_usd": 6465.347315
+        },
+        {
+          "timestamp_utc": "2026-03-29T00:00:00Z",
+          "close_usdt": 81.34,
+          "normalized_value_usd": 6413.309154
+        },
+        {
+          "timestamp_utc": "2026-03-30T00:00:00Z",
+          "close_usdt": 82.51,
+          "normalized_value_usd": 6505.558622
+        },
+        {
+          "timestamp_utc": "2026-03-31T00:00:00Z",
+          "close_usdt": 83.15,
+          "normalized_value_usd": 6556.019869
+        },
+        {
+          "timestamp_utc": "2026-04-01T00:00:00Z",
+          "close_usdt": 81.14,
+          "normalized_value_usd": 6397.540014
+        },
+        {
+          "timestamp_utc": "2026-04-02T00:00:00Z",
+          "close_usdt": 78.91,
+          "normalized_value_usd": 6221.714105
+        },
+        {
+          "timestamp_utc": "2026-04-03T00:00:00Z",
+          "close_usdt": 80.35,
+          "normalized_value_usd": 6335.251912
+        },
+        {
+          "timestamp_utc": "2026-04-04T00:00:00Z",
+          "close_usdt": 80.79,
+          "normalized_value_usd": 6369.94402
+        },
+        {
+          "timestamp_utc": "2026-04-05T00:00:00Z",
+          "close_usdt": 81.85,
+          "normalized_value_usd": 6453.52046
+        },
+        {
+          "timestamp_utc": "2026-04-06T00:00:00Z",
+          "close_usdt": 79.96,
+          "normalized_value_usd": 6304.502089
+        },
+        {
+          "timestamp_utc": "2026-04-07T00:00:00Z",
+          "close_usdt": 85.54,
+          "normalized_value_usd": 6744.46109
+        },
+        {
+          "timestamp_utc": "2026-04-08T00:00:00Z",
+          "close_usdt": 82.52,
+          "normalized_value_usd": 6506.347079
+        },
+        {
+          "timestamp_utc": "2026-04-09T00:00:00Z",
+          "close_usdt": 83.29,
+          "normalized_value_usd": 6567.058267
+        },
+        {
+          "timestamp_utc": "2026-04-10T00:00:00Z",
+          "close_usdt": 84.78,
+          "normalized_value_usd": 6684.538358
+        },
+        {
+          "timestamp_utc": "2026-04-11T00:00:00Z",
+          "close_usdt": 84.89,
+          "normalized_value_usd": 6693.211385
+        },
+        {
+          "timestamp_utc": "2026-04-12T00:00:00Z",
+          "close_usdt": 81.49,
+          "normalized_value_usd": 6425.136009
+        },
+        {
+          "timestamp_utc": "2026-04-13T00:00:00Z",
+          "close_usdt": 86.5,
+          "normalized_value_usd": 6820.152961
+        },
+        {
+          "timestamp_utc": "2026-04-14T00:00:00Z",
+          "close_usdt": 83.66,
+          "normalized_value_usd": 6596.231176
+        },
+        {
+          "timestamp_utc": "2026-04-15T00:00:00Z",
+          "close_usdt": 84.85,
+          "normalized_value_usd": 6690.057557
+        },
+        {
+          "timestamp_utc": "2026-04-16T00:00:00Z",
+          "close_usdt": 89.03,
+          "normalized_value_usd": 7019.632579
+        },
+        {
+          "timestamp_utc": "2026-04-17T00:00:00Z",
+          "close_usdt": 88.71,
+          "normalized_value_usd": 6994.401955
+        },
+        {
+          "timestamp_utc": "2026-04-18T00:00:00Z",
+          "close_usdt": 86.11,
+          "normalized_value_usd": 6789.403138
+        },
+        {
+          "timestamp_utc": "2026-04-19T00:00:00Z",
+          "close_usdt": 83.41,
+          "normalized_value_usd": 6576.519751
+        },
+        {
+          "timestamp_utc": "2026-04-20T00:00:00Z",
+          "close_usdt": 85.24,
+          "normalized_value_usd": 6720.80738
+        },
+        {
+          "timestamp_utc": "2026-04-21T00:00:00Z",
+          "close_usdt": 86.0,
+          "normalized_value_usd": 6780.730111
+        },
+        {
+          "timestamp_utc": "2026-04-22T00:00:00Z",
+          "close_usdt": 86.83,
+          "normalized_value_usd": 6846.172041
+        },
+        {
+          "timestamp_utc": "2026-04-23T00:00:00Z",
+          "close_usdt": 86.08,
+          "normalized_value_usd": 6787.037767
+        },
+        {
+          "timestamp_utc": "2026-04-24T00:00:00Z",
+          "close_usdt": 86.13,
+          "normalized_value_usd": 6790.980052
+        },
+        {
+          "timestamp_utc": "2026-04-25T00:00:00Z",
+          "close_usdt": 86.13,
+          "normalized_value_usd": 6790.980052
+        },
+        {
+          "timestamp_utc": "2026-04-26T00:00:00Z",
+          "close_usdt": 86.87,
+          "normalized_value_usd": 6849.325869
+        },
+        {
+          "timestamp_utc": "2026-04-27T00:00:00Z",
+          "close_usdt": 84.78,
+          "normalized_value_usd": 6684.538358
+        },
+        {
+          "timestamp_utc": "2026-04-28T00:00:00Z",
+          "close_usdt": 84.02,
+          "normalized_value_usd": 6624.615627
+        },
+        {
+          "timestamp_utc": "2026-04-29T00:00:00Z",
+          "close_usdt": 83.01,
+          "normalized_value_usd": 6544.981471
+        },
+        {
+          "timestamp_utc": "2026-04-30T00:00:00Z",
+          "close_usdt": 83.04,
+          "normalized_value_usd": 6547.346842
+        },
+        {
+          "timestamp_utc": "2026-05-01T00:00:00Z",
+          "close_usdt": 83.7,
+          "normalized_value_usd": 6599.385004
+        },
+        {
+          "timestamp_utc": "2026-05-02T00:00:00Z",
+          "close_usdt": 84.23,
+          "normalized_value_usd": 6641.173224
+        },
+        {
+          "timestamp_utc": "2026-05-03T00:00:00Z",
+          "close_usdt": 83.87,
+          "normalized_value_usd": 6612.788772
+        },
+        {
+          "timestamp_utc": "2026-05-04T00:00:00Z",
+          "close_usdt": 84.05,
+          "normalized_value_usd": 6626.980998
+        },
+        {
+          "timestamp_utc": "2026-05-05T00:00:00Z",
+          "close_usdt": 86.24,
+          "normalized_value_usd": 6799.653079
+        },
+        {
+          "timestamp_utc": "2026-05-06T00:00:00Z",
+          "close_usdt": 89.1,
+          "normalized_value_usd": 7025.151778
+        },
+        {
+          "timestamp_utc": "2026-05-07T00:00:00Z",
+          "close_usdt": 88.4,
+          "normalized_value_usd": 6969.959789
+        },
+        {
+          "timestamp_utc": "2026-05-08T00:00:00Z",
+          "close_usdt": 91.97,
+          "normalized_value_usd": 7251.438934
+        },
+        {
+          "timestamp_utc": "2026-05-09T00:00:00Z",
+          "close_usdt": 93.07,
+          "normalized_value_usd": 7338.169203
+        },
+        {
+          "timestamp_utc": "2026-05-10T00:00:00Z",
+          "close_usdt": 96.42,
+          "normalized_value_usd": 7602.302294
+        },
+        {
+          "timestamp_utc": "2026-05-11T00:00:00Z",
+          "close_usdt": 97.31,
+          "normalized_value_usd": 7672.474966
+        },
+        {
+          "timestamp_utc": "2026-05-12T00:00:00Z",
+          "close_usdt": 94.25,
+          "normalized_value_usd": 7431.207128
+        },
+        {
+          "timestamp_utc": "2026-05-13T00:00:00Z",
+          "close_usdt": 91.11,
+          "normalized_value_usd": 7183.631633
+        },
+        {
+          "timestamp_utc": "2026-05-14T00:00:00Z",
+          "close_usdt": 92.11,
+          "normalized_value_usd": 7262.477332
+        },
+        {
+          "timestamp_utc": "2026-05-15T00:00:00Z",
+          "close_usdt": 89.2,
+          "normalized_value_usd": 7033.036348
+        },
+        {
+          "timestamp_utc": "2026-05-16T00:00:00Z",
+          "close_usdt": 86.48,
+          "normalized_value_usd": 6818.576047
+        },
+        {
+          "timestamp_utc": "2026-05-17T00:00:00Z",
+          "close_usdt": 85.17,
+          "normalized_value_usd": 6715.288181
+        },
+        {
+          "timestamp_utc": "2026-05-18T00:00:00Z",
+          "close_usdt": 85.34,
+          "normalized_value_usd": 6728.69195
+        },
+        {
+          "timestamp_utc": "2026-05-19T00:00:00Z",
+          "close_usdt": 84.24,
+          "normalized_value_usd": 6641.961681
+        },
+        {
+          "timestamp_utc": "2026-05-20T00:00:00Z",
+          "close_usdt": 86.11,
+          "normalized_value_usd": 6789.403138
+        },
+        {
+          "timestamp_utc": "2026-05-21T00:00:00Z",
+          "close_usdt": 87.32,
+          "normalized_value_usd": 6884.806434
+        },
+        {
+          "timestamp_utc": "2026-05-22T00:00:00Z",
+          "close_usdt": 84.36,
+          "normalized_value_usd": 6651.423165
+        },
+        {
+          "timestamp_utc": "2026-05-23T00:00:00Z",
+          "close_usdt": 85.71,
+          "normalized_value_usd": 6757.864858
+        },
+        {
+          "timestamp_utc": "2026-05-24T00:00:00Z",
+          "close_usdt": 85.23,
+          "normalized_value_usd": 6720.018923
+        },
+        {
+          "timestamp_utc": "2026-05-25T00:00:00Z",
+          "close_usdt": 85.01,
+          "normalized_value_usd": 6702.672869
+        },
+        {
+          "timestamp_utc": "2026-05-26T00:00:00Z",
+          "close_usdt": 83.66,
+          "normalized_value_usd": 6596.231176
+        },
+        {
+          "timestamp_utc": "2026-05-27T00:00:00Z",
+          "close_usdt": 82.38,
+          "normalized_value_usd": 6495.308681
+        },
+        {
+          "timestamp_utc": "2026-05-28T00:00:00Z",
+          "close_usdt": 82.07,
+          "normalized_value_usd": 6470.866514
+        },
+        {
+          "timestamp_utc": "2026-05-29T00:00:00Z",
+          "close_usdt": 81.98,
+          "normalized_value_usd": 6463.770401
+        },
+        {
+          "timestamp_utc": "2026-05-30T00:00:00Z",
+          "close_usdt": 82.69,
+          "normalized_value_usd": 6519.750848
+        },
+        {
+          "timestamp_utc": "2026-05-31T00:00:00Z",
+          "close_usdt": 82.39,
+          "normalized_value_usd": 6496.097138
+        },
+        {
+          "timestamp_utc": "2026-06-01T00:00:00Z",
+          "close_usdt": 81.25,
+          "normalized_value_usd": 6406.213041
+        },
+        {
+          "timestamp_utc": "2026-06-02T00:00:00Z",
+          "close_usdt": 74.18,
+          "normalized_value_usd": 5848.773949
+        },
+        {
+          "timestamp_utc": "2026-06-03T00:00:00Z",
+          "close_usdt": 71.58,
+          "normalized_value_usd": 5643.775132
+        },
+        {
+          "timestamp_utc": "2026-06-04T00:00:00Z",
+          "close_usdt": 68.82,
+          "normalized_value_usd": 5426.161003
+        },
+        {
+          "timestamp_utc": "2026-06-05T00:00:00Z",
+          "close_usdt": 63.6,
+          "normalized_value_usd": 5014.586454
+        },
+        {
+          "timestamp_utc": "2026-06-06T00:00:00Z",
+          "close_usdt": 62.16,
+          "normalized_value_usd": 4901.048648
+        },
+        {
+          "timestamp_utc": "2026-06-07T00:00:00Z",
+          "close_usdt": 66.45,
+          "normalized_value_usd": 5239.296696
+        },
+        {
+          "timestamp_utc": "2026-06-08T00:00:00Z",
+          "close_usdt": 66.79,
+          "normalized_value_usd": 5266.104234
+        },
+        {
+          "timestamp_utc": "2026-06-09T00:00:00Z",
+          "close_usdt": 64.92,
+          "normalized_value_usd": 5118.662777
+        },
+        {
+          "timestamp_utc": "2026-06-10T00:00:00Z",
+          "close_usdt": 63.16,
+          "normalized_value_usd": 4979.894347
+        },
+        {
+          "timestamp_utc": "2026-06-11T00:00:00Z",
+          "close_usdt": 66.88,
+          "normalized_value_usd": 5273.200347
+        },
+        {
+          "timestamp_utc": "2026-06-12T00:00:00Z",
+          "close_usdt": 66.79,
+          "normalized_value_usd": 5266.104234
+        },
+        {
+          "timestamp_utc": "2026-06-13T00:00:00Z",
+          "close_usdt": 68.88,
+          "normalized_value_usd": 5430.891745
+        },
+        {
+          "timestamp_utc": "2026-06-14T00:00:00Z",
+          "close_usdt": 71.24,
+          "normalized_value_usd": 5616.967594
+        },
+        {
+          "timestamp_utc": "2026-06-15T00:00:00Z",
+          "close_usdt": 73.93,
+          "normalized_value_usd": 5829.062525
+        },
+        {
+          "timestamp_utc": "2026-06-16T00:00:00Z",
+          "close_usdt": 73.49,
+          "normalized_value_usd": 5794.370417
+        },
+        {
+          "timestamp_utc": "2026-06-17T00:00:00Z",
+          "close_usdt": 72.0,
+          "normalized_value_usd": 5676.890326
+        },
+        {
+          "timestamp_utc": "2026-06-18T00:00:00Z",
+          "close_usdt": 69.69,
+          "normalized_value_usd": 5494.756761
+        },
+        {
+          "timestamp_utc": "2026-06-19T00:00:00Z",
+          "close_usdt": 69.69,
+          "normalized_value_usd": 5494.756761
+        },
+        {
+          "timestamp_utc": "2026-06-20T00:00:00Z",
+          "close_usdt": 73.19,
+          "normalized_value_usd": 5770.716707
+        },
+        {
+          "timestamp_utc": "2026-06-21T00:00:00Z",
+          "close_usdt": 72.42,
+          "normalized_value_usd": 5710.005519
+        },
+        {
+          "timestamp_utc": "2026-06-22T00:00:00Z",
+          "close_usdt": 71.91,
+          "normalized_value_usd": 5669.794213
+        },
+        {
+          "timestamp_utc": "2026-06-23T00:00:00Z",
+          "close_usdt": 69.65,
+          "normalized_value_usd": 5491.602933
+        },
+        {
+          "timestamp_utc": "2026-06-24T00:00:00Z",
+          "close_usdt": 68.07,
+          "normalized_value_usd": 5367.026729
+        },
+        {
+          "timestamp_utc": "2026-06-25T00:00:00Z",
+          "close_usdt": 67.69,
+          "normalized_value_usd": 5337.065363
+        },
+        {
+          "timestamp_utc": "2026-06-26T00:00:00Z",
+          "close_usdt": 71.87,
+          "normalized_value_usd": 5666.640385
+        },
+        {
+          "timestamp_utc": "2026-06-27T00:00:00Z",
+          "close_usdt": 70.47,
+          "normalized_value_usd": 5556.256406
+        },
+        {
+          "timestamp_utc": "2026-06-28T00:00:00Z",
+          "close_usdt": 71.35,
+          "normalized_value_usd": 5625.640621
+        },
+        {
+          "timestamp_utc": "2026-06-29T00:00:00Z",
+          "close_usdt": 75.13,
+          "normalized_value_usd": 5923.677363
+        },
+        {
+          "timestamp_utc": "2026-06-30T00:00:00Z",
+          "close_usdt": 73.63,
+          "normalized_value_usd": 5805.408815
+        }
+      ]
+    },
+    {
+      "asset": "BTC_ETH_SOL_EQUAL_WEIGHT",
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "SOLUSDT"
+      ],
+      "window_start_utc": "2026-01-01T00:00:00Z",
+      "window_end_utc": "2026-06-30T00:00:00Z",
+      "initial_value_usd": 10000.0,
+      "final_value_usd": 5879.668409,
+      "cumulative_return_pct": -41.203316,
+      "annualized_volatility_pct": 58.207835,
+      "maximum_drawdown_pct": -49.532223,
+      "observations": 181,
+      "missing_dates": [],
+      "source_coordinate": {
+        "dataset": "liquidity_v1.daily_bars",
+        "symbols": [
+          "BTCUSDT",
+          "ETHUSDT",
+          "SOLUSDT"
+        ],
+        "field": "equal-weight normalized close",
+        "frequency": "1D"
+      },
       "series": [
         {
           "timestamp_utc": "2026-01-01T00:00:00Z",
@@ -1495,723 +2819,723 @@
         },
         {
           "timestamp_utc": "2026-01-02T00:00:00Z",
-          "normalized_value_usd": 10426.555231
+          "normalized_value_usd": 10320.182822
         },
         {
           "timestamp_utc": "2026-01-03T00:00:00Z",
-          "normalized_value_usd": 10510.920129
+          "normalized_value_usd": 10374.247743
         },
         {
           "timestamp_utc": "2026-01-04T00:00:00Z",
-          "normalized_value_usd": 10568.47749
+          "normalized_value_usd": 10447.082998
         },
         {
           "timestamp_utc": "2026-01-05T00:00:00Z",
-          "normalized_value_usd": 10868.091146
+          "normalized_value_usd": 10723.488399
         },
         {
           "timestamp_utc": "2026-01-06T00:00:00Z",
-          "normalized_value_usd": 11119.608925
+          "normalized_value_usd": 10882.689472
         },
         {
           "timestamp_utc": "2026-01-07T00:00:00Z",
-          "normalized_value_usd": 10748.245683
+          "normalized_value_usd": 10527.524721
         },
         {
           "timestamp_utc": "2026-01-08T00:00:00Z",
-          "normalized_value_usd": 10904.360167
+          "normalized_value_usd": 10500.585843
         },
         {
           "timestamp_utc": "2026-01-09T00:00:00Z",
-          "normalized_value_usd": 10713.553576
+          "normalized_value_usd": 10399.542551
         },
         {
           "timestamp_utc": "2026-01-10T00:00:00Z",
-          "normalized_value_usd": 10705.669006
+          "normalized_value_usd": 10390.019212
         },
         {
           "timestamp_utc": "2026-01-11T00:00:00Z",
-          "normalized_value_usd": 11010.801861
+          "normalized_value_usd": 10550.858966
         },
         {
           "timestamp_utc": "2026-01-12T00:00:00Z",
-          "normalized_value_usd": 10969.802097
+          "normalized_value_usd": 10516.747755
         },
         {
           "timestamp_utc": "2026-01-13T00:00:00Z",
-          "normalized_value_usd": 11470.472286
+          "normalized_value_usd": 11094.677352
         },
         {
           "timestamp_utc": "2026-01-14T00:00:00Z",
-          "normalized_value_usd": 11559.567926
+          "normalized_value_usd": 11213.638903
         },
         {
           "timestamp_utc": "2026-01-15T00:00:00Z",
-          "normalized_value_usd": 11221.319877
+          "normalized_value_usd": 11010.300151
         },
         {
           "timestamp_utc": "2026-01-16T00:00:00Z",
-          "normalized_value_usd": 11420.799495
+          "normalized_value_usd": 11049.726454
         },
         {
           "timestamp_utc": "2026-01-17T00:00:00Z",
-          "normalized_value_usd": 11325.3962
+          "normalized_value_usd": 11018.721672
         },
         {
           "timestamp_utc": "2026-01-18T00:00:00Z",
-          "normalized_value_usd": 10864.148861
+          "normalized_value_usd": 10779.919282
         },
         {
           "timestamp_utc": "2026-01-19T00:00:00Z",
-          "normalized_value_usd": 10516.439328
+          "normalized_value_usd": 10520.36108
         },
         {
           "timestamp_utc": "2026-01-20T00:00:00Z",
-          "normalized_value_usd": 9912.481274
+          "normalized_value_usd": 9884.129538
         },
         {
           "timestamp_utc": "2026-01-21T00:00:00Z",
-          "normalized_value_usd": 10208.941102
+          "normalized_value_usd": 10068.362044
         },
         {
           "timestamp_utc": "2026-01-22T00:00:00Z",
-          "normalized_value_usd": 10124.576204
+          "normalized_value_usd": 10011.565597
         },
         {
           "timestamp_utc": "2026-01-23T00:00:00Z",
-          "normalized_value_usd": 10041.78822
+          "normalized_value_usd": 9989.775045
         },
         {
           "timestamp_utc": "2026-01-24T00:00:00Z",
-          "normalized_value_usd": 10023.65371
+          "normalized_value_usd": 9966.221552
         },
         {
           "timestamp_utc": "2026-01-25T00:00:00Z",
-          "normalized_value_usd": 9363.715209
+          "normalized_value_usd": 9498.801857
         },
         {
           "timestamp_utc": "2026-01-26T00:00:00Z",
-          "normalized_value_usd": 9791.058898
+          "normalized_value_usd": 9829.907863
         },
         {
           "timestamp_utc": "2026-01-27T00:00:00Z",
-          "normalized_value_usd": 10022.865253
+          "normalized_value_usd": 10047.455737
         },
         {
           "timestamp_utc": "2026-01-28T00:00:00Z",
-          "normalized_value_usd": 9877.789167
+          "normalized_value_usd": 9984.22114
         },
         {
           "timestamp_utc": "2026-01-29T00:00:00Z",
-          "normalized_value_usd": 9281.715682
+          "normalized_value_usd": 9401.602342
         },
         {
           "timestamp_utc": "2026-01-30T00:00:00Z",
-          "normalized_value_usd": 9267.523457
+          "normalized_value_usd": 9254.058813
         },
         {
           "timestamp_utc": "2026-01-31T00:00:00Z",
-          "normalized_value_usd": 8314.278956
+          "normalized_value_usd": 8446.272302
         },
         {
           "timestamp_utc": "2026-02-01T00:00:00Z",
-          "normalized_value_usd": 7942.127257
+          "normalized_value_usd": 8054.259553
         },
         {
           "timestamp_utc": "2026-02-02T00:00:00Z",
-          "normalized_value_usd": 8237.798628
+          "normalized_value_usd": 8303.860891
         },
         {
           "timestamp_utc": "2026-02-03T00:00:00Z",
-          "normalized_value_usd": 7711.897816
+          "normalized_value_usd": 7891.639064
         },
         {
           "timestamp_utc": "2026-02-04T00:00:00Z",
-          "normalized_value_usd": 7259.323504
+          "normalized_value_usd": 7548.760688
         },
         {
           "timestamp_utc": "2026-02-05T00:00:00Z",
-          "normalized_value_usd": 6172.829772
+          "normalized_value_usd": 6443.564196
         },
         {
           "timestamp_utc": "2026-02-06T00:00:00Z",
-          "normalized_value_usd": 6892.691004
+          "normalized_value_usd": 7235.441053
         },
         {
           "timestamp_utc": "2026-02-07T00:00:00Z",
-          "normalized_value_usd": 6899.787117
+          "normalized_value_usd": 7215.339075
         },
         {
           "timestamp_utc": "2026-02-08T00:00:00Z",
-          "normalized_value_usd": 6853.268154
+          "normalized_value_usd": 7241.607021
         },
         {
           "timestamp_utc": "2026-02-09T00:00:00Z",
-          "normalized_value_usd": 6836.710557
+          "normalized_value_usd": 7246.473668
         },
         {
           "timestamp_utc": "2026-02-10T00:00:00Z",
-          "normalized_value_usd": 6540.250729
+          "normalized_value_usd": 7007.124595
         },
         {
           "timestamp_utc": "2026-02-11T00:00:00Z",
-          "normalized_value_usd": 6248.521643
+          "normalized_value_usd": 6753.743246
         },
         {
           "timestamp_utc": "2026-02-12T00:00:00Z",
-          "normalized_value_usd": 6179.137428
+          "normalized_value_usd": 6708.021113
         },
         {
           "timestamp_utc": "2026-02-13T00:00:00Z",
-          "normalized_value_usd": 6645.903966
+          "normalized_value_usd": 7071.915297
         },
         {
           "timestamp_utc": "2026-02-14T00:00:00Z",
-          "normalized_value_usd": 6939.998423
+          "normalized_value_usd": 7248.503065
         },
         {
           "timestamp_utc": "2026-02-15T00:00:00Z",
-          "normalized_value_usd": 6787.826224
+          "normalized_value_usd": 7027.119416
         },
         {
           "timestamp_utc": "2026-02-16T00:00:00Z",
-          "normalized_value_usd": 6811.479934
+          "normalized_value_usd": 7072.859295
         },
         {
           "timestamp_utc": "2026-02-17T00:00:00Z",
-          "normalized_value_usd": 6703.461326
+          "normalized_value_usd": 6977.398577
         },
         {
           "timestamp_utc": "2026-02-18T00:00:00Z",
-          "normalized_value_usd": 6429.866751
+          "normalized_value_usd": 6806.802695
         },
         {
           "timestamp_utc": "2026-02-19T00:00:00Z",
-          "normalized_value_usd": 6501.616337
+          "normalized_value_usd": 6844.060459
         },
         {
           "timestamp_utc": "2026-02-20T00:00:00Z",
-          "normalized_value_usd": 6671.923047
+          "normalized_value_usd": 6960.436585
         },
         {
           "timestamp_utc": "2026-02-21T00:00:00Z",
-          "normalized_value_usd": 6711.345896
+          "normalized_value_usd": 6977.05009
         },
         {
           "timestamp_utc": "2026-02-22T00:00:00Z",
-          "normalized_value_usd": 6524.48159
+          "normalized_value_usd": 6885.523745
         },
         {
           "timestamp_utc": "2026-02-23T00:00:00Z",
-          "normalized_value_usd": 6139.714579
+          "normalized_value_usd": 6532.388516
         },
         {
           "timestamp_utc": "2026-02-24T00:00:00Z",
-          "normalized_value_usd": 6221.714105
+          "normalized_value_usd": 6532.542995
         },
         {
           "timestamp_utc": "2026-02-25T00:00:00Z",
-          "normalized_value_usd": 6939.209966
+          "normalized_value_usd": 7146.944531
         },
         {
           "timestamp_utc": "2026-02-26T00:00:00Z",
-          "normalized_value_usd": 6769.691713
+          "normalized_value_usd": 7038.435717
         },
         {
           "timestamp_utc": "2026-02-27T00:00:00Z",
-          "normalized_value_usd": 6449.578176
+          "normalized_value_usd": 6762.18146
         },
         {
           "timestamp_utc": "2026-02-28T00:00:00Z",
-          "normalized_value_usd": 6645.903966
+          "normalized_value_usd": 6907.790407
         },
         {
           "timestamp_utc": "2026-03-01T00:00:00Z",
-          "normalized_value_usd": 6587.558149
+          "normalized_value_usd": 6816.126166
         },
         {
           "timestamp_utc": "2026-03-02T00:00:00Z",
-          "normalized_value_usd": 6827.249074
+          "normalized_value_usd": 7108.410111
         },
         {
           "timestamp_utc": "2026-03-03T00:00:00Z",
-          "normalized_value_usd": 6853.268154
+          "normalized_value_usd": 7048.289471
         },
         {
           "timestamp_utc": "2026-03-04T00:00:00Z",
-          "normalized_value_usd": 7160.76638
+          "normalized_value_usd": 7473.942406
         },
         {
           "timestamp_utc": "2026-03-05T00:00:00Z",
-          "normalized_value_usd": 6996.767326
+          "normalized_value_usd": 7292.483287
         },
         {
           "timestamp_utc": "2026-03-06T00:00:00Z",
-          "normalized_value_usd": 6673.499961
+          "normalized_value_usd": 6975.745826
         },
         {
           "timestamp_utc": "2026-03-07T00:00:00Z",
-          "normalized_value_usd": 6557.596783
+          "normalized_value_usd": 6894.879284
         },
         {
           "timestamp_utc": "2026-03-08T00:00:00Z",
-          "normalized_value_usd": 6430.655208
+          "normalized_value_usd": 6767.856861
         },
         {
           "timestamp_utc": "2026-03-09T00:00:00Z",
-          "normalized_value_usd": 6694.788299
+          "normalized_value_usd": 7010.750839
         },
         {
           "timestamp_utc": "2026-03-10T00:00:00Z",
-          "normalized_value_usd": 6767.326342
+          "normalized_value_usd": 7139.389562
         },
         {
           "timestamp_utc": "2026-03-11T00:00:00Z",
-          "normalized_value_usd": 6821.729875
+          "normalized_value_usd": 7184.156095
         },
         {
           "timestamp_utc": "2026-03-12T00:00:00Z",
-          "normalized_value_usd": 6843.80667
+          "normalized_value_usd": 7227.897366
         },
         {
           "timestamp_utc": "2026-03-13T00:00:00Z",
-          "normalized_value_usd": 6947.882993
+          "normalized_value_usd": 7298.621158
         },
         {
           "timestamp_utc": "2026-03-14T00:00:00Z",
-          "normalized_value_usd": 6937.633052
+          "normalized_value_usd": 7310.403138
         },
         {
           "timestamp_utc": "2026-03-15T00:00:00Z",
-          "normalized_value_usd": 7275.881101
+          "normalized_value_usd": 7574.927706
         },
         {
           "timestamp_utc": "2026-03-16T00:00:00Z",
-          "normalized_value_usd": 7580.225499
+          "normalized_value_usd": 7947.079984
         },
         {
           "timestamp_utc": "2026-03-17T00:00:00Z",
-          "normalized_value_usd": 7456.437751
+          "normalized_value_usd": 7830.166062
         },
         {
           "timestamp_utc": "2026-03-18T00:00:00Z",
-          "normalized_value_usd": 7097.689821
+          "normalized_value_usd": 7483.260247
         },
         {
           "timestamp_utc": "2026-03-19T00:00:00Z",
-          "normalized_value_usd": 7004.651896
+          "normalized_value_usd": 7330.271673
         },
         {
           "timestamp_utc": "2026-03-20T00:00:00Z",
-          "normalized_value_usd": 7080.343767
+          "normalized_value_usd": 7386.931833
         },
         {
           "timestamp_utc": "2026-03-21T00:00:00Z",
-          "normalized_value_usd": 6898.99866
+          "normalized_value_usd": 7198.243931
         },
         {
           "timestamp_utc": "2026-03-22T00:00:00Z",
-          "normalized_value_usd": 6792.556966
+          "normalized_value_usd": 7089.43218
         },
         {
           "timestamp_utc": "2026-03-23T00:00:00Z",
-          "normalized_value_usd": 7206.496886
+          "normalized_value_usd": 7450.326057
         },
         {
           "timestamp_utc": "2026-03-24T00:00:00Z",
-          "normalized_value_usd": 7155.247181
+          "normalized_value_usd": 7425.156596
         },
         {
           "timestamp_utc": "2026-03-25T00:00:00Z",
-          "normalized_value_usd": 7226.20831
+          "normalized_value_usd": 7491.959855
         },
         {
           "timestamp_utc": "2026-03-26T00:00:00Z",
-          "normalized_value_usd": 6817.78759
+          "normalized_value_usd": 7140.797225
         },
         {
           "timestamp_utc": "2026-03-27T00:00:00Z",
-          "normalized_value_usd": 6546.558385
+          "normalized_value_usd": 6884.366288
         },
         {
           "timestamp_utc": "2026-03-28T00:00:00Z",
-          "normalized_value_usd": 6465.347315
+          "normalized_value_usd": 6858.301688
         },
         {
           "timestamp_utc": "2026-03-29T00:00:00Z",
-          "normalized_value_usd": 6413.309154
+          "normalized_value_usd": 6816.412183
         },
         {
           "timestamp_utc": "2026-03-30T00:00:00Z",
-          "normalized_value_usd": 6505.558622
+          "normalized_value_usd": 6923.590792
         },
         {
           "timestamp_utc": "2026-03-31T00:00:00Z",
-          "normalized_value_usd": 6556.019869
+          "normalized_value_usd": 7083.340849
         },
         {
           "timestamp_utc": "2026-04-01T00:00:00Z",
-          "normalized_value_usd": 6397.540014
+          "normalized_value_usd": 7062.786519
         },
         {
           "timestamp_utc": "2026-04-02T00:00:00Z",
-          "normalized_value_usd": 6221.714105
+          "normalized_value_usd": 6866.489051
         },
         {
           "timestamp_utc": "2026-04-03T00:00:00Z",
-          "normalized_value_usd": 6335.251912
+          "normalized_value_usd": 6903.268569
         },
         {
           "timestamp_utc": "2026-04-04T00:00:00Z",
-          "normalized_value_usd": 6369.94402
+          "normalized_value_usd": 6940.411188
         },
         {
           "timestamp_utc": "2026-04-05T00:00:00Z",
-          "normalized_value_usd": 6453.52046
+          "normalized_value_usd": 7082.963294
         },
         {
           "timestamp_utc": "2026-04-06T00:00:00Z",
-          "normalized_value_usd": 6304.502089
+          "normalized_value_usd": 7022.970038
         },
         {
           "timestamp_utc": "2026-04-07T00:00:00Z",
-          "normalized_value_usd": 6744.46109
+          "normalized_value_usd": 7432.604839
         },
         {
           "timestamp_utc": "2026-04-08T00:00:00Z",
-          "normalized_value_usd": 6506.347079
+          "normalized_value_usd": 7265.438532
         },
         {
           "timestamp_utc": "2026-04-09T00:00:00Z",
-          "normalized_value_usd": 6567.058267
+          "normalized_value_usd": 7312.469092
         },
         {
           "timestamp_utc": "2026-04-10T00:00:00Z",
-          "normalized_value_usd": 6684.538358
+          "normalized_value_usd": 7456.473656
         },
         {
           "timestamp_utc": "2026-04-11T00:00:00Z",
-          "normalized_value_usd": 6693.211385
+          "normalized_value_usd": 7507.320346
         },
         {
           "timestamp_utc": "2026-04-12T00:00:00Z",
-          "normalized_value_usd": 6425.136009
+          "normalized_value_usd": 7228.036233
         },
         {
           "timestamp_utc": "2026-04-13T00:00:00Z",
-          "normalized_value_usd": 6820.152961
+          "normalized_value_usd": 7695.431302
         },
         {
           "timestamp_utc": "2026-04-14T00:00:00Z",
-          "normalized_value_usd": 6596.231176
+          "normalized_value_usd": 7557.473184
         },
         {
           "timestamp_utc": "2026-04-15T00:00:00Z",
-          "normalized_value_usd": 6690.057557
+          "normalized_value_usd": 7655.726668
         },
         {
           "timestamp_utc": "2026-04-16T00:00:00Z",
-          "normalized_value_usd": 7019.632579
+          "normalized_value_usd": 7764.728153
         },
         {
           "timestamp_utc": "2026-04-17T00:00:00Z",
-          "normalized_value_usd": 6994.401955
+          "normalized_value_usd": 7907.067475
         },
         {
           "timestamp_utc": "2026-04-18T00:00:00Z",
-          "normalized_value_usd": 6789.403138
+          "normalized_value_usd": 7710.816131
         },
         {
           "timestamp_utc": "2026-04-19T00:00:00Z",
-          "normalized_value_usd": 6576.519751
+          "normalized_value_usd": 7472.352994
         },
         {
           "timestamp_utc": "2026-04-20T00:00:00Z",
-          "normalized_value_usd": 6720.80738
+          "normalized_value_usd": 7652.656342
         },
         {
           "timestamp_utc": "2026-04-21T00:00:00Z",
-          "normalized_value_usd": 6780.730111
+          "normalized_value_usd": 7706.360001
         },
         {
           "timestamp_utc": "2026-04-22T00:00:00Z",
-          "normalized_value_usd": 6846.172041
+          "normalized_value_usd": 7849.757478
         },
         {
           "timestamp_utc": "2026-04-23T00:00:00Z",
-          "normalized_value_usd": 6787.037767
+          "normalized_value_usd": 7783.97708
         },
         {
           "timestamp_utc": "2026-04-24T00:00:00Z",
-          "normalized_value_usd": 6790.980052
+          "normalized_value_usd": 7737.738386
         },
         {
           "timestamp_utc": "2026-04-25T00:00:00Z",
-          "normalized_value_usd": 6790.980052
+          "normalized_value_usd": 7749.662624
         },
         {
           "timestamp_utc": "2026-04-26T00:00:00Z",
-          "normalized_value_usd": 6849.325869
+          "normalized_value_usd": 7863.350191
         },
         {
           "timestamp_utc": "2026-04-27T00:00:00Z",
-          "normalized_value_usd": 6684.538358
+          "normalized_value_usd": 7686.969711
         },
         {
           "timestamp_utc": "2026-04-28T00:00:00Z",
-          "normalized_value_usd": 6624.615627
+          "normalized_value_usd": 7612.7727
         },
         {
           "timestamp_utc": "2026-04-29T00:00:00Z",
-          "normalized_value_usd": 6544.981471
+          "normalized_value_usd": 7524.739414
         },
         {
           "timestamp_utc": "2026-04-30T00:00:00Z",
-          "normalized_value_usd": 6547.346842
+          "normalized_value_usd": 7551.897616
         },
         {
           "timestamp_utc": "2026-05-01T00:00:00Z",
-          "normalized_value_usd": 6599.385004
+          "normalized_value_usd": 7682.082666
         },
         {
           "timestamp_utc": "2026-05-02T00:00:00Z",
-          "normalized_value_usd": 6641.173224
+          "normalized_value_usd": 7737.248813
         },
         {
           "timestamp_utc": "2026-05-03T00:00:00Z",
-          "normalized_value_usd": 6612.788772
+          "normalized_value_usd": 7729.542223
         },
         {
           "timestamp_utc": "2026-05-04T00:00:00Z",
-          "normalized_value_usd": 6626.980998
+          "normalized_value_usd": 7810.09594
         },
         {
           "timestamp_utc": "2026-05-05T00:00:00Z",
-          "normalized_value_usd": 6799.653079
+          "normalized_value_usd": 7921.366815
         },
         {
           "timestamp_utc": "2026-05-06T00:00:00Z",
-          "normalized_value_usd": 7025.151778
+          "normalized_value_usd": 8005.513823
         },
         {
           "timestamp_utc": "2026-05-07T00:00:00Z",
-          "normalized_value_usd": 6969.959789
+          "normalized_value_usd": 7867.408674
         },
         {
           "timestamp_utc": "2026-05-08T00:00:00Z",
-          "normalized_value_usd": 7251.438934
+          "normalized_value_usd": 7986.261214
         },
         {
           "timestamp_utc": "2026-05-09T00:00:00Z",
-          "normalized_value_usd": 7338.169203
+          "normalized_value_usd": 8054.293389
         },
         {
           "timestamp_utc": "2026-05-10T00:00:00Z",
-          "normalized_value_usd": 7602.302294
+          "normalized_value_usd": 8250.231882
         },
         {
           "timestamp_utc": "2026-05-11T00:00:00Z",
-          "normalized_value_usd": 7672.474966
+          "normalized_value_usd": 8220.575314
         },
         {
           "timestamp_utc": "2026-05-12T00:00:00Z",
-          "normalized_value_usd": 7431.207128
+          "normalized_value_usd": 8021.526251
         },
         {
           "timestamp_utc": "2026-05-13T00:00:00Z",
-          "normalized_value_usd": 7183.631633
+          "normalized_value_usd": 7877.128966
         },
         {
           "timestamp_utc": "2026-05-14T00:00:00Z",
-          "normalized_value_usd": 7262.477332
+          "normalized_value_usd": 7996.721304
         },
         {
           "timestamp_utc": "2026-05-15T00:00:00Z",
-          "normalized_value_usd": 7033.036348
+          "normalized_value_usd": 7781.273018
         },
         {
           "timestamp_utc": "2026-05-16T00:00:00Z",
-          "normalized_value_usd": 6818.576047
+          "normalized_value_usd": 7624.534002
         },
         {
           "timestamp_utc": "2026-05-17T00:00:00Z",
-          "normalized_value_usd": 6715.288181
+          "normalized_value_usd": 7509.54668
         },
         {
           "timestamp_utc": "2026-05-18T00:00:00Z",
-          "normalized_value_usd": 6728.69195
+          "normalized_value_usd": 7495.488996
         },
         {
           "timestamp_utc": "2026-05-19T00:00:00Z",
-          "normalized_value_usd": 6641.961681
+          "normalized_value_usd": 7440.476715
         },
         {
           "timestamp_utc": "2026-05-20T00:00:00Z",
-          "normalized_value_usd": 6789.403138
+          "normalized_value_usd": 7535.829872
         },
         {
           "timestamp_utc": "2026-05-21T00:00:00Z",
-          "normalized_value_usd": 6884.806434
+          "normalized_value_usd": 7575.120663
         },
         {
           "timestamp_utc": "2026-05-22T00:00:00Z",
-          "normalized_value_usd": 6651.423165
+          "normalized_value_usd": 7344.236312
         },
         {
           "timestamp_utc": "2026-05-23T00:00:00Z",
-          "normalized_value_usd": 6757.864858
+          "normalized_value_usd": 7482.392982
         },
         {
           "timestamp_utc": "2026-05-24T00:00:00Z",
-          "normalized_value_usd": 6720.018923
+          "normalized_value_usd": 7461.811067
         },
         {
           "timestamp_utc": "2026-05-25T00:00:00Z",
-          "normalized_value_usd": 6702.672869
+          "normalized_value_usd": 7479.502377
         },
         {
           "timestamp_utc": "2026-05-26T00:00:00Z",
-          "normalized_value_usd": 6596.231176
+          "normalized_value_usd": 7349.461331
         },
         {
           "timestamp_utc": "2026-05-27T00:00:00Z",
-          "normalized_value_usd": 6495.308681
+          "normalized_value_usd": 7205.265918
         },
         {
           "timestamp_utc": "2026-05-28T00:00:00Z",
-          "normalized_value_usd": 6470.866514
+          "normalized_value_usd": 7149.677644
         },
         {
           "timestamp_utc": "2026-05-29T00:00:00Z",
-          "normalized_value_usd": 6463.770401
+          "normalized_value_usd": 7146.104287
         },
         {
           "timestamp_utc": "2026-05-30T00:00:00Z",
-          "normalized_value_usd": 6519.750848
+          "normalized_value_usd": 7189.989885
         },
         {
           "timestamp_utc": "2026-05-31T00:00:00Z",
-          "normalized_value_usd": 6496.097138
+          "normalized_value_usd": 7157.510076
         },
         {
           "timestamp_utc": "2026-06-01T00:00:00Z",
-          "normalized_value_usd": 6406.213041
+          "normalized_value_usd": 7042.305903
         },
         {
           "timestamp_utc": "2026-06-02T00:00:00Z",
-          "normalized_value_usd": 5848.773949
+          "normalized_value_usd": 6518.269355
         },
         {
           "timestamp_utc": "2026-06-03T00:00:00Z",
-          "normalized_value_usd": 5643.775132
+          "normalized_value_usd": 6300.253288
         },
         {
           "timestamp_utc": "2026-06-04T00:00:00Z",
-          "normalized_value_usd": 5426.161003
+          "normalized_value_usd": 6170.499994
         },
         {
           "timestamp_utc": "2026-06-05T00:00:00Z",
-          "normalized_value_usd": 5014.586454
+          "normalized_value_usd": 5718.853032
         },
         {
           "timestamp_utc": "2026-06-06T00:00:00Z",
-          "normalized_value_usd": 4901.048648
+          "normalized_value_usd": 5659.274271
         },
         {
           "timestamp_utc": "2026-06-07T00:00:00Z",
-          "normalized_value_usd": 5239.296696
+          "normalized_value_usd": 5998.345102
         },
         {
           "timestamp_utc": "2026-06-08T00:00:00Z",
-          "normalized_value_usd": 5266.104234
+          "normalized_value_usd": 5997.749831
         },
         {
           "timestamp_utc": "2026-06-09T00:00:00Z",
-          "normalized_value_usd": 5118.662777
+          "normalized_value_usd": 5841.300478
         },
         {
           "timestamp_utc": "2026-06-10T00:00:00Z",
-          "normalized_value_usd": 4979.894347
+          "normalized_value_usd": 5767.218055
         },
         {
           "timestamp_utc": "2026-06-11T00:00:00Z",
-          "normalized_value_usd": 5273.200347
+          "normalized_value_usd": 6001.911917
         },
         {
           "timestamp_utc": "2026-06-12T00:00:00Z",
-          "normalized_value_usd": 5266.104234
+          "normalized_value_usd": 5989.76464
         },
         {
           "timestamp_utc": "2026-06-13T00:00:00Z",
-          "normalized_value_usd": 5430.891745
+          "normalized_value_usd": 6093.971645
         },
         {
           "timestamp_utc": "2026-06-14T00:00:00Z",
-          "normalized_value_usd": 5616.967594
+          "normalized_value_usd": 6253.40608
         },
         {
           "timestamp_utc": "2026-06-15T00:00:00Z",
-          "normalized_value_usd": 5829.062525
+          "normalized_value_usd": 6424.19836
         },
         {
           "timestamp_utc": "2026-06-16T00:00:00Z",
-          "normalized_value_usd": 5794.370417
+          "normalized_value_usd": 6385.41607
         },
         {
           "timestamp_utc": "2026-06-17T00:00:00Z",
-          "normalized_value_usd": 5676.890326
+          "normalized_value_usd": 6254.79409
         },
         {
           "timestamp_utc": "2026-06-18T00:00:00Z",
-          "normalized_value_usd": 5494.756761
+          "normalized_value_usd": 6092.225495
         },
         {
           "timestamp_utc": "2026-06-19T00:00:00Z",
-          "normalized_value_usd": 5494.756761
+          "normalized_value_usd": 6114.46066
         },
         {
           "timestamp_utc": "2026-06-20T00:00:00Z",
-          "normalized_value_usd": 5770.716707
+          "normalized_value_usd": 6267.839771
         },
         {
           "timestamp_utc": "2026-06-21T00:00:00Z",
-          "normalized_value_usd": 5710.005519
+          "normalized_value_usd": 6173.304773
         },
         {
           "timestamp_utc": "2026-06-22T00:00:00Z",
-          "normalized_value_usd": 5669.794213
+          "normalized_value_usd": 6209.618732
         },
         {
           "timestamp_utc": "2026-06-23T00:00:00Z",
-          "normalized_value_usd": 5491.602933
+          "normalized_value_usd": 6034.03408
         },
         {
           "timestamp_utc": "2026-06-24T00:00:00Z",
-          "normalized_value_usd": 5367.026729
+          "normalized_value_usd": 5880.937552
         },
         {
           "timestamp_utc": "2026-06-25T00:00:00Z",
-          "normalized_value_usd": 5337.065363
+          "normalized_value_usd": 5762.345609
         },
         {
           "timestamp_utc": "2026-06-26T00:00:00Z",
-          "normalized_value_usd": 5666.640385
+          "normalized_value_usd": 5895.55893
         },
         {
           "timestamp_utc": "2026-06-27T00:00:00Z",
-          "normalized_value_usd": 5556.256406
+          "normalized_value_usd": 5850.788327
         },
         {
           "timestamp_utc": "2026-06-28T00:00:00Z",
-          "normalized_value_usd": 5625.640621
+          "normalized_value_usd": 5854.800373
         },
         {
           "timestamp_utc": "2026-06-29T00:00:00Z",
-          "normalized_value_usd": 5923.677363
+          "normalized_value_usd": 6025.005003
         },
         {
           "timestamp_utc": "2026-06-30T00:00:00Z",
-          "normalized_value_usd": 5805.408815
+          "normalized_value_usd": 5879.668409
         }
       ]
     }

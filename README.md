@@ -63,6 +63,13 @@ latest audit, high-severity transitive Next.js findings block deployment; see
 [audits/dependency_audit.md](audits/dependency_audit.md). The Pages workflow is
 therefore intentionally gated before artifact upload.
 
+### Screenshot procedure
+
+After the security gate is green, build the static export, serve `out/` with a
+local static server, and capture `/` plus `/strategies/ctrend` at 1440px and
+390px widths. Store only the rendered public pages under `docs/screenshots/`;
+never capture local paths, console output, runtime data, or credentials.
+
 ## Security and commerce status
 
 `STORE_LIVE=false` is mandatory. There is no payment acceptance, Solana wallet,
