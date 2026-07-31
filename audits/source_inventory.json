@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T09:30:37.670Z",
+  "generated_at": "2026-07-31T09:42:54.122Z",
   "projects": [
     {
       "id": "direction-v3",
@@ -21,14 +21,14 @@
       "title": "Perp Carry",
       "repository_id": "perp-carry",
       "branch": "main",
-      "head": "65ac5a401a920b78eb6d78c46984b6da3b8287f3",
+      "head": "d3453446ee9f00dab60eb0c43a1422412da884e1",
       "working_tree": "non-clean; local artifacts excluded",
       "stage": "INFRASTRUCTURE_AUDIT_INTEGRITY_FAILURE",
       "formal_verdict": "INFRASTRUCTURE_AUDIT_INTEGRITY_FAILURE",
       "practical_disposition": "Completed collector audit failed the frozen timing gate; infrastructure reliability is not strategy profitability.",
       "capital_permission": 0,
       "latest_report": "PERP_CARRY_AUDIT_FINAL_REPORT_audit-20260730T082700Z.md",
-      "report_sha256": "ab12d4699e15bb25fc128b51a9c73d4cffe73c910b216bba1b9b30a8408a5e60",
+      "report_sha256": "a5efb9a23514026b7200cb7fb3e4946ee179e2ab017ba705d83d7806040ecdf0",
       "pnl": "no P&L exists"
     },
     {

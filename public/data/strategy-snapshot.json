@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T09:30:37.670Z",
-  "as_of": "2026-07-31T09:30:37.670Z",
+  "generated_at": "2026-07-31T09:42:54.122Z",
+  "as_of": "2026-07-31T09:42:54.122Z",
   "strategies": [
     {
       "id": "direction-v3",
@@ -27,9 +27,9 @@
       "capitalPermitted": 0,
       "pnl": "none",
       "warning": "Completed collector audit failed the frozen timing gate; infrastructure reliability is not strategy profitability.",
-      "sourceCommit": "65ac5a401a920b78eb6d78c46984b6da3b8287f3",
+      "sourceCommit": "d3453446ee9f00dab60eb0c43a1422412da884e1",
       "report": "PERP_CARRY_AUDIT_FINAL_REPORT_audit-20260730T082700Z.md",
-      "source_hash": "ab12d4699e15bb25fc128b51a9c73d4cffe73c910b216bba1b9b30a8408a5e60",
+      "source_hash": "a5efb9a23514026b7200cb7fb3e4946ee179e2ab017ba705d83d7806040ecdf0",
       "data_freshness": "static local evidence snapshot",
       "integrity_warnings": [
         "Completed collector audit failed the frozen timing gate; infrastructure reliability is not strategy profitability."
@@ -47,7 +47,7 @@
         "missing_records": 0,
         "stale_records": 0,
         "timing_verdict": "FAIL",
-        "lifecycle_verdict": "PASS",
+        "lifecycle_verdict": "FAIL",
         "next_gate": "Design and preregister Perp Carry V2 historical profitability experiment after a fresh compliant infrastructure audit.",
         "profitability_status": "NOT_TESTED"
       }
