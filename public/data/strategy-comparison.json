@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T16:53:11.924Z",
+  "generated_at": "2026-08-02T17:55:40.349Z",
   "accepted_only_default": true,
   "strategies": [
     {
@@ -26,9 +26,9 @@
     {
       "strategy_id": "strategy-control",
       "accepted_pnl_exists": false,
-      "diagnostic_only_pnl_exists": false,
+      "diagnostic_only_pnl_exists": true,
       "comparison": "Not comparable",
-      "warning": "Data-contract result only: no holdout was opened, no returns were calculated, and no profitability conclusion is permitted."
+      "warning": "Development-only historical rejection: the final holdout remained closed, no candidate was promoted, and no prospective or deployable performance conclusion is permitted."
     }
   ],
   "rules": [

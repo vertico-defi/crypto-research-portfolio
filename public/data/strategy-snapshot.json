@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T16:53:11.924Z",
-  "as_of": "2026-08-02T16:53:11.924Z",
+  "generated_at": "2026-08-02T17:55:40.349Z",
+  "as_of": "2026-08-02T17:55:40.349Z",
   "strategies": [
     {
       "id": "direction-v3",
@@ -73,16 +73,16 @@
       "id": "strategy-control",
       "title": "Strategy Control",
       "verdict": "AUDIT_INCONCLUSIVE",
-      "disposition": "Data-contract result only: no holdout was opened, no returns were calculated, and no profitability conclusion is permitted.",
+      "disposition": "Development-only historical rejection: the final holdout remained closed, no candidate was promoted, and no prospective or deployable performance conclusion is permitted.",
       "capitalPermitted": 0,
-      "pnl": "none",
-      "warning": "Data-contract result only: no holdout was opened, no returns were calculated, and no profitability conclusion is permitted.",
-      "sourceCommit": "8629fd482651afdb796c1b197c5cd15abdd7f5c4",
+      "pnl": "diagnostic",
+      "warning": "Development-only historical rejection: the final holdout remained closed, no candidate was promoted, and no prospective or deployable performance conclusion is permitted.",
+      "sourceCommit": "52ff2358cf0b7278ee3b76c4f7f5d3d3e638c7e8",
       "report": "publication/research-program-snapshot.json",
-      "source_hash": "a7147de43c2c32c851d0b8b087672afb5b55f09f7064bebc3a281ed1c2997b49",
+      "source_hash": "8a3675e75d47e4f64e21970e841ebb66c460992b60a02a8f062293b0eb8a558b",
       "data_freshness": "static local evidence snapshot",
       "integrity_warnings": [
-        "Data-contract result only: no holdout was opened, no returns were calculated, and no profitability conclusion is permitted."
+        "Development-only historical rejection: the final holdout remained closed, no candidate was promoted, and no prospective or deployable performance conclusion is permitted."
       ],
       "audit": null
     }

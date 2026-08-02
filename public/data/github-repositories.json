@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T16:53:11.924Z",
+  "generated_at": "2026-08-02T17:55:40.349Z",
   "authenticated_account": "vertico-defi",
   "repositories": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "name": "strategy-control",
-      "publication": "PREPARED_NOT_PUBLISHED"
+      "publication": "PUBLIC"
     }
   ]
 }

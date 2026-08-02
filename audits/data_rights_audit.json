@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T16:53:11.925Z",
+  "generated_at": "2026-08-02T17:55:40.350Z",
   "classification": "fail closed",
   "projects": [
     {
@@ -1545,6 +1545,38 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "experiments/btc-eth-vol-targeted-trend-v1/AUDIT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-vol-targeted-trend-v1/DATA_CONTRACT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-vol-targeted-trend-v1/DEVELOPMENT_ATTEMPT_1_FAILURE.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-vol-targeted-trend-v1/DEVELOPMENT_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-vol-targeted-trend-v1/DEVELOPMENT_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-vol-targeted-trend-v1/DIRECTION_REVIEW.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-vol-targeted-trend-v1/PREREGISTRATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-vol-targeted-trend-v1/PREREGISTRATION_DRAFT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "experiments/cs-ranking-binance-spot-archive-ptu-audit-v1/AUDIT.json",
           "classification": "PUBLIC_GITHUB"
         },
@@ -1633,6 +1665,18 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "src/strategy_control/trend.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/trend_data.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/trend_pipeline.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "systemd/crypto-strategy-control-continuation.service",
           "classification": "PUBLIC_SAMPLE_ONLY"
         },
@@ -1666,6 +1710,18 @@
         },
         {
           "file": "tests/test_orchestrator.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_trend.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_trend_data.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_trend_pipeline.py",
           "classification": "PUBLIC_GITHUB"
         }
       ]

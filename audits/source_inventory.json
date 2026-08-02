@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T16:53:11.925Z",
+  "generated_at": "2026-08-02T17:55:40.350Z",
   "projects": [
     {
       "id": "direction-v3",
@@ -51,15 +51,15 @@
       "title": "Strategy Control",
       "repository_id": "strategy-control",
       "branch": "main",
-      "head": "8629fd482651afdb796c1b197c5cd15abdd7f5c4",
+      "head": "52ff2358cf0b7278ee3b76c4f7f5d3d3e638c7e8",
       "working_tree": "clean",
       "stage": "AUDIT_INCONCLUSIVE",
       "formal_verdict": "AUDIT_INCONCLUSIVE",
-      "practical_disposition": "Data-contract result only: no holdout was opened, no returns were calculated, and no profitability conclusion is permitted.",
+      "practical_disposition": "Development-only historical rejection: the final holdout remained closed, no candidate was promoted, and no prospective or deployable performance conclusion is permitted.",
       "capital_permission": 0,
       "latest_report": "publication/research-program-snapshot.json",
-      "report_sha256": "a7147de43c2c32c851d0b8b087672afb5b55f09f7064bebc3a281ed1c2997b49",
-      "pnl": "no P&L exists"
+      "report_sha256": "8a3675e75d47e4f64e21970e841ebb66c460992b60a02a8f062293b0eb8a558b",
+      "pnl": "diagnostic-only P&L exists"
     }
   ]
 }
