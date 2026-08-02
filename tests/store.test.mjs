@@ -22,9 +22,10 @@ test("catalog is static", () => assert.ok(true));
 test("strategy control publication remains a diagnostic no-candidate record", () => {
   const snapshot = JSON.parse(readFileSync("public/data/strategy-snapshot.json", "utf8"));
   const control = snapshot.strategies.find(item => item.id === "strategy-control");
-  assert.equal(control.verdict, "AUDIT_INCONCLUSIVE");
+  assert.equal(control.verdict, "AUDIT_REJECTED");
   assert.equal(control.capitalPermitted, 0);
   assert.equal(control.pnl, "diagnostic");
   assert.match(control.warning, /final holdout remained closed/);
   assert.match(control.warning, /no candidate was promoted/);
+  assert.equal(control.sourceCommit, "d7dc8d242edab55f2790f6d9e4cd124099c3d83a");
 });

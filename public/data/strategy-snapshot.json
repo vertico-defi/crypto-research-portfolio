@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T17:55:40.349Z",
-  "as_of": "2026-08-02T17:55:40.349Z",
+  "generated_at": "2026-08-02T19:05:47.654Z",
+  "as_of": "2026-08-02T19:05:47.654Z",
   "strategies": [
     {
       "id": "direction-v3",
@@ -72,14 +72,14 @@
     {
       "id": "strategy-control",
       "title": "Strategy Control",
-      "verdict": "AUDIT_INCONCLUSIVE",
+      "verdict": "AUDIT_REJECTED",
       "disposition": "Development-only historical rejection: the final holdout remained closed, no candidate was promoted, and no prospective or deployable performance conclusion is permitted.",
       "capitalPermitted": 0,
       "pnl": "diagnostic",
       "warning": "Development-only historical rejection: the final holdout remained closed, no candidate was promoted, and no prospective or deployable performance conclusion is permitted.",
-      "sourceCommit": "52ff2358cf0b7278ee3b76c4f7f5d3d3e638c7e8",
+      "sourceCommit": "d7dc8d242edab55f2790f6d9e4cd124099c3d83a",
       "report": "publication/research-program-snapshot.json",
-      "source_hash": "8a3675e75d47e4f64e21970e841ebb66c460992b60a02a8f062293b0eb8a558b",
+      "source_hash": "ba02dc3189b96c9e3776d5cea66b053153b2a310309a51254acee640ec0c6db4",
       "data_freshness": "static local evidence snapshot",
       "integrity_warnings": [
         "Development-only historical rejection: the final holdout remained closed, no candidate was promoted, and no prospective or deployable performance conclusion is permitted."
