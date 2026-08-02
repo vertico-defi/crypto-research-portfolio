@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T11:24:03.950Z",
+  "generated_at": "2026-08-02T16:53:11.925Z",
   "classification": "fail closed",
   "projects": [
     {
@@ -1513,6 +1513,10 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "PROGRESS_LOG.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "PROSPECTIVE_REGISTRY.json",
           "classification": "PUBLIC_GITHUB"
         },
@@ -1538,6 +1542,26 @@
         },
         {
           "file": "RUNBOOK.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-audit-v1/AUDIT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-audit-v1/DATA_INTEGRITY_REPORT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-audit-v1/DETERMINISTIC_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-audit-v1/PREREGISTRATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-audit-v1/SYMBOL_MANIFEST.json",
           "classification": "PUBLIC_GITHUB"
         },
         {
@@ -1585,6 +1609,14 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "src/strategy_control/archive_audit.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/archive_universe.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "src/strategy_control/cli.py",
           "classification": "PUBLIC_GITHUB"
         },
@@ -1601,12 +1633,32 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "systemd/crypto-strategy-control-continuation.service",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "systemd/crypto-strategy-control-continuation.timer",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
           "file": "systemd/crypto-strategy-control-refresh.service",
           "classification": "PUBLIC_SAMPLE_ONLY"
         },
         {
           "file": "systemd/crypto-strategy-control-refresh.timer",
           "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "tests/test_archive_artifacts.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_archive_audit.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_archive_universe.py",
+          "classification": "PUBLIC_GITHUB"
         },
         {
           "file": "tests/test_control.py",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T11:24:03.950Z",
-  "as_of": "2026-08-02T11:24:03.950Z",
+  "generated_at": "2026-08-02T16:53:11.924Z",
+  "as_of": "2026-08-02T16:53:11.924Z",
   "strategies": [
     {
       "id": "direction-v3",
@@ -72,14 +72,14 @@
     {
       "id": "strategy-control",
       "title": "Strategy Control",
-      "verdict": "DATA_NO_GO",
+      "verdict": "AUDIT_INCONCLUSIVE",
       "disposition": "Data-contract result only: no holdout was opened, no returns were calculated, and no profitability conclusion is permitted.",
       "capitalPermitted": 0,
       "pnl": "none",
       "warning": "Data-contract result only: no holdout was opened, no returns were calculated, and no profitability conclusion is permitted.",
-      "sourceCommit": "49175c79b977a2ac719271fd3f06beddabe6f6aa",
+      "sourceCommit": "8629fd482651afdb796c1b197c5cd15abdd7f5c4",
       "report": "publication/research-program-snapshot.json",
-      "source_hash": "49bc3cc3414c873f149ac5dec6444063592765564c668f89e73a1c6245211cce",
+      "source_hash": "a7147de43c2c32c851d0b8b087672afb5b55f09f7064bebc3a281ed1c2997b49",
       "data_freshness": "static local evidence snapshot",
       "integrity_warnings": [
         "Data-contract result only: no holdout was opened, no returns were calculated, and no profitability conclusion is permitted."
