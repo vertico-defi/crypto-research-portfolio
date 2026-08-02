@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T09:42:54.121Z",
+  "generated_at": "2026-08-02T11:24:03.949Z",
   "fail_closed": true,
   "github_route": "SANITIZED_PUBLIC_SHOWCASE_REPOSITORY",
   "projects": [
@@ -16,7 +16,7 @@
     },
     {
       "project": "Perp Carry",
-      "source_commit": "d3453446ee9f00dab60eb0c43a1422412da884e1",
+      "source_commit": "ccdf1832de57589c0106209f66df902d22c154eb",
       "public_status": "PREPARED_NOT_PUBLISHED",
       "exclude": [
         "raw data",
@@ -28,6 +28,17 @@
     {
       "project": "CTREND liquidity v1",
       "source_commit": "a11853b299022082949bc10d411db26605c3dc8d",
+      "public_status": "PREPARED_NOT_PUBLISHED",
+      "exclude": [
+        "raw data",
+        "runtime logs",
+        "credentials",
+        "third-party packages"
+      ]
+    },
+    {
+      "project": "Strategy Control",
+      "source_commit": "49175c79b977a2ac719271fd3f06beddabe6f6aa",
       "public_status": "PREPARED_NOT_PUBLISHED",
       "exclude": [
         "raw data",

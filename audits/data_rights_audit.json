@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T09:42:54.122Z",
+  "generated_at": "2026-08-02T11:24:03.950Z",
   "classification": "fail closed",
   "projects": [
     {
@@ -691,7 +691,15 @@
           "classification": "PUBLIC_SAMPLE_ONLY"
         },
         {
+          "file": "AUDIT_CERTIFICATION_READINESS.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "PERP_CARRY_AUDIT_FINAL_REPORT_audit-20260730T082700Z.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "PERP_CARRY_THREE_AUDIT_POSTMORTEM.md",
           "classification": "PUBLIC_GITHUB"
         },
         {
@@ -763,6 +771,10 @@
           "classification": "PUBLIC_SAMPLE_ONLY"
         },
         {
+          "file": "docs/AUDIT_CERTIFICATION_REPAIR_PROTOCOL.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "docs/collector_audit.md",
           "classification": "PUBLIC_GITHUB"
         },
@@ -800,6 +812,10 @@
         },
         {
           "file": "perp_carry_audit_final_summary_audit-20260730T082700Z.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "perp_carry_three_audit_postmortem.json",
           "classification": "PUBLIC_GITHUB"
         },
         {
@@ -868,6 +884,10 @@
         },
         {
           "file": "src/perp_carry_lab/metrics/audit.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/perp_carry_lab/metrics/certification.py",
           "classification": "PUBLIC_GITHUB"
         },
         {
@@ -968,6 +988,10 @@
         },
         {
           "file": "tests/conftest.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_audit_certification.py",
           "classification": "PUBLIC_GITHUB"
         },
         {
@@ -1437,6 +1461,159 @@
         },
         {
           "file": "tests/test_metrics.py",
+          "classification": "PUBLIC_GITHUB"
+        }
+      ]
+    },
+    {
+      "project": "Strategy Control",
+      "files": [
+        {
+          "file": ".gitignore",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "ACCEPTANCE_GATES.yaml",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "AGENTS.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "BLOCKERS.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "CURRENT_STATE.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "DATA_INVENTORY.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "DECISION_LOG.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "EXPERIMENT_LEDGER.jsonl",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "GITHUB_SYNC_STATE.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "MODEL_USAGE_LEDGER.jsonl",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "NEXT_TASK.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "PROSPECTIVE_REGISTRY.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "PUBLICATION_LOG.jsonl",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "PUBLICATION_MANIFEST.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "README.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "REJECTED_STRATEGIES.jsonl",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "RESEARCH_PROTOCOL.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "RUNBOOK.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-ptu-data-audit-v1/AUDIT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-ptu-data-audit-v1/DATA_INTEGRITY_REPORT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-ptu-data-audit-v1/PREREGISTRATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "orchestrator.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "orchestrator_config.yaml",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "publication/research-program-snapshot.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "pyproject.toml",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "registry.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/__init__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/__main__.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/adapters.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/cli.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/model.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/orchestrator.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/render.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "systemd/crypto-strategy-control-refresh.service",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "systemd/crypto-strategy-control-refresh.timer",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "tests/test_control.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_orchestrator.py",
           "classification": "PUBLIC_GITHUB"
         }
       ]

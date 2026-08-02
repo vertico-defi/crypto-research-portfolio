@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T09:42:54.121Z",
+  "generated_at": "2026-08-02T11:24:03.950Z",
   "accepted_only_default": true,
   "strategies": [
     {
@@ -22,6 +22,13 @@
       "diagnostic_only_pnl_exists": true,
       "comparison": "Not comparable",
       "warning": "Retired practical economic no-go; incomplete official funding coverage blocks a valid full net series."
+    },
+    {
+      "strategy_id": "strategy-control",
+      "accepted_pnl_exists": false,
+      "diagnostic_only_pnl_exists": false,
+      "comparison": "Not comparable",
+      "warning": "Data-contract result only: no holdout was opened, no returns were calculated, and no profitability conclusion is permitted."
     }
   ],
   "rules": [

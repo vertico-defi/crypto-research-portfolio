@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T07:59:54.954Z",
+  "generated_at": "2026-08-02T11:24:05.842Z",
   "scope": "all reachable git history and current tracked tree",
   "limitations": [
     "Pattern scans are a safety control, not a proof that no secret or restricted data exists.",
@@ -36,9 +36,9 @@
       "history_commit_match_counts": [
         0,
         0,
-        1
+        2
       ],
-      "object_reference_count": 228,
+      "object_reference_count": 472,
       "scan_status": "REQUIRES_MANUAL_REMEDIATION",
       "publication_decision": "SANITIZED_SHOWCASE_REQUIRED",
       "reason": "Regex scans cannot establish data rights, remove raw data, or prove history safety. Never publish the laboratory repository directly."
@@ -74,7 +74,7 @@
         0,
         0
       ],
-      "object_reference_count": 59,
+      "object_reference_count": 160,
       "scan_status": "NO_PATTERN_MATCHES",
       "publication_decision": "SANITIZED_SHOWCASE_REQUIRED",
       "reason": "Regex scans cannot establish data rights, remove raw data, or prove history safety. Never publish the laboratory repository directly."

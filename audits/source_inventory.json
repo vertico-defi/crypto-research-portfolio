@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T09:42:54.122Z",
+  "generated_at": "2026-08-02T11:24:03.950Z",
   "projects": [
     {
       "id": "direction-v3",
@@ -21,7 +21,7 @@
       "title": "Perp Carry",
       "repository_id": "perp-carry",
       "branch": "main",
-      "head": "d3453446ee9f00dab60eb0c43a1422412da884e1",
+      "head": "ccdf1832de57589c0106209f66df902d22c154eb",
       "working_tree": "non-clean; local artifacts excluded",
       "stage": "INFRASTRUCTURE_AUDIT_INTEGRITY_FAILURE",
       "formal_verdict": "INFRASTRUCTURE_AUDIT_INTEGRITY_FAILURE",
@@ -45,6 +45,21 @@
       "latest_report": "reports/ctrend_liquidity_funding_gap_closure.md",
       "report_sha256": "b9f58ee7be22078ce3c2e2f82cb6dc51141ddf045013c44710211d198d398220",
       "pnl": "diagnostic-only P&L exists"
+    },
+    {
+      "id": "strategy-control",
+      "title": "Strategy Control",
+      "repository_id": "strategy-control",
+      "branch": "main",
+      "head": "49175c79b977a2ac719271fd3f06beddabe6f6aa",
+      "working_tree": "clean",
+      "stage": "DATA_NO_GO",
+      "formal_verdict": "DATA_NO_GO",
+      "practical_disposition": "Data-contract result only: no holdout was opened, no returns were calculated, and no profitability conclusion is permitted.",
+      "capital_permission": 0,
+      "latest_report": "publication/research-program-snapshot.json",
+      "report_sha256": "49bc3cc3414c873f149ac5dec6444063592765564c668f89e73a1c6245211cce",
+      "pnl": "no P&L exists"
     }
   ]
 }

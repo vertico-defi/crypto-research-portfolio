@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T09:42:54.121Z",
+  "generated_at": "2026-08-02T11:24:03.950Z",
   "authenticated_account": "vertico-defi",
   "repositories": [
     {
@@ -12,6 +12,10 @@
     },
     {
       "name": "ctrend",
+      "publication": "PREPARED_NOT_PUBLISHED"
+    },
+    {
+      "name": "strategy-control",
       "publication": "PREPARED_NOT_PUBLISHED"
     }
   ]
