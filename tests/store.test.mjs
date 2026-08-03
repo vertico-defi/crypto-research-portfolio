@@ -31,3 +31,13 @@ test("strategy control publication remains a diagnostic no-candidate record", ()
   assert.match(control.warning, /capital remains zero/);
   assert.equal(control.sourceCommit, "25ce4fc162d529927055c72db99799933821a289");
 });
+
+test("strategy control narrative matches the current archive data no-go", () => {
+  for (const path of ["scripts/build-static-site.mjs", "components/StrategyPage.tsx"]) {
+    const source = readFileSync(path, "utf8");
+    assert.match(source, /archive-derived universe|archive-enumeration contract/);
+    assert.match(source, /DATA_NO_GO|data-contract rejection/);
+    assert.doesNotMatch(source, /published status is AUDIT_REJECTED/);
+    assert.doesNotMatch(source, /frozen BTC\/ETH relative-value rotation experiment/);
+  }
+});

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T07:10:30.728747Z",
+  "generated_at": "2026-08-03T07:13:23.301561Z",
   "status": "COMPUTED_DERIVED_REFERENCE_ONLY",
   "as_of_utc": "2026-06-30T00:00:00Z",
   "methodology": "Daily close buy-and-hold, normalized to USD 10,000 at each asset's first available UTC observation on or after 2026-01-01, through the latest complete common UTC day. Equal weight is rebalanced only at inception. No strategy comparison is implied.",

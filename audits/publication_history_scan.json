@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T07:10:45.188Z",
+  "generated_at": "2026-08-03T07:13:27.190Z",
   "scope": "all reachable git history and current tracked tree",
   "limitations": [
     "Pattern scans are a safety control, not a proof that no secret or restricted data exists.",
