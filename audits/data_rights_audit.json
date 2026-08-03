@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T10:44:26.480Z",
+  "generated_at": "2026-08-03T12:13:13.889Z",
   "classification": "fail closed",
   "projects": [
     {
@@ -1745,6 +1745,70 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/AUDIT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/AUDIT_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/DEVELOPMENT_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/DEVELOPMENT_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/DEVELOPMENT_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/DIRECTION_REVIEW.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/DIRECTION_REVIEW_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/FREEZE_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/IMPLEMENTATION_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/IMPLEMENTATION_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/IMPLEMENTATION_VALIDATION_ATTEMPT_1_FAILURE.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/PREREGISTRATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/PREREGISTRATION_DRAFT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/PREREGISTRATION_REVISED_DRAFT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/PRODUCTION_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-volatility-managed-equal-weight-v1/REVISION_INCORPORATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "experiments/cs-ranking-binance-spot-archive-ptu-audit-resolution-v2/AUDIT.json",
           "classification": "PUBLIC_GITHUB"
         },
@@ -1794,6 +1858,14 @@
         },
         {
           "file": "experiments/cs-ranking-ptu-data-audit-v1/PREREGISTRATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/program-approved-space-audit-v1/AUDIT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/program-approved-space-audit-v1/MODEL_RESULT.json",
           "classification": "PUBLIC_GITHUB"
         },
         {
@@ -1893,6 +1965,14 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "src/strategy_control/volatility_managed.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/volatility_managed_evaluator.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "src/strategy_control/volatility_parity.py",
           "classification": "PUBLIC_GITHUB"
         },
@@ -1978,6 +2058,14 @@
         },
         {
           "file": "tests/test_trend_pipeline.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_volatility_managed.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_volatility_managed_evaluator.py",
           "classification": "PUBLIC_GITHUB"
         },
         {

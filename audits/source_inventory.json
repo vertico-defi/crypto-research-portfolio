@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T10:44:26.480Z",
+  "generated_at": "2026-08-03T12:13:13.889Z",
   "projects": [
     {
       "id": "direction-v3",
@@ -51,14 +51,14 @@
       "title": "Strategy Control",
       "repository_id": "strategy-control",
       "branch": "main",
-      "head": "ba522960c0a36c96322e97922c1576a59f8a3556",
+      "head": "3868cd2658ebb8621444dd40a3e3320550435a79",
       "working_tree": "clean",
-      "stage": "AUDIT_REJECTED",
-      "formal_verdict": "AUDIT_REJECTED",
-      "practical_disposition": "A completed development run produced negative diagnostics and failed 13 frozen gates, but the independent audit rejected implementation fidelity because input identity, target provenance, and quarantine handling were not fully demonstrated. The deterministic HISTORICAL_NO_GO remains preserved; it is diagnostic-only, not a valid frozen-strategy economic verdict. The final holdout remained closed and unread, no candidate was promoted, and capital remains zero.",
+      "stage": "APPROVED_SPACE_EXHAUSTED",
+      "formal_verdict": "APPROVED_SPACE_EXHAUSTED",
+      "practical_disposition": "The user-approved and durably registered zero-cost research space is exhausted without a prospectively validated candidate. Both approved point-in-time universe routes are terminal, so the ordered cross-sectional queue remains economically unevaluated. Some fixed-pair experiments retain diagnostic historical no-go results, while calendar seasonality and equal-weight volatility management were consumed without economic results. This does not claim that every conceivable public dataset or crypto strategy is impossible. Every final holdout remained closed and unread, no candidate was promoted, and capital remains zero.",
       "capital_permission": 0,
       "latest_report": "publication/research-program-snapshot.json",
-      "report_sha256": "61764db583f3591c20684fff4f84978990ebad650d84a7c7e850d9b8b7b720f5",
+      "report_sha256": "a9a8f160e5d9aea0f4d777fbd81da6ec74fe584e376fd833c8797f8c963eee99",
       "pnl": "diagnostic-only P&L exists"
     }
   ]

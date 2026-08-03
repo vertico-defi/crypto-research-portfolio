@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-03T10:44:26.479Z",
-  "as_of": "2026-08-03T10:44:26.479Z",
+  "generated_at": "2026-08-03T12:13:13.888Z",
+  "as_of": "2026-08-03T12:13:13.888Z",
   "strategies": [
     {
       "id": "direction-v3",
@@ -72,17 +72,17 @@
     {
       "id": "strategy-control",
       "title": "Strategy Control",
-      "verdict": "AUDIT_REJECTED",
-      "disposition": "A completed development run produced negative diagnostics and failed 13 frozen gates, but the independent audit rejected implementation fidelity because input identity, target provenance, and quarantine handling were not fully demonstrated. The deterministic HISTORICAL_NO_GO remains preserved; it is diagnostic-only, not a valid frozen-strategy economic verdict. The final holdout remained closed and unread, no candidate was promoted, and capital remains zero.",
+      "verdict": "APPROVED_SPACE_EXHAUSTED",
+      "disposition": "The user-approved and durably registered zero-cost research space is exhausted without a prospectively validated candidate. Both approved point-in-time universe routes are terminal, so the ordered cross-sectional queue remains economically unevaluated. Some fixed-pair experiments retain diagnostic historical no-go results, while calendar seasonality and equal-weight volatility management were consumed without economic results. This does not claim that every conceivable public dataset or crypto strategy is impossible. Every final holdout remained closed and unread, no candidate was promoted, and capital remains zero.",
       "capitalPermitted": 0,
       "pnl": "diagnostic",
-      "warning": "A completed development run produced negative diagnostics and failed 13 frozen gates, but the independent audit rejected implementation fidelity because input identity, target provenance, and quarantine handling were not fully demonstrated. The deterministic HISTORICAL_NO_GO remains preserved; it is diagnostic-only, not a valid frozen-strategy economic verdict. The final holdout remained closed and unread, no candidate was promoted, and capital remains zero.",
-      "sourceCommit": "ac420fc3a2a7a619836663977e47a929679ca565",
+      "warning": "The user-approved and durably registered zero-cost research space is exhausted without a prospectively validated candidate. Both approved point-in-time universe routes are terminal, so the ordered cross-sectional queue remains economically unevaluated. Some fixed-pair experiments retain diagnostic historical no-go results, while calendar seasonality and equal-weight volatility management were consumed without economic results. This does not claim that every conceivable public dataset or crypto strategy is impossible. Every final holdout remained closed and unread, no candidate was promoted, and capital remains zero.",
+      "sourceCommit": "e7ce407f7197d469c2dc6baa0a0926667474961b",
       "report": "publication/research-program-snapshot.json",
-      "source_hash": "61764db583f3591c20684fff4f84978990ebad650d84a7c7e850d9b8b7b720f5",
+      "source_hash": "a9a8f160e5d9aea0f4d777fbd81da6ec74fe584e376fd833c8797f8c963eee99",
       "data_freshness": "static local evidence snapshot",
       "integrity_warnings": [
-        "A completed development run produced negative diagnostics and failed 13 frozen gates, but the independent audit rejected implementation fidelity because input identity, target provenance, and quarantine handling were not fully demonstrated. The deterministic HISTORICAL_NO_GO remains preserved; it is diagnostic-only, not a valid frozen-strategy economic verdict. The final holdout remained closed and unread, no candidate was promoted, and capital remains zero."
+        "The user-approved and durably registered zero-cost research space is exhausted without a prospectively validated candidate. Both approved point-in-time universe routes are terminal, so the ordered cross-sectional queue remains economically unevaluated. Some fixed-pair experiments retain diagnostic historical no-go results, while calendar seasonality and equal-weight volatility management were consumed without economic results. This does not claim that every conceivable public dataset or crypto strategy is impossible. Every final holdout remained closed and unread, no candidate was promoted, and capital remains zero."
       ],
       "audit": null
     }
