@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T07:13:22.916Z",
+  "generated_at": "2026-08-03T08:59:03.601Z",
   "projects": [
     {
       "id": "direction-v3",
@@ -51,14 +51,14 @@
       "title": "Strategy Control",
       "repository_id": "strategy-control",
       "branch": "main",
-      "head": "407c49776d5342552bc5ad7a2cf7839a39403d8e",
+      "head": "d8b2b74fcd568345b8e5eb9b475c4cc1c7d38ea2",
       "working_tree": "clean",
-      "stage": "DATA_NO_GO",
-      "formal_verdict": "DATA_NO_GO",
-      "practical_disposition": "Data-contract result only: no holdout was opened, no returns were calculated, no candidate was promoted, capital remains zero, and no profitability conclusion is permitted.",
+      "stage": "AUDIT_REJECTED",
+      "formal_verdict": "AUDIT_REJECTED",
+      "practical_disposition": "Implementation and methodology rejection only: both bounded development attempts failed before completed returns, the final holdout remained closed, calendar seasonality received no economic verdict, no candidate was promoted, and capital remains zero.",
       "capital_permission": 0,
       "latest_report": "publication/research-program-snapshot.json",
-      "report_sha256": "38b8a6b33b45daea116268e35df6c40ee55fe6b54df64cb0c802b0511259a8be",
+      "report_sha256": "76efa0b58931d4b9ead3401f31d7a83dee430966fc7637abd5044d44b3290b18",
       "pnl": "no P&L exists"
     }
   ]

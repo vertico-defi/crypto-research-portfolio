@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T07:13:22.915Z",
+  "generated_at": "2026-08-03T08:59:03.600Z",
   "accepted_only_default": true,
   "strategies": [
     {
@@ -28,7 +28,7 @@
       "accepted_pnl_exists": false,
       "diagnostic_only_pnl_exists": false,
       "comparison": "Not comparable",
-      "warning": "Data-contract result only: no holdout was opened, no returns were calculated, no candidate was promoted, capital remains zero, and no profitability conclusion is permitted."
+      "warning": "Implementation and methodology rejection only: both bounded development attempts failed before completed returns, the final holdout remained closed, calendar seasonality received no economic verdict, no candidate was promoted, and capital remains zero."
     }
   ],
   "rules": [
