@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T06:41:57.086Z",
+  "generated_at": "2026-08-03T07:10:30.344Z",
   "classification": "fail closed",
   "projects": [
     {
@@ -1626,6 +1626,26 @@
         },
         {
           "file": "experiments/btc-eth-vol-targeted-trend-v1/PREREGISTRATION_DRAFT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-audit-resolution-v2/AUDIT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-audit-resolution-v2/DETERMINISTIC_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-audit-resolution-v2/MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-audit-resolution-v2/PREREGISTRATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-audit-resolution-v2/TERMINAL_VALIDATION.json",
           "classification": "PUBLIC_GITHUB"
         },
         {

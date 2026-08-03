@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-03T06:41:57.085Z",
-  "as_of": "2026-08-03T06:41:57.085Z",
+  "generated_at": "2026-08-03T07:10:30.343Z",
+  "as_of": "2026-08-03T07:10:30.343Z",
   "strategies": [
     {
       "id": "direction-v3",
@@ -72,17 +72,17 @@
     {
       "id": "strategy-control",
       "title": "Strategy Control",
-      "verdict": "AUDIT_REJECTED",
-      "disposition": "Development-only historical rejection: the final holdout remained closed, no candidate was promoted, and no prospective or deployable performance conclusion is permitted.",
+      "verdict": "DATA_NO_GO",
+      "disposition": "Data-contract result only: no holdout was opened, no returns were calculated, no candidate was promoted, capital remains zero, and no profitability conclusion is permitted.",
       "capitalPermitted": 0,
-      "pnl": "diagnostic",
-      "warning": "Development-only historical rejection: the final holdout remained closed, no candidate was promoted, and no prospective or deployable performance conclusion is permitted.",
-      "sourceCommit": "d53fcd79df473f3faec60f674bd044b0bc332d4c",
+      "pnl": "none",
+      "warning": "Data-contract result only: no holdout was opened, no returns were calculated, no candidate was promoted, capital remains zero, and no profitability conclusion is permitted.",
+      "sourceCommit": "25ce4fc162d529927055c72db99799933821a289",
       "report": "publication/research-program-snapshot.json",
-      "source_hash": "bdc6a4ccbcd8a76e2309b5beddee2437816c058a352f731e29788051ec2315cd",
+      "source_hash": "38b8a6b33b45daea116268e35df6c40ee55fe6b54df64cb0c802b0511259a8be",
       "data_freshness": "static local evidence snapshot",
       "integrity_warnings": [
-        "Development-only historical rejection: the final holdout remained closed, no candidate was promoted, and no prospective or deployable performance conclusion is permitted."
+        "Data-contract result only: no holdout was opened, no returns were calculated, no candidate was promoted, capital remains zero, and no profitability conclusion is permitted."
       ],
       "audit": null
     }
