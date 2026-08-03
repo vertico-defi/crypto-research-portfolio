@@ -27,5 +27,5 @@ test("strategy control publication remains a diagnostic no-candidate record", ()
   assert.equal(control.pnl, "diagnostic");
   assert.match(control.warning, /final holdout remained closed/);
   assert.match(control.warning, /no candidate was promoted/);
-  assert.equal(control.sourceCommit, "d7dc8d242edab55f2790f6d9e4cd124099c3d83a");
+  assert.equal(control.sourceCommit, "d53fcd79df473f3faec60f674bd044b0bc332d4c");
 });

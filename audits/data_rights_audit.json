@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T19:05:47.655Z",
+  "generated_at": "2026-08-03T06:41:57.086Z",
   "classification": "fail closed",
   "projects": [
     {
@@ -1573,6 +1573,30 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "experiments/btc-eth-relative-value-rotation-v1/AUDIT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v1/DEVELOPMENT_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v1/DEVELOPMENT_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v1/DIRECTION_REVIEW.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v1/PREREGISTRATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v1/PREREGISTRATION_DRAFT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "experiments/btc-eth-vol-targeted-trend-v1/AUDIT.json",
           "classification": "PUBLIC_GITHUB"
         },
@@ -1697,6 +1721,14 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "src/strategy_control/relative_value.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/relative_value_pipeline.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "src/strategy_control/render.py",
           "classification": "PUBLIC_GITHUB"
         },
@@ -1754,6 +1786,14 @@
         },
         {
           "file": "tests/test_orchestrator.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_relative_value.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_relative_value_pipeline.py",
           "classification": "PUBLIC_GITHUB"
         },
         {

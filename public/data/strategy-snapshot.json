@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T19:05:47.654Z",
-  "as_of": "2026-08-02T19:05:47.654Z",
+  "generated_at": "2026-08-03T06:41:57.085Z",
+  "as_of": "2026-08-03T06:41:57.085Z",
   "strategies": [
     {
       "id": "direction-v3",
@@ -77,9 +77,9 @@
       "capitalPermitted": 0,
       "pnl": "diagnostic",
       "warning": "Development-only historical rejection: the final holdout remained closed, no candidate was promoted, and no prospective or deployable performance conclusion is permitted.",
-      "sourceCommit": "d7dc8d242edab55f2790f6d9e4cd124099c3d83a",
+      "sourceCommit": "d53fcd79df473f3faec60f674bd044b0bc332d4c",
       "report": "publication/research-program-snapshot.json",
-      "source_hash": "ba02dc3189b96c9e3776d5cea66b053153b2a310309a51254acee640ec0c6db4",
+      "source_hash": "bdc6a4ccbcd8a76e2309b5beddee2437816c058a352f731e29788051ec2315cd",
       "data_freshness": "static local evidence snapshot",
       "integrity_warnings": [
         "Development-only historical rejection: the final holdout remained closed, no candidate was promoted, and no prospective or deployable performance conclusion is permitted."
