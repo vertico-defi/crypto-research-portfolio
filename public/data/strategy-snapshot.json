@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-03T08:59:03.600Z",
-  "as_of": "2026-08-03T08:59:03.600Z",
+  "generated_at": "2026-08-03T10:44:26.479Z",
+  "as_of": "2026-08-03T10:44:26.479Z",
   "strategies": [
     {
       "id": "direction-v3",
@@ -73,16 +73,16 @@
       "id": "strategy-control",
       "title": "Strategy Control",
       "verdict": "AUDIT_REJECTED",
-      "disposition": "Implementation and methodology rejection only: both bounded development attempts failed before completed returns, the final holdout remained closed, calendar seasonality received no economic verdict, no candidate was promoted, and capital remains zero.",
+      "disposition": "A completed development run produced negative diagnostics and failed 13 frozen gates, but the independent audit rejected implementation fidelity because input identity, target provenance, and quarantine handling were not fully demonstrated. The deterministic HISTORICAL_NO_GO remains preserved; it is diagnostic-only, not a valid frozen-strategy economic verdict. The final holdout remained closed and unread, no candidate was promoted, and capital remains zero.",
       "capitalPermitted": 0,
-      "pnl": "none",
-      "warning": "Implementation and methodology rejection only: both bounded development attempts failed before completed returns, the final holdout remained closed, calendar seasonality received no economic verdict, no candidate was promoted, and capital remains zero.",
-      "sourceCommit": "8941140350779e99d7f222de886b9107dda46d70",
+      "pnl": "diagnostic",
+      "warning": "A completed development run produced negative diagnostics and failed 13 frozen gates, but the independent audit rejected implementation fidelity because input identity, target provenance, and quarantine handling were not fully demonstrated. The deterministic HISTORICAL_NO_GO remains preserved; it is diagnostic-only, not a valid frozen-strategy economic verdict. The final holdout remained closed and unread, no candidate was promoted, and capital remains zero.",
+      "sourceCommit": "ac420fc3a2a7a619836663977e47a929679ca565",
       "report": "publication/research-program-snapshot.json",
-      "source_hash": "76efa0b58931d4b9ead3401f31d7a83dee430966fc7637abd5044d44b3290b18",
+      "source_hash": "61764db583f3591c20684fff4f84978990ebad650d84a7c7e850d9b8b7b720f5",
       "data_freshness": "static local evidence snapshot",
       "integrity_warnings": [
-        "Implementation and methodology rejection only: both bounded development attempts failed before completed returns, the final holdout remained closed, calendar seasonality received no economic verdict, no candidate was promoted, and capital remains zero."
+        "A completed development run produced negative diagnostics and failed 13 frozen gates, but the independent audit rejected implementation fidelity because input identity, target provenance, and quarantine handling were not fully demonstrated. The deterministic HISTORICAL_NO_GO remains preserved; it is diagnostic-only, not a valid frozen-strategy economic verdict. The final holdout remained closed and unread, no candidate was promoted, and capital remains zero."
       ],
       "audit": null
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T08:59:03.601Z",
+  "generated_at": "2026-08-03T10:44:26.480Z",
   "classification": "fail closed",
   "projects": [
     {
@@ -1545,6 +1545,70 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/AUDIT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/AUDIT_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/DEVELOPMENT_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/DEVELOPMENT_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/DIRECTION_REVIEW.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/DIRECTION_REVIEW_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/FREEZE_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/IMPLEMENTATION_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/IMPLEMENTATION_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/IMPLEMENTATION_VALIDATION_ATTEMPT_1_FAILURE.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/PREREGISTRATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/PREREGISTRATION_DRAFT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/PREREGISTRATION_REVISED_DRAFT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/PRODUCTION_IMPLEMENTATION_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/REVISION_INCORPORATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-causal-volatility-parity-rebalancing-v1/TERMINAL_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "experiments/btc-eth-intraday-calendar-seasonality-v1/AUDIT.json",
           "classification": "PUBLIC_GITHUB"
         },
@@ -1829,6 +1893,18 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "src/strategy_control/volatility_parity.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/volatility_parity_evaluator.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/volatility_parity_pipeline.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "systemd/crypto-strategy-control-continuation.service",
           "classification": "PUBLIC_SAMPLE_ONLY"
         },
@@ -1902,6 +1978,18 @@
         },
         {
           "file": "tests/test_trend_pipeline.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_volatility_parity.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_volatility_parity_evaluator.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_volatility_parity_pipeline.py",
           "classification": "PUBLIC_GITHUB"
         }
       ]

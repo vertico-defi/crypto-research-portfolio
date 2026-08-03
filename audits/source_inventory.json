@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T08:59:03.601Z",
+  "generated_at": "2026-08-03T10:44:26.480Z",
   "projects": [
     {
       "id": "direction-v3",
@@ -51,15 +51,15 @@
       "title": "Strategy Control",
       "repository_id": "strategy-control",
       "branch": "main",
-      "head": "d8b2b74fcd568345b8e5eb9b475c4cc1c7d38ea2",
+      "head": "ba522960c0a36c96322e97922c1576a59f8a3556",
       "working_tree": "clean",
       "stage": "AUDIT_REJECTED",
       "formal_verdict": "AUDIT_REJECTED",
-      "practical_disposition": "Implementation and methodology rejection only: both bounded development attempts failed before completed returns, the final holdout remained closed, calendar seasonality received no economic verdict, no candidate was promoted, and capital remains zero.",
+      "practical_disposition": "A completed development run produced negative diagnostics and failed 13 frozen gates, but the independent audit rejected implementation fidelity because input identity, target provenance, and quarantine handling were not fully demonstrated. The deterministic HISTORICAL_NO_GO remains preserved; it is diagnostic-only, not a valid frozen-strategy economic verdict. The final holdout remained closed and unread, no candidate was promoted, and capital remains zero.",
       "capital_permission": 0,
       "latest_report": "publication/research-program-snapshot.json",
-      "report_sha256": "76efa0b58931d4b9ead3401f31d7a83dee430966fc7637abd5044d44b3290b18",
-      "pnl": "no P&L exists"
+      "report_sha256": "61764db583f3591c20684fff4f84978990ebad650d84a7c7e850d9b8b7b720f5",
+      "pnl": "diagnostic-only P&L exists"
     }
   ]
 }
