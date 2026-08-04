@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T09:45:26.660Z",
+  "generated_at": "2026-08-04T13:08:23.932Z",
   "classification": "fail closed",
   "projects": [
     {
@@ -1709,6 +1709,26 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/FINAL_MECHANICAL_INDEX_REPAIR_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/FINAL_MECHANICAL_INDEX_REPAIR_DETERMINISTIC_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/FINAL_MECHANICAL_INDEX_REPAIR_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/FINAL_MECHANICAL_PRODUCTION_VALIDATION_FAILURE.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/FINAL_MECHANICAL_PRODUCTION_VALIDATION_STAGES.jsonl",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
           "file": "experiments/btc-eth-long-only-mean-reversion-v2/IMPLEMENTATION_AUTHORIZATION.json",
           "classification": "THIRD_PARTY_RESTRICTED"
         },
@@ -1793,6 +1813,10 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/final_mechanical_production_validation.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "experiments/btc-eth-relative-value-rotation-v1/AUDIT.json",
           "classification": "PUBLIC_GITHUB"
         },
@@ -1815,6 +1839,10 @@
         {
           "file": "experiments/btc-eth-relative-value-rotation-v1/PREREGISTRATION_DRAFT.json",
           "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/ROUTE_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
         },
         {
           "file": "experiments/btc-eth-vol-targeted-trend-v1/AUDIT.json",
