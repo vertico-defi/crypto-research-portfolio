@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T12:13:13.889Z",
+  "generated_at": "2026-08-04T08:10:20.827Z",
   "classification": "fail closed",
   "projects": [
     {
@@ -1513,6 +1513,18 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "PHASE_2_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "PHASE_2_BLOCKERS.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "PHASE_2_PROGRESS.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "PROGRESS_LOG.md",
           "classification": "PUBLIC_GITHUB"
         },
@@ -1686,6 +1698,46 @@
         },
         {
           "file": "experiments/btc-eth-long-only-mean-reversion-v1/PREREGISTRATION_DRAFT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/DIRECTION_REVIEW.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/DIRECTION_REVIEW_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/IMPLEMENTATION_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/IMPLEMENTATION_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/IMPLEMENTATION_VALIDATION_ATTEMPT_1_FAILURE.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/IMPLEMENTATION_VALIDATION_REPAIR_1.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PREREGISTRATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PREREGISTRATION_DRAFT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PRODUCTION_INTEGRATION_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/REVISION_INCORPORATION.json",
           "classification": "PUBLIC_GITHUB"
         },
         {
@@ -1933,6 +1985,10 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "src/strategy_control/mean_reversion_v2.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "src/strategy_control/model.py",
           "classification": "PUBLIC_GITHUB"
         },
@@ -2034,6 +2090,10 @@
         },
         {
           "file": "tests/test_mean_reversion_pipeline.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_mean_reversion_v2.py",
           "classification": "PUBLIC_GITHUB"
         },
         {
