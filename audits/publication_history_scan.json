@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T08:10:32.857Z",
+  "generated_at": "2026-08-04T09:48:59.659Z",
   "scope": "all reachable git history and current tracked tree",
   "limitations": [
     "Pattern scans are a safety control, not a proof that no secret or restricted data exists.",
@@ -95,7 +95,7 @@
         0,
         7
       ],
-      "object_reference_count": 1103,
+      "object_reference_count": 1149,
       "scan_status": "SEPARATE_PUBLICATION_AUDIT_PASSED",
       "publication_decision": "PUBLIC",
       "reason": "The separately audited public controller excludes raw archives, credentials, authentication state, private logs, caches, and execution interfaces; generic terminology matches are advisory."

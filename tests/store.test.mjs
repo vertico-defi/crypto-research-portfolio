@@ -19,23 +19,24 @@ test("publication contains no server or wallet implementation", () => {
 test("live store remains disabled", () => assert.equal(process.env.STORE_LIVE === "true", false));
 test("catalog is static", () => assert.ok(true));
 
-test("strategy control preserves Phase 1 exhaustion while reporting active Phase 2", () => {
+test("strategy control preserves Phase 1 while reporting the audited Phase 2 blocker", () => {
   const snapshot = JSON.parse(readFileSync("public/data/strategy-snapshot.json", "utf8"));
   const control = snapshot.strategies.find(item => item.id === "strategy-control");
-  assert.equal(control.verdict, "PASS_PURE_PRE_DATA");
+  assert.equal(control.verdict, "IMPLEMENTATION_BLOCKED_REPAIR_BUDGET_EXHAUSTED");
   assert.equal(control.capitalPermitted, 0);
   assert.equal(control.pnl, "diagnostic");
   assert.match(control.warning, /APPROVED_SPACE_EXHAUSTED \/ RESEARCH_BUDGET_EXHAUSTED/);
   assert.match(control.warning, /Phase 1 zero-cost research space was exhausted/);
-  assert.match(control.warning, /cross-sectional queue remained economically unevaluated/);
-  assert.match(control.warning, /did not claim that every conceivable public dataset or crypto strategy was impossible/);
-  assert.match(control.warning, /Phase 2 is now active/);
-  assert.match(control.warning, /implementation evidence only/);
-  assert.match(control.warning, /no Phase 2 economic result exists/);
+  assert.match(control.warning, /all 36 mean-reversion v2 development files passed/);
+  assert.match(control.warning, /full production session-grid path exceeded/);
+  assert.match(control.warning, /exact experiment is nonterminal/);
+  assert.match(control.warning, /family was neither economically evaluated nor consumed/);
+  assert.match(control.warning, /additional human repair authorization is required/);
+  assert.match(control.warning, /No Phase 2 economic result, strategy P&L, candidate, or prospective evidence exists/);
   assert.match(control.warning, /final holdout remains closed and unread/i);
-  assert.match(control.warning, /no candidate is promoted/);
+  assert.match(control.warning, /no candidate is promoted|No Phase 2 economic result, strategy P&L, candidate/i);
   assert.match(control.warning, /capital remains zero/);
-  assert.equal(control.sourceCommit, "a4cc2684e78f012b7a9cba240c076bb84369ab71");
+  assert.equal(control.sourceCommit, "94422a5f6ed02e797171f1a71bda370e0be7156a");
 });
 
 test("strategy control narrative matches the terminal program audit", () => {
@@ -43,7 +44,7 @@ test("strategy control narrative matches the terminal program audit", () => {
     const source = readFileSync(path, "utf8");
     assert.match(source, /approved space is exhausted|APPROVED_SPACE_EXHAUSTED/i);
     assert.match(source, /RESEARCH_BUDGET_EXHAUSTED/);
-    assert.match(source, /Phase 2|PASS_PURE_PRE_DATA/);
+    assert.match(source, /Phase 2|IMPLEMENTATION_BLOCKED_REPAIR_BUDGET_EXHAUSTED/);
     assert.match(source, /no Phase 2 economic result|no Phase 2 strategy P&L|Phase 2 has no economic result/i);
     assert.match(source, /thirteen approved or durably selected family states/i);
     assert.match(source, /HISTORICAL_NO_GO/);
