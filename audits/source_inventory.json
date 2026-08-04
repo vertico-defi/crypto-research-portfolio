@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T13:08:23.932Z",
+  "generated_at": "2026-08-04T15:09:58.833Z",
   "projects": [
     {
       "id": "direction-v3",
@@ -51,14 +51,14 @@
       "title": "Strategy Control",
       "repository_id": "strategy-control",
       "branch": "main",
-      "head": "61b69c5ed5c5f06f8907a052ee166a7c01e994ad",
+      "head": "8b1b3fc28b02c8c46755688f7b2216be343127bd",
       "working_tree": "clean",
       "stage": "IMPLEMENTATION_BLOCKED_REPAIR_BUDGET_EXHAUSTED / IMPLEMENTATION_INCONCLUSIVE / NO_ECONOMIC_RESULT",
       "formal_verdict": "IMPLEMENTATION_BLOCKED_REPAIR_BUDGET_EXHAUSTED / IMPLEMENTATION_INCONCLUSIVE / NO_ECONOMIC_RESULT",
-      "practical_disposition": "Phase 1 remains preserved with final result APPROVED_SPACE_EXHAUSTED / RESEARCH_BUDGET_EXHAUSTED. Phase 2 mean-reversion v2 completed its final authorized mechanical index implementation and passed 12 focused tests, all 266 repository tests, Ruff, strict Mypy, compilation, and source-safety checks. The required 36-partition development-data validation reconstructed 790,558 rows per asset and completed its diagnostic internal stages in about 178 seconds, but failed while serializing the required final artifact because a datetime remained non-JSON-serializable. The run therefore produced no complete production-validation artifact and cannot be promoted. Under the user's hard stop, btc-eth-long-only-mean-reversion-v2 is terminally classified IMPLEMENTATION_BLOCKED_REPAIR_BUDGET_EXHAUSTED / IMPLEMENTATION_INCONCLUSIVE / NO_ECONOMIC_RESULT; it is not unprofitable, HISTORICAL_NO_GO, or DATA_NO_GO, and no formal economic evaluation or performance result exists. Route 2, btc-eth-relative-value-rotation-v2, is authorized but not yet preregistered and has not accessed market data. Partial controller, test, trace, and reconciliation observations are not evidence of trading profitability. Every Phase 2 final holdout remains closed and unread, no candidate is promoted, capital remains zero, and Vertcoin mining is unchanged.",
+      "practical_disposition": "Phase 1 remains preserved with final result APPROVED_SPACE_EXHAUSTED / RESEARCH_BUDGET_EXHAUSTED. Phase 2 route 1, mean-reversion v2, remains terminally implementation-inconclusive with no economic result. Route 2, relative-value rotation v2, used its initial implementation and all three authorized pre-run repair rounds. A fresh live read-only Sol/xhigh audit independently confirmed its exact terminal classification as IMPLEMENTATION_BLOCKED_REPAIR_BUDGET_EXHAUSTED / IMPLEMENTATION_INCONCLUSIVE / NO_ECONOMIC_RESULT. It is not unprofitable, HISTORICAL_NO_GO, or DATA_NO_GO; the strategy family was neither economically evaluated nor economically consumed, and no formal economic attempt or performance result exists. Passing controller tests, synthetic traces, and partial implementation evidence are not evidence of trading profitability. Route 3, volatility-managed equal-weight v2, is now queued for preregistration only and has not accessed market data. Every Phase 2 final holdout remains closed and unread, no candidate is promoted, capital remains zero, GPU permission remains zero, and Vertcoin mining is unchanged.",
       "capital_permission": 0,
       "latest_report": "publication/research-program-snapshot.json",
-      "report_sha256": "3e94636112937a941b674765465c2eacb69accc70783803a14ae5120e23ba8af",
+      "report_sha256": "77ae6ce6c2ef6687c6b0c563eaebf32d87957853b98da058e711c141d8c7233f",
       "pnl": "diagnostic-only P&L exists"
     }
   ]

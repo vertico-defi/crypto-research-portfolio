@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T13:08:23.932Z",
+  "generated_at": "2026-08-04T15:09:58.833Z",
   "classification": "fail closed",
   "projects": [
     {
@@ -1841,8 +1841,88 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/DIRECTION_REVIEW.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/DIRECTION_REVIEW_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/IMPLEMENTATION_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/IMPLEMENTATION_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/IMPLEMENTATION_REPAIR_1_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/IMPLEMENTATION_REPAIR_1_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/IMPLEMENTATION_REPAIR_2_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/IMPLEMENTATION_REPAIR_2_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/IMPLEMENTATION_REPAIR_3_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/IMPLEMENTATION_REPAIR_3_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/IMPLEMENTATION_VALIDATION_ATTEMPT_1_FAILURE.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/IMPLEMENTATION_VALIDATION_REPAIR_1_FAILURE.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/IMPLEMENTATION_VALIDATION_REPAIR_2_FAILURE.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PREREGISTRATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PREREGISTRATION_DRAFT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/REVISION_INCORPORATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "experiments/btc-eth-relative-value-rotation-v2/ROUTE_AUTHORIZATION.json",
           "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/TERMINAL_IMPLEMENTATION_AUDIT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/TERMINAL_IMPLEMENTATION_AUDIT_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/TERMINAL_IMPLEMENTATION_AUDIT_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/TERMINAL_IMPLEMENTATION_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
         },
         {
           "file": "experiments/btc-eth-vol-targeted-trend-v1/AUDIT.json",
@@ -2089,6 +2169,18 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "src/strategy_control/relative_value_v2.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/relative_value_v2_oracle.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/relative_value_v2_pipeline.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "src/strategy_control/render.py",
           "classification": "PUBLIC_GITHUB"
         },
@@ -2194,6 +2286,14 @@
         },
         {
           "file": "tests/test_relative_value_pipeline.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_relative_value_v2.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_relative_value_v2_production.py",
           "classification": "PUBLIC_GITHUB"
         },
         {
