@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T17:07:23.988Z",
+  "generated_at": "2026-08-04T19:01:38.678Z",
   "fail_closed": true,
   "github_route": "SANITIZED_PUBLIC_SHOWCASE_REPOSITORY",
   "projects": [
@@ -38,7 +38,7 @@
     },
     {
       "project": "Strategy Control",
-      "source_commit": "5af05f34d1b401fb28f750c724fc32b22eaaeb92",
+      "source_commit": "30c769b9a5cefdc0986b7cadfda2b31af7846bbd",
       "public_status": "PUBLIC",
       "exclude": [
         "raw data",
