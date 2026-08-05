@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T09:25:49.907Z",
+  "generated_at": "2026-08-05T12:18:03.284Z",
   "classification": "fail closed",
   "projects": [
     {
@@ -2077,6 +2077,10 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/DIRECTION_DELTA_REVIEW_OUTPUT_SCHEMA_V2.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/DIRECTION_REVIEW_ATTEMPT_1_TIMEOUT.json",
           "classification": "PUBLIC_GITHUB"
         },
@@ -2149,11 +2153,47 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/FINAL_NARROW_DELTA_REVIEW.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/FINAL_NARROW_DELTA_REVIEW_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/FINAL_NARROW_DELTA_REVIEW_PROMPT.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/FINAL_NARROW_DELTA_REVIEW_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/FINAL_PROVENANCE_ARCHITECTURE_CORRECTION_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/FINAL_PROVENANCE_PREFLIGHT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/FINAL_PROVENANCE_PRE_REVIEW_BUNDLE.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/NETWORK_EVENT_LEDGER_SCHEMA_V1.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/NO_DATA_REVISION_VALIDATION.json",
           "classification": "PUBLIC_GITHUB"
         },
         {
           "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/PREREGISTRATION_DRAFT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/PREREGISTRATION_DRAFT_V2.json",
           "classification": "PUBLIC_GITHUB"
         },
         {
@@ -2329,6 +2369,14 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "src/strategy_control/route4_contract.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "src/strategy_control/route4_preflight.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "src/strategy_control/trend.py",
           "classification": "PUBLIC_GITHUB"
         },
@@ -2438,6 +2486,14 @@
         },
         {
           "file": "tests/test_relative_value_v2_production.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_route4_contract.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_route4_preflight.py",
           "classification": "PUBLIC_GITHUB"
         },
         {
