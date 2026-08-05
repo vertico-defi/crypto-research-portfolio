@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T16:29:01.356Z",
+  "generated_at": "2026-08-05T21:11:35.128Z",
   "classification": "fail closed",
   "projects": [
     {
@@ -1541,6 +1541,14 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "PHASE_3_SUCCESSOR_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "PHASE_3_WORK_QUEUE.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "PORTFOLIO_OPERATING_SYSTEM_PHASE_3.md",
           "classification": "PUBLIC_GITHUB"
         },
@@ -1937,6 +1945,10 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v3-completion/PHASE_3_SUCCESSOR_COMPLETION_PREFLIGHT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "experiments/btc-eth-relative-value-rotation-v1/AUDIT.json",
           "classification": "PUBLIC_GITHUB"
         },
@@ -2146,6 +2158,10 @@
         },
         {
           "file": "experiments/btc-eth-relative-value-rotation-v2/phase_3_round_1_parent_validation.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v3-completion/PHASE_3_SUCCESSOR_COMPLETION_PREFLIGHT.json",
           "classification": "PUBLIC_GITHUB"
         },
         {
@@ -2637,6 +2653,10 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "src/strategy_control/work_queue.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "systemd/crypto-strategy-control-continuation.service",
           "classification": "PUBLIC_SAMPLE_ONLY"
         },
@@ -2758,6 +2778,10 @@
         },
         {
           "file": "tests/test_volatility_parity_pipeline.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_work_queue.py",
           "classification": "PUBLIC_GITHUB"
         }
       ]
