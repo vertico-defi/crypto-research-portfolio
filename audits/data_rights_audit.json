@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T12:18:03.284Z",
+  "generated_at": "2026-08-05T16:29:01.356Z",
   "classification": "fail closed",
   "projects": [
     {
@@ -1485,6 +1485,10 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "CAPITAL_READINESS_PHASE_3.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "CURRENT_STATE.json",
           "classification": "PUBLIC_GITHUB"
         },
@@ -1525,6 +1529,22 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "PHASE_3_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "PHASE_3_FUNDING_BASIS_OBSERVATION_INSPECTION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "PHASE_3_PROGRESS.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "PORTFOLIO_OPERATING_SYSTEM_PHASE_3.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "PROGRESS_LOG.md",
           "classification": "PUBLIC_GITHUB"
         },
@@ -1554,6 +1574,10 @@
         },
         {
           "file": "RUNBOOK.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "STRATEGY_REGISTRY_PHASE_3.json",
           "classification": "PUBLIC_GITHUB"
         },
         {
@@ -1745,6 +1769,98 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_FIDELITY_AUDIT_1_ABORTED_INVALID_SCHEMA.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_FIDELITY_AUDIT_1_ABORTED_INVALID_SCHEMA_EVENTS.jsonl",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_FIDELITY_AUDIT_1_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_FIDELITY_AUDIT_1_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_FIDELITY_AUDIT_1_OUTPUT_SCHEMA.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_FIDELITY_AUDIT_1_OUTPUT_SCHEMA_V2.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_FIDELITY_AUDIT_1_PROMPT.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_FIDELITY_AUDIT_1_PROMPT_V2.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_FIDELITY_AUDIT_1_SCHEMA_REPAIR_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_FIDELITY_AUDIT_1_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_FORMAL_EVALUATOR_IMPLEMENTATION_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_FORMAL_EVALUATOR_IMPLEMENTATION_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_FORMAL_EVALUATOR_IMPLEMENTATION_PROMPT.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_FORMAL_EVALUATOR_PARENT_VALIDATION_FAILURE.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_1_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_1_PRODUCTION_STAGES.jsonl",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_1_PRODUCTION_STAGES_BOUND.jsonl",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_1_PRODUCTION_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_1_PRODUCTION_VALIDATION_BOUND.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_1_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_PRE_REPAIR_PRODUCTION_PREFLIGHT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_PRE_REPAIR_PRODUCTION_PREFLIGHT_STAGES.jsonl",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/PHASE_3_PRODUCTION_INVOCATION_ABORTED_COMMIT_BINDING_MISMATCH.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "experiments/btc-eth-long-only-mean-reversion-v2/PREREGISTRATION.json",
           "classification": "PUBLIC_GITHUB"
         },
@@ -1814,6 +1930,10 @@
         },
         {
           "file": "experiments/btc-eth-long-only-mean-reversion-v2/final_mechanical_production_validation.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-long-only-mean-reversion-v2/formal_development_evaluation.py",
           "classification": "PUBLIC_GITHUB"
         },
         {
@@ -1893,6 +2013,102 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_COMPLETION_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_1_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_1_BASE_PREFLIGHT_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_1_BASE_PREFLIGHT_STAGES.jsonl",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_1_FAILURE.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_1_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_1_PARENT_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_1_PROMPT.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_2_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_2_BASE_PREFLIGHT_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_2_BASE_PREFLIGHT_STAGES.jsonl",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_2_BOUND_BASE_PREFLIGHT_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_2_BOUND_BASE_PREFLIGHT_STAGES.jsonl",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_2_BOUND_PARENT_TIME.txt",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_2_BOUND_PARENT_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_2_INVOCATION_ABORTED_COMMIT_BINDING_MISMATCH.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_2_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_2_PARENT_TIME.txt",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_2_PARENT_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_MECHANICAL_COMPLETION_ROUND_2_PROMPT.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_PRODUCTION_PREFLIGHT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_PRODUCTION_PREFLIGHT_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_PRODUCTION_PREFLIGHT_STAGES.jsonl",
+          "classification": "PUBLIC_SAMPLE_ONLY"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/PHASE_3_TERMINAL_IMPLEMENTATION_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "experiments/btc-eth-relative-value-rotation-v2/PREREGISTRATION.json",
           "classification": "PUBLIC_GITHUB"
         },
@@ -1922,6 +2138,14 @@
         },
         {
           "file": "experiments/btc-eth-relative-value-rotation-v2/TERMINAL_IMPLEMENTATION_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/phase_3_production_preflight.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/btc-eth-relative-value-rotation-v2/phase_3_round_1_parent_validation.py",
           "classification": "PUBLIC_GITHUB"
         },
         {
@@ -2333,6 +2557,10 @@
           "classification": "PUBLIC_GITHUB"
         },
         {
+          "file": "src/strategy_control/mean_reversion_v2_evaluator.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
           "file": "src/strategy_control/mean_reversion_v2_pipeline.py",
           "classification": "PUBLIC_GITHUB"
         },
@@ -2462,6 +2690,10 @@
         },
         {
           "file": "tests/test_mean_reversion_v2.py",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "tests/test_mean_reversion_v2_evaluator.py",
           "classification": "PUBLIC_GITHUB"
         },
         {
