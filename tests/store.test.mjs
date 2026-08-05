@@ -27,17 +27,19 @@ test("strategy control preserves Phase 1 while reporting the route-4 direction r
   assert.equal(control.pnl, "diagnostic");
   assert.match(control.warning, /APPROVED_SPACE_EXHAUSTED \/ RESEARCH_BUDGET_EXHAUSTED/);
   assert.match(control.warning, /Phase 2 routes 1 and 2 remain terminally implementation-inconclusive/);
-  assert.match(control.warning, /Route 4.*third and final live read-only Sol\/xhigh no-data direction review returned REVISION_REQUIRED/);
-  assert.match(control.warning, /11 of 17 checks passed, 6 failed, and 7 exact corrections/);
-  assert.match(control.warning, /draft remains unfrozen.*pre-repair output-schema hash/);
-  assert.match(control.warning, /explicit human-authorized review amendment/);
+  assert.match(control.warning, /Route 4.*fourth live read-only Sol\/xhigh no-data direction review returned substantive REVISION_REQUIRED/);
+  assert.match(control.warning, /16 of 19 checks passed.*checks 1, 8, and 9 failed.*two major requested revisions/);
+  assert.match(control.warning, /reviewed output schema still closes draft_sha256 to superseded hash/);
+  assert.match(control.warning, /cannot represent no-response DNS, TLS, reset, or timeout attempts/);
+  assert.match(control.warning, /DIRECTION_REVISION_REQUIRES_HUMAN_AUTHORIZATION/);
+  assert.match(control.warning, /no fifth review or automatic revision is authorized/i);
   assert.match(control.warning, /not DATA_NO_GO, HISTORICAL_NO_GO, a strategy result, or evidence of profitability or unprofitability/);
-  assert.match(control.warning, /No route-4 network request, archive object discovery or download, market-data access, strategy return, model training, backtest, or holdout access/);
+  assert.match(control.warning, /No route-4 network data request, archive object discovery or download, market-data access, strategy return, model training, backtest, implementation repair, acquisition attempt, or holdout access/);
   assert.match(control.warning, /not evidence of trading profitability/);
   assert.match(control.warning, /final holdout remains closed and unread/i);
   assert.match(control.warning, /no candidate is promoted|No Phase 2 economic result, strategy P&L, candidate/i);
   assert.match(control.warning, /capital remains zero/);
-  assert.equal(control.sourceCommit, "3009964f391c59c07dbc8d2fcb9506948383a065");
+  assert.equal(control.sourceCommit, "5cf57806f1d2a6f83d320a9247004a523471590f");
 });
 
 test("strategy control narrative matches the terminal program audit", () => {

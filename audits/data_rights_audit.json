@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T19:01:38.680Z",
+  "generated_at": "2026-08-05T09:25:49.907Z",
   "classification": "fail closed",
   "projects": [
     {
@@ -2111,6 +2111,34 @@
         {
           "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/DIRECTION_REVIEW_ATTEMPT_3_SCHEMA_REPAIR_AUTHORIZATION.json",
           "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/DIRECTION_REVIEW_ATTEMPT_4.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/DIRECTION_REVIEW_ATTEMPT_4_AUTHORIZATION.json",
+          "classification": "THIRD_PARTY_RESTRICTED"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/DIRECTION_REVIEW_ATTEMPT_4_MODEL_RESULT.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/DIRECTION_REVIEW_ATTEMPT_4_PRECHECK.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/DIRECTION_REVIEW_ATTEMPT_4_PROMPT.md",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/DIRECTION_REVIEW_ATTEMPT_4_RESULT_SCHEMA.json",
+          "classification": "PUBLIC_GITHUB"
+        },
+        {
+          "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/DIRECTION_REVIEW_ATTEMPT_4_VALIDATION.json",
+          "classification": "PUBLIC_GITHUB"
         },
         {
           "file": "experiments/cs-ranking-binance-spot-archive-ptu-acquisition-v3/DIRECTION_REVIEW_AUTHORIZATION.json",
