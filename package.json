@@ -5,7 +5,7 @@
   "scripts": {
     "snapshot": "node scripts/generate-snapshot.mjs && ${CTREND_PYTHON:-../ctrend-lab/.venv/bin/python} scripts/build_benchmarks.py",
     "audit:publication": "node scripts/scan-publication-history.mjs",
-    "test": "node --test tests/*.test.mjs",
+    "test": "node scripts/build-static-site.mjs && node --test tests/*.test.mjs",
     "typecheck": "node --check scripts/generate-snapshot.mjs && node --check scripts/build-static-site.mjs && node --check scripts/scan-publication-history.mjs && node --check scripts/check-static-output.mjs",
     "lint": "node --check scripts/build-static-site.mjs",
     "build": "node scripts/build-static-site.mjs",
