@@ -6,9 +6,11 @@
     "snapshot": "node scripts/generate-snapshot.mjs && ${CTREND_PYTHON:-../ctrend-lab/.venv/bin/python} scripts/build_benchmarks.py",
     "audit:publication": "node scripts/scan-publication-history.mjs",
     "test": "node --test tests/*.test.mjs",
-    "typecheck": "node --check scripts/generate-snapshot.mjs && node --check scripts/build-static-site.mjs && node --check scripts/scan-publication-history.mjs",
+    "typecheck": "node --check scripts/generate-snapshot.mjs && node --check scripts/build-static-site.mjs && node --check scripts/scan-publication-history.mjs && node --check scripts/check-static-output.mjs",
     "lint": "node --check scripts/build-static-site.mjs",
     "build": "node scripts/build-static-site.mjs",
+    "build:lead-magnet": "pdflatex -interaction=nonstopmode -halt-on-error -output-directory public/downloads content/lead-magnet/why-most-crypto-backtests-lie.tex && pdflatex -interaction=nonstopmode -halt-on-error -output-directory public/downloads content/lead-magnet/why-most-crypto-backtests-lie.tex",
+    "check:static": "node scripts/check-static-output.mjs",
     "check": "npm run snapshot && npm run test && npm run typecheck && npm run build"
   }
 }

@@ -1,4 +1,7 @@
 node_modules/
+public/downloads/*.aux
+public/downloads/*.log
+public/downloads/*.out
 .next/
 out/
 *.tsbuildinfo

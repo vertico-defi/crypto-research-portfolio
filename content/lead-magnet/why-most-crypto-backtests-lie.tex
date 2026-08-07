@@ -1,0 +1,30 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\title{Why Most Crypto Backtests Lie\\\large 12 Failure Modes from Building an Audit-First Crypto Research Lab}
+\author{Vertico Research}
+\date{}
+\begin{document}
+\maketitle
+\noindent\textbf{Educational guide.} This publication uses sanitized portfolio evidence. It does not disclose restricted data, private logs, machine paths, unpublished source code, or sensitive implementation details.
+\begin{enumerate}
+\item \textbf{Survivorship bias.} Reconstruct the universe as it was known at each decision time.
+\item \textbf{Point-in-time universe errors.} Later listings, delistings, and revisions cannot enter earlier decisions.
+\item \textbf{Same-bar execution.} A signal cannot use information that was unavailable at the execution price.
+\item \textbf{Forward scanning for missing fills.} Future observations cannot repair an unavailable execution price.
+\item \textbf{Gap and quarantine leakage.} Use a frozen exclusion rule for unavailable or quarantined records.
+\item \textbf{Fold contamination.} Keep tuning and transformations inside their permitted partition.
+\item \textbf{Underestimated fees and slippage.} Missing executable prices and unfrozen costs limit interpretation.
+\item \textbf{Lucky parameters and random seeds.} Record the search space and distinguish selection from confirmation.
+\item \textbf{Confusing test-suite success with profitability.} Tests validate software contracts, not an economic edge.
+\item \textbf{Ignoring bootstrap uncertainty.} Point estimates do not communicate sampling variation.
+\item \textbf{Ignoring DSR and multiple testing.} More trials raise false-positive risk.
+\item \textbf{Opening the final holdout too early.} A holdout seen during development is no longer independent.
+\end{enumerate}
+\section*{Public evidence boundary}
+The sanitized public snapshot records zero capital permission, no accepted strategy P\&L, and sealed final holdouts. Source checkpoint 5303653, the requested v5 cleanroom evaluation, and AUDIT\_PENDING\_SERVICE\_RECOVERY are unavailable through the local publication adapter. No unavailable performance figures are published.
+\section*{Disclosure}
+Educational material only. Nothing in this guide is personalised investment advice, a trading signal, live portfolio management, automated customer trading, or access to unfinished strategy research.
+\end{document}

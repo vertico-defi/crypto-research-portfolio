@@ -24,8 +24,10 @@ jobs:
       - run: npm audit --omit=dev --audit-level=high
       - run: npm run test
       - run: npm run typecheck
-      - run: STORE_LIVE=false npm run audit:publication
-      - run: STORE_LIVE=false npm run build
+      - run: STORE_LIVE=false PAYMENTS_LIVE=false NEWSLETTER_LIVE=false npm run audit:publication
+      - run: npm run build:lead-magnet
+      - run: STORE_LIVE=false PAYMENTS_LIVE=false NEWSLETTER_LIVE=false npm run build
+      - run: npm run check:static
       - run: test ! -e out/api
       - run: node -e 'const a=require("./audits/publication_history_scan.json"); if(a.portfolio_publication_gate.status!=="PASS") process.exit(1)'
       - uses: actions/configure-pages@v5

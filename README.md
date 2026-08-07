@@ -28,7 +28,8 @@ npm run snapshot ──► versioned public/data JSON ──► Node built-in st
                                               GitHub Pages static export
 ```
 
-Routes: `/`, `/strategies/*`, `/compare`, `/data`, `/methodology`,
+Routes: `/`, `/research`, `/insights`, `/resources`, `/newsletter`,
+`/products`, `/strategies/*`, `/compare`, `/data`, `/methodology`,
 `/audit-trail`, `/github`, `/about`, and `/legal/*`. The public artifact has
 no API routes, server runtime, checkout, or payment integration.
 
@@ -45,6 +46,7 @@ npm install
 npm run snapshot
 npm run test
 npm run typecheck
+npm run build:lead-magnet
 npm run build
 ```
 
@@ -78,10 +80,13 @@ never capture local paths, console output, runtime data, or credentials.
 
 ## Security and commerce status
 
-`STORE_LIVE=false` is mandatory. There is no payment acceptance, Solana wallet,
+`STORE_LIVE=false`, `PAYMENTS_LIVE=false`, and `NEWSLETTER_LIVE=false` are
+mandatory. There is no payment acceptance, wallet, subscriber database,
 Supabase persistence, product delivery, or legal-consent collection in this
-version. See [SECURITY.md](SECURITY.md), [REPRODUCIBILITY.md](REPRODUCIBILITY.md),
-and [DEPLOYMENT_HANDOFF.md](DEPLOYMENT_HANDOFF.md).
+version. The free guide is built with `npm run build:lead-magnet`; see
+[NEWSLETTER_INTEGRATION.md](docs/NEWSLETTER_INTEGRATION.md) and
+[PAYMENT_ARCHITECTURE.md](docs/PAYMENT_ARCHITECTURE.md) for the non-live
+implementation plans.
 
 ## Engineering lessons
 

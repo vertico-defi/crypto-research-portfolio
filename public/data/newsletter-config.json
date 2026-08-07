@@ -1,0 +1,8 @@
+{
+  "newsletter_live": false,
+  "hosted_form_endpoint": null,
+  "double_opt_in_required": true,
+  "privacy_policy_url": "/legal/privacy/",
+  "analytics_events": ["newsletter_form_view", "newsletter_submit_attempt", "newsletter_success", "newsletter_error"],
+  "personal_data_in_analytics": false
+}

@@ -16,7 +16,22 @@ test("publication contains no server or wallet implementation", () => {
   }
 });
 
-test("live store remains disabled", () => assert.equal(process.env.STORE_LIVE === "true", false));
+test("live commerce and newsletter remain disabled", () => {
+  assert.equal(process.env.STORE_LIVE === "true", false);
+  assert.equal(process.env.PAYMENTS_LIVE === "true", false);
+  assert.equal(process.env.NEWSLETTER_LIVE === "true", false);
+});
+
+test("content funnel preserves static, non-live boundaries", () => {
+  const build = readFileSync("scripts/build-static-site.mjs", "utf8");
+  for (const route of ["/research", "/insights", "/resources", "/newsletter", "/products", "/about"]) assert.match(build, new RegExp(`write\\("${route.replace("/", "\\/")}`));
+  assert.match(build, /\/legal\//);
+  assert.match(build, /AUDIT_PENDING_SERVICE_RECOVERY/);
+  assert.match(build, /sync blocker/i);
+  assert.match(build, /PAYMENTS_LIVE=false/);
+  assert.match(build, /NEWSLETTER_LIVE=false/);
+  assert.doesNotMatch(build, /app\/api|fetch\(|webhook/i);
+});
 test("catalog is static", () => assert.ok(true));
 
 test("strategy control preserves prior phases while reporting the Phase 3 evidence boundary", () => {
