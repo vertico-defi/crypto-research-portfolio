@@ -6,10 +6,12 @@
     "snapshot": "node scripts/generate-snapshot.mjs && ${CTREND_PYTHON:-../ctrend-lab/.venv/bin/python} scripts/build_benchmarks.py",
     "audit:publication": "node scripts/scan-publication-history.mjs",
     "test": "node scripts/build-static-site.mjs && node --test tests/*.test.mjs",
-    "typecheck": "node --check scripts/generate-snapshot.mjs && node --check scripts/build-static-site.mjs && node --check scripts/scan-publication-history.mjs && node --check scripts/check-static-output.mjs",
+    "typecheck": "node --check lib/newsletter.mjs && node --check scripts/generate-snapshot.mjs && node --check scripts/build-static-site.mjs && node --check scripts/build-lead-magnet.mjs && node --check scripts/check-lead-magnet-repro.mjs && node --check scripts/check-public-artifacts.mjs && node --check scripts/scan-publication-history.mjs && node --check scripts/check-static-output.mjs",
     "lint": "node --check scripts/build-static-site.mjs",
     "build": "node scripts/build-static-site.mjs",
-    "build:lead-magnet": "pdflatex -interaction=nonstopmode -halt-on-error -output-directory public/downloads content/lead-magnet/why-most-crypto-backtests-lie.tex && pdflatex -interaction=nonstopmode -halt-on-error -output-directory public/downloads content/lead-magnet/why-most-crypto-backtests-lie.tex",
+    "build:lead-magnet": "node scripts/build-lead-magnet.mjs",
+    "check:lead-magnet-repro": "node scripts/check-lead-magnet-repro.mjs",
+    "check:public-artifacts": "node scripts/check-public-artifacts.mjs",
     "check:static": "node scripts/check-static-output.mjs",
     "check": "npm run snapshot && npm run test && npm run typecheck && npm run build"
   }

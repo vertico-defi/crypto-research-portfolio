@@ -3,6 +3,13 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
+\ifdefined\pdfvariable
+  \pdfvariable suppressoptionalinfo 512
+\else
+  \pdfinfoomitdate=1
+\fi
+\pdfinfo{/CreationDate (D:20200101000000Z) /ModDate (D:20200101000000Z) /Producer (Vertico Research deterministic pdfTeX build)}
+\pdftrailerid{<0F0E0D0C0B0A09080706050403020100><0F0E0D0C0B0A09080706050403020100>}
 \title{Why Most Crypto Backtests Lie\\\large 12 Failure Modes from Building an Audit-First Crypto Research Lab}
 \author{Vertico Research}
 \date{}
