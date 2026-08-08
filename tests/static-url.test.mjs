@@ -1,6 +1,9 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { cpSync, existsSync, mkdtempSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { tmpdir } from "node:os";
+import path from "node:path";
 import { checkStaticOutput } from "../scripts/check-static-output.mjs";
 
 const base = "/crypto-research-portfolio";
@@ -23,20 +26,31 @@ test("static URLs preserve exact asset filenames and page canonical URLs", () =>
   assert.doesNotThrow(checkStaticOutput);
 });
 
-test("static validation rejects malformed trailing-slash asset URLs", () => {
-  const resourcePath = "out/resources/index.html";
-  const downloadPath = "out/download/index.html";
+const digest = file => createHash("sha256").update(readFileSync(file)).digest("hex");
+
+test("static validation rejects malformed trailing-slash asset URLs in an isolated fixture", () => {
+  const fixture = mkdtempSync(path.join(tmpdir(), "static-url-fixture-"));
+  const resourcePath = path.join(fixture, "out", "resources", "index.html");
+  const downloadPath = path.join(fixture, "out", "download", "index.html");
+  const realResourcePath = "out/resources/index.html";
+  const realDownloadPath = "out/download/index.html";
+  const realState = [realResourcePath, realDownloadPath].map(file => ({ file, hash: digest(file), mtime: statSync(file).mtimeMs }));
+  cpSync("out", path.join(fixture, "out"), { recursive: true });
   const resources = readFileSync(resourcePath, "utf8");
   const download = readFileSync(downloadPath, "utf8");
   try {
     writeFileSync(resourcePath, resources.replace("why-most-crypto-backtests-lie-cover.svg\"", "why-most-crypto-backtests-lie-cover.svg/\""));
-    assert.throws(checkStaticOutput, /Broken local link.*\.svg\//);
+    assert.throws(() => checkStaticOutput(fixture), /Broken local link.*\.svg\//);
     writeFileSync(resourcePath, resources);
     writeFileSync(downloadPath, download.replace("why-most-crypto-backtests-lie.pdf\"", "why-most-crypto-backtests-lie.pdf/\""));
-    assert.throws(checkStaticOutput, /Broken local link.*\.pdf\//);
+    assert.throws(() => checkStaticOutput(fixture), /Broken local link.*\.pdf\//);
   } finally {
-    writeFileSync(resourcePath, resources);
-    writeFileSync(downloadPath, download);
+    rmSync(fixture, { recursive: true, force: true });
+  }
+  assert.equal(existsSync(fixture), false);
+  for (const item of realState) {
+    assert.equal(digest(item.file), item.hash, item.file);
+    assert.equal(statSync(item.file).mtimeMs, item.mtime, item.file);
   }
   assert.doesNotThrow(checkStaticOutput);
 });

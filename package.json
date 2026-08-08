@@ -6,7 +6,7 @@
     "snapshot": "node scripts/generate-snapshot.mjs && ${CTREND_PYTHON:-../ctrend-lab/.venv/bin/python} scripts/build_benchmarks.py",
     "audit:publication": "node scripts/scan-publication-history.mjs",
     "test": "node scripts/build-static-site.mjs && node --test tests/*.test.mjs",
-    "typecheck": "node --check lib/newsletter.mjs && node --check scripts/generate-snapshot.mjs && node --check scripts/build-static-site.mjs && node --check scripts/build-lead-magnet.mjs && node --check scripts/lead-magnet-toolchain.mjs && node --check scripts/check-lead-magnet-repro.mjs && node --check scripts/check-lead-magnet-committed.mjs && node --check scripts/check-public-artifacts.mjs && node --check scripts/scan-publication-history.mjs && node --check scripts/check-static-output.mjs",
+    "typecheck": "node --check lib/newsletter.mjs && node --check lib/research-status.mjs && node --check scripts/generate-snapshot.mjs && node --check scripts/build-static-site.mjs && node --check scripts/build-lead-magnet.mjs && node --check scripts/lead-magnet-toolchain.mjs && node --check scripts/check-lead-magnet-repro.mjs && node --check scripts/check-lead-magnet-committed.mjs && node --check scripts/check-public-artifacts.mjs && node --check scripts/check-research-publication-consistency.mjs && node --check scripts/scan-publication-history.mjs && node --check scripts/check-static-output.mjs",
     "lint": "node --check scripts/build-static-site.mjs",
     "build": "node scripts/build-static-site.mjs",
     "build:lead-magnet": "node scripts/build-lead-magnet.mjs",
@@ -15,6 +15,7 @@
     "check:lead-magnet-committed": "node scripts/check-lead-magnet-committed.mjs",
     "check:public-artifacts": "node scripts/check-public-artifacts.mjs",
     "check:static": "node scripts/check-static-output.mjs",
+    "check:research-publication": "node scripts/check-research-publication-consistency.mjs",
     "check": "npm run snapshot && npm run test && npm run typecheck && npm run build"
   }
 }

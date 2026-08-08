@@ -21,6 +21,7 @@ jobs:
       - run: npm run build:lead-magnet
       - run: STORE_LIVE=false PAYMENTS_LIVE=false NEWSLETTER_LIVE=false npm run build
       - run: npm run check:static
+      - run: npm run check:research-publication
       - run: npm run check:public-artifacts
       - run: test ! -e out/api
       - run: test ! -f .env

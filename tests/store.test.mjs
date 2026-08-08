@@ -26,8 +26,9 @@ test("content funnel preserves static, non-live boundaries", () => {
   const build = readFileSync("scripts/build-static-site.mjs", "utf8");
   for (const route of ["/research", "/insights", "/resources", "/newsletter", "/products", "/about"]) assert.match(build, new RegExp(`write\\("${route.replace("/", "\\/")}`));
   assert.match(build, /\/legal\//);
-  assert.match(build, /AUDIT_PENDING_SERVICE_RECOVERY/);
-  assert.match(build, /sync blocker/i);
+  assert.match(build, /researchStatusFromSnapshot/);
+  assert.doesNotMatch(build, /Complete development evaluation produced/i);
+  assert.doesNotMatch(build, /AUDIT_PENDING_SERVICE_RECOVERY/);
   assert.match(build, /PAYMENTS_LIVE=false/);
   assert.match(build, /NEWSLETTER_LIVE=false/);
   assert.doesNotMatch(build, /app\/api|fetch\(|webhook/i);
