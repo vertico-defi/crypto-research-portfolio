@@ -30,7 +30,8 @@ test("content funnel preserves static, non-live boundaries", () => {
   assert.doesNotMatch(build, /Complete development evaluation produced/i);
   assert.doesNotMatch(build, /AUDIT_PENDING_SERVICE_RECOVERY/);
   assert.match(build, /PAYMENTS_LIVE=false/);
-  assert.match(build, /NEWSLETTER_LIVE=false/);
+  assert.match(build, /newsletterContent/);
+  assert.doesNotMatch(build, /NEWSLETTER_LIVE=false/);
   assert.doesNotMatch(build, /app\/api|fetch\(|webhook/i);
 });
 test("catalog is static", () => assert.ok(true));
