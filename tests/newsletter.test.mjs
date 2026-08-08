@@ -25,8 +25,16 @@ test("newsletter activation requires NEWSLETTER_LIVE=true and a valid hosted end
   }
 });
 
-test("newsletter rejects non-HTTPS endpoints and does not expose configured secrets in default output", () => {
+test("newsletter rejects unsafe endpoints and does not expose configured secrets in default output", () => {
   assert.equal(newsletterState({ live: "true", endpoint: "http://newsletter.example/subscribe" }).live, false);
+  for (const unsafeEndpoint of ["https://token@provider.example/subscribe", "https://user:password@provider.example/subscribe"]) {
+    const state = newsletterState({ live: "true", endpoint: unsafeEndpoint });
+    const markup = newsletterMarkup({ state, escape: value => value, successHref: "/success/", errorHref: "/error/", privacyHref: "/privacy/" });
+    assert.equal(state.live, false, unsafeEndpoint);
+    assert.equal(state.action, null, unsafeEndpoint);
+    assert.doesNotMatch(markup, /action="https?:\/\//, unsafeEndpoint);
+    assert.doesNotMatch(markup, /token@|user:password@/, unsafeEndpoint);
+  }
   const html = readFileSync("out/newsletter/index.html", "utf8");
   assert.match(html, /NEWSLETTER_LIVE=false/);
   assert.match(html, /disabled aria-disabled="true"/);

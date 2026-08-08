@@ -3,12 +3,16 @@ on: [push, pull_request]
 jobs:
   check:
     runs-on: ubuntu-latest
+    env:
+      TEXLIVE_IMAGE: ghcr.io/xu-cheng/texlive-historic-alpine@sha256:82e4d4cc1366b1939932ad81853dc345097a028521cdf2618d2cb687eb0069f2
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: {node-version: 22, cache: npm}
       - run: npm ci
       - run: npm audit --omit=dev --audit-level=high
+      - run: docker pull "$TEXLIVE_IMAGE"
+      - run: npm run check:lead-magnet-toolchain
       - run: npm run check:lead-magnet-repro
       - run: npm run check:lead-magnet-committed
       - run: npm run test
