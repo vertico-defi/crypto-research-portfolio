@@ -1,15 +1,26 @@
 import { createHash } from "node:crypto";
-import { existsSync, readFileSync } from "node:fs";
+import { mkdtempSync, readFileSync, rmSync } from "node:fs";
+import { tmpdir } from "node:os";
 import path from "node:path";
+import { pathToFileURL } from "node:url";
 import { buildLeadMagnet } from "./build-lead-magnet.mjs";
 
-const root = process.cwd();
 const hash = file => createHash("sha256").update(readFileSync(file)).digest("hex");
-const first = buildLeadMagnet({ outputDirectory: path.join(root, ".build", "lead-magnet-repro-a"), publish: false });
-const second = buildLeadMagnet({ outputDirectory: path.join(root, ".build", "lead-magnet-repro-b"), publish: false });
-const firstHash = hash(first);
-const secondHash = hash(second);
-if (firstHash !== secondHash) throw new Error(`Lead-magnet PDF is not reproducible: ${firstHash} != ${secondHash}`);
-const published = path.join(root, "public", "downloads", "why-most-crypto-backtests-lie.pdf");
-if (!existsSync(published) || hash(published) !== firstHash) throw new Error("Committed public PDF does not match the deterministic build output.");
-console.log(JSON.stringify({ first_sha256: firstHash, second_sha256: secondHash, match: true }));
+
+export const checkLeadMagnetRepro = () => {
+  const firstDirectory = mkdtempSync(path.join(tmpdir(), "lead-magnet-repro-a-"));
+  const secondDirectory = mkdtempSync(path.join(tmpdir(), "lead-magnet-repro-b-"));
+  try {
+    const first = buildLeadMagnet({ outputDirectory: firstDirectory, publish: false });
+    const second = buildLeadMagnet({ outputDirectory: secondDirectory, publish: false });
+    const firstHash = hash(first);
+    const secondHash = hash(second);
+    if (firstHash !== secondHash) throw new Error(`Lead-magnet PDF is not reproducible: ${firstHash} != ${secondHash}`);
+    return { first_sha256: firstHash, second_sha256: secondHash, match: true };
+  } finally {
+    rmSync(firstDirectory, { recursive: true, force: true });
+    rmSync(secondDirectory, { recursive: true, force: true });
+  }
+};
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) console.log(JSON.stringify(checkLeadMagnetRepro()));

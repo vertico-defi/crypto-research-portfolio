@@ -22,11 +22,12 @@ jobs:
         with: {node-version: 22, cache: npm}
       - run: npm ci
       - run: npm audit --omit=dev --audit-level=high
+      - run: npm run check:lead-magnet-repro
+      - run: npm run check:lead-magnet-committed
       - run: npm run test
       - run: npm run typecheck
       - run: STORE_LIVE=false PAYMENTS_LIVE=false NEWSLETTER_LIVE=false npm run audit:publication
       - run: npm run build:lead-magnet
-      - run: npm run check:lead-magnet-repro
       - run: STORE_LIVE=false PAYMENTS_LIVE=false NEWSLETTER_LIVE=false npm run build
       - run: npm run check:static
       - run: npm run check:public-artifacts
